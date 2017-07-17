@@ -1,0 +1,3 @@
+# DynamicFontShowcase
+
+![demo](./demo.gif)

@@ -1,0 +1,866 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B479C73B015D794EA266528AB3DD675 /* GrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88F3042517B1906FF80B10BDBA0E928 /* GrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32325BAD66717307729EA8B0D0EB1478 /* Pods-DynamicFontShowcaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		453A08F3CC5121FB0FDE7EEEBE7DE7D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55BDF6E8402892504C677611F5A983A6 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2182A7517425EBC077E0CEEA7C9E71F5 /* GrowingTextView.swift */; };
+		5FA24BD759D5E289211E08BF91AB2E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		802297D727FFA26672147C1B42339A53 /* Pods-DynamicFontShowcaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */; };
+		90A648B6023527C347FAB189432C814D /* Pods-DynamicFontShowcaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */; };
+		9981AF84D0965A1710F71997E34AB120 /* Pods-DynamicFontShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40A4FDFAD5B0BB068FF5DC17EA26257 /* Pods-DynamicFontShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */; };
+		AB687909577B7EAE55098B7A2762D7F7 /* GrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E46ABF7CBB28D6DE7C647547C53BA8 /* GrowingTextView-dummy.m */; };
+		E2D87E3563A6D31C8255ACFAE11E0DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F7227D5548E1D7261759FD637B97F636 /* Pods-DynamicFontShowcaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F90B4C04836EE4824EEEEF567329B84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4341C84CA03B27FD26370814E32A617B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACEF46F3B8A411DED7BF5C736506D068;
+			remoteInfo = GrowingTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03C038BD7B95E5BE7B2B2C0158CA707F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcaseTests.framework; path = "Pods-DynamicFontShowcaseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2182A7517425EBC077E0CEEA7C9E71F5 /* GrowingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingTextView.swift; path = Pod/Classes/GrowingTextView.swift; sourceTree = "<group>"; };
+		272CE30568F0E62F48BA1B48F303C904 /* Pods-DynamicFontShowcaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		298E628915ED70C466D6DD1CFA877423 /* Pods-DynamicFontShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcaseTests-dummy.m"; sourceTree = "<group>"; };
+		2DDB1D102ED164EAFEE3B823E357F980 /* GrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrowingTextView.xcconfig; sourceTree = "<group>"; };
+		36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		36A33C5BAEDAF6B06479374693F8E3CB /* GrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-prefix.pch"; sourceTree = "<group>"; };
+		3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcaseUITests.framework; path = "Pods-DynamicFontShowcaseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcase.framework; path = "Pods-DynamicFontShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7933CF066D9C0959CA99F957F69D2C /* Pods-DynamicFontShowcaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C7D958402B11EF242371016BE2C80AB /* Pods-DynamicFontShowcase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcase-resources.sh"; sourceTree = "<group>"; };
+		4F658AEDEB93C11A25606E776CE706A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5116C10F6982929BD8E7468D97C024BF /* Pods-DynamicFontShowcaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		525D0581A5C053A2614958538CA6AF45 /* Pods-DynamicFontShowcaseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseUITests-resources.sh"; sourceTree = "<group>"; };
+		6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcase-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66DDD111AD7FE2846272C2015B693CA3 /* Pods-DynamicFontShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcase-frameworks.sh"; sourceTree = "<group>"; };
+		6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8FE90089A5533B86C3CAAE4A499209 /* GrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GrowingTextView.modulemap; sourceTree = "<group>"; };
+		70E46ABF7CBB28D6DE7C647547C53BA8 /* GrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrowingTextView-dummy.m"; sourceTree = "<group>"; };
+		7387596293E02857DE5258AE248E4B76 /* Pods-DynamicFontShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
+		75648EEF754296CFF352A012C5DDC822 /* Pods-DynamicFontShowcaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcaseTests.modulemap"; sourceTree = "<group>"; };
+		8030B4C48D36C86E3F86B9121B6C1617 /* Pods-DynamicFontShowcaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1E92E5C70D4BB17D22698F39EF7105 /* Pods-DynamicFontShowcaseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseTests-resources.sh"; sourceTree = "<group>"; };
+		B88B222E02B13B8B84EEEA7D64A66125 /* Pods-DynamicFontShowcaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B88F3042517B1906FF80B10BDBA0E928 /* GrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-umbrella.h"; sourceTree = "<group>"; };
+		B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcase-umbrella.h"; sourceTree = "<group>"; };
+		BE7D4D157A7D6A204C5F8183EF8544B5 /* Pods-DynamicFontShowcaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcaseUITests.modulemap"; sourceTree = "<group>"; };
+		BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9D0506DEDA0D785FE55D27B0703946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcaseUITests-dummy.m"; sourceTree = "<group>"; };
+		D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcaseTests-umbrella.h"; sourceTree = "<group>"; };
+		E67BF2DEDAB44825151F0741E88FD7AB /* Pods-DynamicFontShowcaseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseTests-frameworks.sh"; sourceTree = "<group>"; };
+		ED99DE3D0731112776CC838B6E914758 /* Pods-DynamicFontShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcase.modulemap"; sourceTree = "<group>"; };
+		F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD91DBBD5A61CB4895AEAED6D212E811 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBFEE33BAF2BC0BFED7B1F76BBCBB5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA24BD759D5E289211E08BF91AB2E83 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427ECF20755F149644AA2697B8ED1731 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D87E3563A6D31C8255ACFAE11E0DB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6C24D47E8DE3CF577B4540E0F9ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F90B4C04836EE4824EEEEF567329B84E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B075D8D360EB03FC0EE056DFF65D89B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453A08F3CC5121FB0FDE7EEEBE7DE7D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C77E0E4468C14C12DBA2F9F14E5E316 /* GrowingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2182A7517425EBC077E0CEEA7C9E71F5 /* GrowingTextView.swift */,
+				27457BD0BDBDFE0E5B7B3E9F29703563 /* Support Files */,
+			);
+			name = GrowingTextView;
+			path = GrowingTextView;
+			sourceTree = "<group>";
+		};
+		27457BD0BDBDFE0E5B7B3E9F29703563 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A8FE90089A5533B86C3CAAE4A499209 /* GrowingTextView.modulemap */,
+				2DDB1D102ED164EAFEE3B823E357F980 /* GrowingTextView.xcconfig */,
+				70E46ABF7CBB28D6DE7C647547C53BA8 /* GrowingTextView-dummy.m */,
+				36A33C5BAEDAF6B06479374693F8E3CB /* GrowingTextView-prefix.pch */,
+				B88F3042517B1906FF80B10BDBA0E928 /* GrowingTextView-umbrella.h */,
+				CD9D0506DEDA0D785FE55D27B0703946 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GrowingTextView";
+			sourceTree = "<group>";
+		};
+		641AD75FC24EF4802EA5EFC21654F636 /* Pods-DynamicFontShowcase */ = {
+			isa = PBXGroup;
+			children = (
+				FD91DBBD5A61CB4895AEAED6D212E811 /* Info.plist */,
+				ED99DE3D0731112776CC838B6E914758 /* Pods-DynamicFontShowcase.modulemap */,
+				298E628915ED70C466D6DD1CFA877423 /* Pods-DynamicFontShowcase-acknowledgements.markdown */,
+				7387596293E02857DE5258AE248E4B76 /* Pods-DynamicFontShowcase-acknowledgements.plist */,
+				6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */,
+				66DDD111AD7FE2846272C2015B693CA3 /* Pods-DynamicFontShowcase-frameworks.sh */,
+				4C7D958402B11EF242371016BE2C80AB /* Pods-DynamicFontShowcase-resources.sh */,
+				B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */,
+				36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */,
+				8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */,
+			);
+			name = "Pods-DynamicFontShowcase";
+			path = "Target Support Files/Pods-DynamicFontShowcase";
+			sourceTree = "<group>";
+		};
+		769588E3E3413C64ACC505191B9EAFBE /* Pods-DynamicFontShowcaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4F658AEDEB93C11A25606E776CE706A2 /* Info.plist */,
+				BE7D4D157A7D6A204C5F8183EF8544B5 /* Pods-DynamicFontShowcaseUITests.modulemap */,
+				B88B222E02B13B8B84EEEA7D64A66125 /* Pods-DynamicFontShowcaseUITests-acknowledgements.markdown */,
+				4A7933CF066D9C0959CA99F957F69D2C /* Pods-DynamicFontShowcaseUITests-acknowledgements.plist */,
+				D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */,
+				272CE30568F0E62F48BA1B48F303C904 /* Pods-DynamicFontShowcaseUITests-frameworks.sh */,
+				525D0581A5C053A2614958538CA6AF45 /* Pods-DynamicFontShowcaseUITests-resources.sh */,
+				F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */,
+				6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */,
+				BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */,
+			);
+			name = "Pods-DynamicFontShowcaseUITests";
+			path = "Target Support Files/Pods-DynamicFontShowcaseUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D9E6C69012ED5EE6C8AFF4FE849A9C90 /* Pods */,
+				EFAE926188A61853D34774E2617AFABE /* Products */,
+				908B9FE923A29D05DE3719F45FA41AC2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCBE1C7C50E8C590DE7CE4F6FE8E8DB /* Pods-DynamicFontShowcaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				03C038BD7B95E5BE7B2B2C0158CA707F /* Info.plist */,
+				75648EEF754296CFF352A012C5DDC822 /* Pods-DynamicFontShowcaseTests.modulemap */,
+				8030B4C48D36C86E3F86B9121B6C1617 /* Pods-DynamicFontShowcaseTests-acknowledgements.markdown */,
+				5116C10F6982929BD8E7468D97C024BF /* Pods-DynamicFontShowcaseTests-acknowledgements.plist */,
+				2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */,
+				E67BF2DEDAB44825151F0741E88FD7AB /* Pods-DynamicFontShowcaseTests-frameworks.sh */,
+				9F1E92E5C70D4BB17D22698F39EF7105 /* Pods-DynamicFontShowcaseTests-resources.sh */,
+				D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */,
+				FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */,
+				0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */,
+			);
+			name = "Pods-DynamicFontShowcaseTests";
+			path = "Target Support Files/Pods-DynamicFontShowcaseTests";
+			sourceTree = "<group>";
+		};
+		908B9FE923A29D05DE3719F45FA41AC2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				641AD75FC24EF4802EA5EFC21654F636 /* Pods-DynamicFontShowcase */,
+				7DCBE1C7C50E8C590DE7CE4F6FE8E8DB /* Pods-DynamicFontShowcaseTests */,
+				769588E3E3413C64ACC505191B9EAFBE /* Pods-DynamicFontShowcaseUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9E6C69012ED5EE6C8AFF4FE849A9C90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C77E0E4468C14C12DBA2F9F14E5E316 /* GrowingTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFAE926188A61853D34774E2617AFABE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */,
+				3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */,
+				1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */,
+				3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		44E2D04A368AAE8A84F35E03756FBA54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7227D5548E1D7261759FD637B97F636 /* Pods-DynamicFontShowcaseUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7583AB3B069C7FBAA93F94FE2325BD1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32325BAD66717307729EA8B0D0EB1478 /* Pods-DynamicFontShowcaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3D614D041A3EF4EF826AC2014898E35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B479C73B015D794EA266528AB3DD675 /* GrowingTextView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83CE1209FB43DA123B3A34E27AA8C74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9981AF84D0965A1710F71997E34AB120 /* Pods-DynamicFontShowcase-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A915BC26471E51AA90E46F3B7B1DAEFF /* Pods-DynamicFontShowcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E7B218D98C2EDFDAB34CF4BDF2985E /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseTests" */;
+			buildPhases = (
+				15B45D8FA13D835F19566C9D4F9F40E5 /* Sources */,
+				427ECF20755F149644AA2697B8ED1731 /* Frameworks */,
+				7583AB3B069C7FBAA93F94FE2325BD1B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DynamicFontShowcaseTests";
+			productName = "Pods-DynamicFontShowcaseTests";
+			productReference = 1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42D06AB6B47A55D6657753C9AF1E4D6B /* Build configuration list for PBXNativeTarget "GrowingTextView" */;
+			buildPhases = (
+				A55536A889CFB76122EC634DF366C8DB /* Sources */,
+				42A6C24D47E8DE3CF577B4540E0F9ED9 /* Frameworks */,
+				C3D614D041A3EF4EF826AC2014898E35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowingTextView;
+			productName = GrowingTextView;
+			productReference = CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE1D0AD020491190D7693DD608FBBE78 /* Pods-DynamicFontShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA9D5E21E07E3C91356F66A2BACB97C7 /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcase" */;
+			buildPhases = (
+				7F24D8A8EC901E3BB66E717DED903944 /* Sources */,
+				2BBFEE33BAF2BC0BFED7B1F76BBCBB5E /* Frameworks */,
+				F83CE1209FB43DA123B3A34E27AA8C74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61FAB55E1A781778AE32FC32E98D8883 /* PBXTargetDependency */,
+			);
+			name = "Pods-DynamicFontShowcase";
+			productName = "Pods-DynamicFontShowcase";
+			productReference = 3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D82877F5A17522051D87134BDD791710 /* Pods-DynamicFontShowcaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EB1ECBF70F66B9A2849D882C1618FEF /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseUITests" */;
+			buildPhases = (
+				BEFE5C59F35C245FBA608CB097DA23CB /* Sources */,
+				B075D8D360EB03FC0EE056DFF65D89B7 /* Frameworks */,
+				44E2D04A368AAE8A84F35E03756FBA54 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DynamicFontShowcaseUITests";
+			productName = "Pods-DynamicFontShowcaseUITests";
+			productReference = 3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EFAE926188A61853D34774E2617AFABE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */,
+				BE1D0AD020491190D7693DD608FBBE78 /* Pods-DynamicFontShowcase */,
+				A915BC26471E51AA90E46F3B7B1DAEFF /* Pods-DynamicFontShowcaseTests */,
+				D82877F5A17522051D87134BDD791710 /* Pods-DynamicFontShowcaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B45D8FA13D835F19566C9D4F9F40E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90A648B6023527C347FAB189432C814D /* Pods-DynamicFontShowcaseTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F24D8A8EC901E3BB66E717DED903944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A4FDFAD5B0BB068FF5DC17EA26257 /* Pods-DynamicFontShowcase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55536A889CFB76122EC634DF366C8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB687909577B7EAE55098B7A2762D7F7 /* GrowingTextView-dummy.m in Sources */,
+				55BDF6E8402892504C677611F5A983A6 /* GrowingTextView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEFE5C59F35C245FBA608CB097DA23CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				802297D727FFA26672147C1B42339A53 /* Pods-DynamicFontShowcaseUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61FAB55E1A781778AE32FC32E98D8883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GrowingTextView;
+			target = ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */;
+			targetProxy = 4341C84CA03B27FD26370814E32A617B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D864B3B0BF6DB64E343A77A25617A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcase/Pods-DynamicFontShowcase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504CCA395E17F87863FE51BC86814701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Pods-DynamicFontShowcaseUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcaseUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		70DF148FC97A7AFCAA9C3D79A63CD0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Pods-DynamicFontShowcaseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcaseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D144F724433A09597E3476A57631255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		81CB52521779713B86E40CAB70B9A811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Pods-DynamicFontShowcaseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcaseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C1BF3DF212CE6AC1FD5F3EF2DE9221B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Pods-DynamicFontShowcaseUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcaseUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90B01B77CA2250D4DF695E206BA4D17C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDB1D102ED164EAFEE3B823E357F980 /* GrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B364710DCC533D780691CB70E64CDDB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcase/Pods-DynamicFontShowcase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicFontShowcase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FF8FBBEA0191E3F6F46BD9DC7BFB4343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DDB1D102ED164EAFEE3B823E357F980 /* GrowingTextView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GrowingTextView/GrowingTextView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GrowingTextView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GrowingTextView/GrowingTextView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GrowingTextView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D144F724433A09597E3476A57631255 /* Debug */,
+				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EB1ECBF70F66B9A2849D882C1618FEF /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504CCA395E17F87863FE51BC86814701 /* Debug */,
+				8C1BF3DF212CE6AC1FD5F3EF2DE9221B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42D06AB6B47A55D6657753C9AF1E4D6B /* Build configuration list for PBXNativeTarget "GrowingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8FBBEA0191E3F6F46BD9DC7BFB4343 /* Debug */,
+				90B01B77CA2250D4DF695E206BA4D17C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E7B218D98C2EDFDAB34CF4BDF2985E /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81CB52521779713B86E40CAB70B9A811 /* Debug */,
+				70DF148FC97A7AFCAA9C3D79A63CD0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA9D5E21E07E3C91356F66A2BACB97C7 /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D864B3B0BF6DB64E343A77A25617A88 /* Debug */,
+				B364710DCC533D780691CB70E64CDDB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,22 @@
+PODS:
+  - GrowingTextView (0.4.0)
+
+DEPENDENCIES:
+  - GrowingTextView (from `https://github.com/KennethTsang/GrowingTextView.git`, branch `swift4`)
+
+EXTERNAL SOURCES:
+  GrowingTextView:
+    :branch: swift4
+    :git: https://github.com/KennethTsang/GrowingTextView.git
+
+CHECKOUT OPTIONS:
+  GrowingTextView:
+    :commit: f36166224e84b9e24984a5a636940df4acca0a35
+    :git: https://github.com/KennethTsang/GrowingTextView.git
+
+SPEC CHECKSUMS:
+  GrowingTextView: 31b80ea6a9ca74b1fda20a43777fa1d190877e49
+
+PODFILE CHECKSUM: 7d7e45d9bf98471ae35dc8f9d5ee8b135d7394f3
+
+COCOAPODS: 1.2.1
