@@ -1,0 +1,6 @@
+framework module Pods_DynamicTypeShowcaseTests {
+  umbrella header "Pods-DynamicTypeShowcaseTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1B479C73B015D794EA266528AB3DD675 /* GrowingTextView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B88F3042517B1906FF80B10BDBA0E928 /* GrowingTextView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32325BAD66717307729EA8B0D0EB1478 /* Pods-DynamicFontShowcaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		453A08F3CC5121FB0FDE7EEEBE7DE7D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2EBE6B74D5F2A0E530660C87E9A4AB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		32B67BFE876DF09C7C3FD004D4918DEE /* Pods-DynamicTypeShowcaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFB246584B16906FABB8FAF99E169D /* Pods-DynamicTypeShowcaseUITests-dummy.m */; };
 		55BDF6E8402892504C677611F5A983A6 /* GrowingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2182A7517425EBC077E0CEEA7C9E71F5 /* GrowingTextView.swift */; };
-		5FA24BD759D5E289211E08BF91AB2E83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		802297D727FFA26672147C1B42339A53 /* Pods-DynamicFontShowcaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */; };
-		90A648B6023527C347FAB189432C814D /* Pods-DynamicFontShowcaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */; };
-		9981AF84D0965A1710F71997E34AB120 /* Pods-DynamicFontShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A40A4FDFAD5B0BB068FF5DC17EA26257 /* Pods-DynamicFontShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */; };
+		81B2CDE8FEF215664A8CD8D62A2C325A /* Pods-DynamicTypeShowcaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01899079594303C4B7E5C74047C6C55 /* Pods-DynamicTypeShowcaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		859D814D01A82606BC0366BF1886A1DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8742B7CBD9D5792289C657182140FABE /* Pods-DynamicTypeShowcaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3E6B720CCDE0AD89E3E076B5C7462C /* Pods-DynamicTypeShowcaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA825F9A5AD4502B94A44512E29D2AC9 /* Pods-DynamicTypeShowcaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7CF8BF0B89415B3AB6DACEB4DD441 /* Pods-DynamicTypeShowcaseTests-dummy.m */; };
 		AB687909577B7EAE55098B7A2762D7F7 /* GrowingTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70E46ABF7CBB28D6DE7C647547C53BA8 /* GrowingTextView-dummy.m */; };
-		E2D87E3563A6D31C8255ACFAE11E0DB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F7227D5548E1D7261759FD637B97F636 /* Pods-DynamicFontShowcaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9A05C830361A44510D5BA1800B62D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D1929E837F0875EA0BBB8C6F17CE686D /* Pods-DynamicTypeShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7D77252CB465509B3662911C2C47C /* Pods-DynamicTypeShowcase-dummy.m */; };
+		E2EFB33950E99A7271914F95530ED4BA /* Pods-DynamicTypeShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3C9C71538214EE02B9D2307DA59927 /* Pods-DynamicTypeShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F90B4C04836EE4824EEEEF567329B84E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4341C84CA03B27FD26370814E32A617B /* PBXContainerItemProxy */ = {
+		EBCD34039260739F7468A5D71741EB55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -33,65 +33,57 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C038BD7B95E5BE7B2B2C0158CA707F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseTests.release.xcconfig"; sourceTree = "<group>"; };
-		1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcaseTests.framework; path = "Pods-DynamicFontShowcaseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		001F8BF092A19EDC6602EBDE48BE8B54 /* Pods-DynamicTypeShowcaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcaseTests.modulemap"; sourceTree = "<group>"; };
+		0A3C9C71538214EE02B9D2307DA59927 /* Pods-DynamicTypeShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcase-umbrella.h"; sourceTree = "<group>"; };
+		0B81AF28D5254E07FB3D96372A5CE2A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177A65E751C25C746DB9F93AB8D32E3E /* Pods-DynamicTypeShowcaseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseTests-frameworks.sh"; sourceTree = "<group>"; };
 		2182A7517425EBC077E0CEEA7C9E71F5 /* GrowingTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrowingTextView.swift; path = Pod/Classes/GrowingTextView.swift; sourceTree = "<group>"; };
-		272CE30568F0E62F48BA1B48F303C904 /* Pods-DynamicFontShowcaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseUITests-frameworks.sh"; sourceTree = "<group>"; };
-		298E628915ED70C466D6DD1CFA877423 /* Pods-DynamicFontShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcaseTests-dummy.m"; sourceTree = "<group>"; };
+		2D2C5BDB0D79683D9EFEDFE1251D2938 /* Pods-DynamicTypeShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
 		2DDB1D102ED164EAFEE3B823E357F980 /* GrowingTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GrowingTextView.xcconfig; sourceTree = "<group>"; };
-		36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcase.debug.xcconfig"; sourceTree = "<group>"; };
 		36A33C5BAEDAF6B06479374693F8E3CB /* GrowingTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-prefix.pch"; sourceTree = "<group>"; };
-		3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcaseUITests.framework; path = "Pods-DynamicFontShowcaseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicFontShowcase.framework; path = "Pods-DynamicFontShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A7933CF066D9C0959CA99F957F69D2C /* Pods-DynamicFontShowcaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C7D958402B11EF242371016BE2C80AB /* Pods-DynamicFontShowcase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcase-resources.sh"; sourceTree = "<group>"; };
-		4F658AEDEB93C11A25606E776CE706A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5116C10F6982929BD8E7468D97C024BF /* Pods-DynamicFontShowcaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		525D0581A5C053A2614958538CA6AF45 /* Pods-DynamicFontShowcaseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseUITests-resources.sh"; sourceTree = "<group>"; };
-		6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcase-dummy.m"; sourceTree = "<group>"; };
+		3A24342504A3182D287603E6E02ACE8C /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		59BFB246584B16906FABB8FAF99E169D /* Pods-DynamicTypeShowcaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcaseUITests-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66DDD111AD7FE2846272C2015B693CA3 /* Pods-DynamicFontShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcase-frameworks.sh"; sourceTree = "<group>"; };
-		6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8FE90089A5533B86C3CAAE4A499209 /* GrowingTextView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GrowingTextView.modulemap; sourceTree = "<group>"; };
+		6D03BC22DDDE6E0FD77CF56007FB51F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70E46ABF7CBB28D6DE7C647547C53BA8 /* GrowingTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GrowingTextView-dummy.m"; sourceTree = "<group>"; };
-		7387596293E02857DE5258AE248E4B76 /* Pods-DynamicFontShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicFontShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
-		75648EEF754296CFF352A012C5DDC822 /* Pods-DynamicFontShowcaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcaseTests.modulemap"; sourceTree = "<group>"; };
-		8030B4C48D36C86E3F86B9121B6C1617 /* Pods-DynamicFontShowcaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		715C555725C50DAE7C19BB109ADE30FE /* Pods-DynamicTypeShowcaseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseTests-resources.sh"; sourceTree = "<group>"; };
+		7C88F3864C4F11D0A7DB37D75E12E94F /* Pods-DynamicTypeShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcase-frameworks.sh"; sourceTree = "<group>"; };
+		7D5427C33BD1B508FC3D97A33F543EB4 /* Pods-DynamicTypeShowcaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90E5991A02ECFF941AF6E971E5CC3C7C /* Pods_DynamicTypeShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcase.framework; path = "Pods-DynamicTypeShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F1E92E5C70D4BB17D22698F39EF7105 /* Pods-DynamicFontShowcaseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseTests-resources.sh"; sourceTree = "<group>"; };
-		B88B222E02B13B8B84EEEA7D64A66125 /* Pods-DynamicFontShowcaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicFontShowcaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		946DFE46A62F423B8C6E62212B5194F3 /* Pods-DynamicTypeShowcaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcaseUITests.modulemap"; sourceTree = "<group>"; };
+		A00252221A73FD3514174E2A37EE409A /* Pods-DynamicTypeShowcaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A01899079594303C4B7E5C74047C6C55 /* Pods-DynamicTypeShowcaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcaseTests-umbrella.h"; sourceTree = "<group>"; };
+		A889366C7DCA219ABB5E4E5CC31178AE /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95634EF740304BB005CEE1E7BD001CC /* Pods-DynamicTypeShowcaseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseUITests-resources.sh"; sourceTree = "<group>"; };
+		AC9A6B760C5A8AAE16F7CD2961A0960C /* Pods-DynamicTypeShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcase.release.xcconfig"; sourceTree = "<group>"; };
+		ADD1019EF7A567F16F30388570C7A3B3 /* Pods-DynamicTypeShowcaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseTests.release.xcconfig"; sourceTree = "<group>"; };
 		B88F3042517B1906FF80B10BDBA0E928 /* GrowingTextView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GrowingTextView-umbrella.h"; sourceTree = "<group>"; };
-		B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcase-umbrella.h"; sourceTree = "<group>"; };
-		BE7D4D157A7D6A204C5F8183EF8544B5 /* Pods-DynamicFontShowcaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcaseUITests.modulemap"; sourceTree = "<group>"; };
-		BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GrowingTextView.framework; path = GrowingTextView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA739EEDA3333C047B24FC322FC6760B /* Pods-DynamicTypeShowcaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C540155F2512F2274B8262A061C86147 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68DC38B00D1F5A78DC1F5C4AA0F1AB5 /* Pods-DynamicTypeShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C795B3CB0BFCF8DE9688521200D29BD1 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcaseUITests.framework; path = "Pods-DynamicTypeShowcaseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA5DB3961DEE59AEA18703221FD484B4 /* Pods_DynamicTypeShowcaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcaseTests.framework; path = "Pods-DynamicTypeShowcaseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9D0506DEDA0D785FE55D27B0703946 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicFontShowcaseUITests-dummy.m"; sourceTree = "<group>"; };
-		D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcaseTests-umbrella.h"; sourceTree = "<group>"; };
-		E67BF2DEDAB44825151F0741E88FD7AB /* Pods-DynamicFontShowcaseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicFontShowcaseTests-frameworks.sh"; sourceTree = "<group>"; };
-		ED99DE3D0731112776CC838B6E914758 /* Pods-DynamicFontShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicFontShowcase.modulemap"; sourceTree = "<group>"; };
-		F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicFontShowcaseUITests-umbrella.h"; sourceTree = "<group>"; };
-		FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicFontShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		FD91DBBD5A61CB4895AEAED6D212E811 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFC7D77252CB465509B3662911C2C47C /* Pods-DynamicTypeShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcase-dummy.m"; sourceTree = "<group>"; };
+		D24AC9534D6E81A3D34165503062E359 /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA3E6B720CCDE0AD89E3E076B5C7462C /* Pods-DynamicTypeShowcaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		DCBDF6D6F08A91AF64E7A804D9762795 /* Pods-DynamicTypeShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcase.modulemap"; sourceTree = "<group>"; };
+		DE0D38D23BB5095CA8CE892C0381B1C7 /* Pods-DynamicTypeShowcaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6B7CF8BF0B89415B3AB6DACEB4DD441 /* Pods-DynamicTypeShowcaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcaseTests-dummy.m"; sourceTree = "<group>"; };
+		F8BECAC3FE4C970DDF48C28B6F39B90A /* Pods-DynamicTypeShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcase.debug.xcconfig"; sourceTree = "<group>"; };
+		F9AB0A73B2D84E4D05D7EF709589E79A /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FBCB2E9A39E3C050D7CC67A7B91ABA96 /* Pods-DynamicTypeShowcaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC7B1A7B0FC8F99253727B93A30A662B /* Pods-DynamicTypeShowcase-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcase-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BBFEE33BAF2BC0BFED7B1F76BBCBB5E /* Frameworks */ = {
+		0460430D04DB01BA98749296208D2C6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FA24BD759D5E289211E08BF91AB2E83 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		427ECF20755F149644AA2697B8ED1731 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E2D87E3563A6D31C8255ACFAE11E0DB7 /* Foundation.framework in Frameworks */,
+				2EBE6B74D5F2A0E530660C87E9A4AB21 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,11 +95,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B075D8D360EB03FC0EE056DFF65D89B7 /* Frameworks */ = {
+		600BB84E8326E6E8A4DFDE261A7E9C98 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				453A08F3CC5121FB0FDE7EEEBE7DE7D1 /* Foundation.framework in Frameworks */,
+				B9A05C830361A44510D5BA1800B62D3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FDC87FF8B683E41176EAC9C463BBB1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				859D814D01A82606BC0366BF1886A1DE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +124,24 @@
 			path = GrowingTextView;
 			sourceTree = "<group>";
 		};
+		2108B4308A1EC01B837B53A9980115AF /* Pods-DynamicTypeShowcaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				6D03BC22DDDE6E0FD77CF56007FB51F6 /* Info.plist */,
+				001F8BF092A19EDC6602EBDE48BE8B54 /* Pods-DynamicTypeShowcaseTests.modulemap */,
+				7D5427C33BD1B508FC3D97A33F543EB4 /* Pods-DynamicTypeShowcaseTests-acknowledgements.markdown */,
+				DE0D38D23BB5095CA8CE892C0381B1C7 /* Pods-DynamicTypeShowcaseTests-acknowledgements.plist */,
+				E6B7CF8BF0B89415B3AB6DACEB4DD441 /* Pods-DynamicTypeShowcaseTests-dummy.m */,
+				177A65E751C25C746DB9F93AB8D32E3E /* Pods-DynamicTypeShowcaseTests-frameworks.sh */,
+				715C555725C50DAE7C19BB109ADE30FE /* Pods-DynamicTypeShowcaseTests-resources.sh */,
+				A01899079594303C4B7E5C74047C6C55 /* Pods-DynamicTypeShowcaseTests-umbrella.h */,
+				3A24342504A3182D287603E6E02ACE8C /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */,
+				ADD1019EF7A567F16F30388570C7A3B3 /* Pods-DynamicTypeShowcaseTests.release.xcconfig */,
+			);
+			name = "Pods-DynamicTypeShowcaseTests";
+			path = "Target Support Files/Pods-DynamicTypeShowcaseTests";
+			sourceTree = "<group>";
+		};
 		27457BD0BDBDFE0E5B7B3E9F29703563 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,40 +156,33 @@
 			path = "../Target Support Files/GrowingTextView";
 			sourceTree = "<group>";
 		};
-		641AD75FC24EF4802EA5EFC21654F636 /* Pods-DynamicFontShowcase */ = {
+		299ED396E97FB5521B88E6FE17B22436 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD91DBBD5A61CB4895AEAED6D212E811 /* Info.plist */,
-				ED99DE3D0731112776CC838B6E914758 /* Pods-DynamicFontShowcase.modulemap */,
-				298E628915ED70C466D6DD1CFA877423 /* Pods-DynamicFontShowcase-acknowledgements.markdown */,
-				7387596293E02857DE5258AE248E4B76 /* Pods-DynamicFontShowcase-acknowledgements.plist */,
-				6309A0C1CD295473AB443084F91017E7 /* Pods-DynamicFontShowcase-dummy.m */,
-				66DDD111AD7FE2846272C2015B693CA3 /* Pods-DynamicFontShowcase-frameworks.sh */,
-				4C7D958402B11EF242371016BE2C80AB /* Pods-DynamicFontShowcase-resources.sh */,
-				B8AFDA2D3540FA75A5E9CDEAAD42E602 /* Pods-DynamicFontShowcase-umbrella.h */,
-				36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */,
-				8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */,
+				A889366C7DCA219ABB5E4E5CC31178AE /* GrowingTextView.framework */,
+				90E5991A02ECFF941AF6E971E5CC3C7C /* Pods_DynamicTypeShowcase.framework */,
+				CA5DB3961DEE59AEA18703221FD484B4 /* Pods_DynamicTypeShowcaseTests.framework */,
+				C795B3CB0BFCF8DE9688521200D29BD1 /* Pods_DynamicTypeShowcaseUITests.framework */,
 			);
-			name = "Pods-DynamicFontShowcase";
-			path = "Target Support Files/Pods-DynamicFontShowcase";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		769588E3E3413C64ACC505191B9EAFBE /* Pods-DynamicFontShowcaseUITests */ = {
+		4AFADCE37D458D5CC77A0D81FB7452CE /* Pods-DynamicTypeShowcase */ = {
 			isa = PBXGroup;
 			children = (
-				4F658AEDEB93C11A25606E776CE706A2 /* Info.plist */,
-				BE7D4D157A7D6A204C5F8183EF8544B5 /* Pods-DynamicFontShowcaseUITests.modulemap */,
-				B88B222E02B13B8B84EEEA7D64A66125 /* Pods-DynamicFontShowcaseUITests-acknowledgements.markdown */,
-				4A7933CF066D9C0959CA99F957F69D2C /* Pods-DynamicFontShowcaseUITests-acknowledgements.plist */,
-				D2C582F9FBC017C6A333B68C3A4827D4 /* Pods-DynamicFontShowcaseUITests-dummy.m */,
-				272CE30568F0E62F48BA1B48F303C904 /* Pods-DynamicFontShowcaseUITests-frameworks.sh */,
-				525D0581A5C053A2614958538CA6AF45 /* Pods-DynamicFontShowcaseUITests-resources.sh */,
-				F7ADD3771DB41E153E174DBB77C0F31E /* Pods-DynamicFontShowcaseUITests-umbrella.h */,
-				6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */,
-				BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */,
+				C540155F2512F2274B8262A061C86147 /* Info.plist */,
+				DCBDF6D6F08A91AF64E7A804D9762795 /* Pods-DynamicTypeShowcase.modulemap */,
+				C68DC38B00D1F5A78DC1F5C4AA0F1AB5 /* Pods-DynamicTypeShowcase-acknowledgements.markdown */,
+				2D2C5BDB0D79683D9EFEDFE1251D2938 /* Pods-DynamicTypeShowcase-acknowledgements.plist */,
+				CFC7D77252CB465509B3662911C2C47C /* Pods-DynamicTypeShowcase-dummy.m */,
+				7C88F3864C4F11D0A7DB37D75E12E94F /* Pods-DynamicTypeShowcase-frameworks.sh */,
+				FC7B1A7B0FC8F99253727B93A30A662B /* Pods-DynamicTypeShowcase-resources.sh */,
+				0A3C9C71538214EE02B9D2307DA59927 /* Pods-DynamicTypeShowcase-umbrella.h */,
+				F8BECAC3FE4C970DDF48C28B6F39B90A /* Pods-DynamicTypeShowcase.debug.xcconfig */,
+				AC9A6B760C5A8AAE16F7CD2961A0960C /* Pods-DynamicTypeShowcase.release.xcconfig */,
 			);
-			name = "Pods-DynamicFontShowcaseUITests";
-			path = "Target Support Files/Pods-DynamicFontShowcaseUITests";
+			name = "Pods-DynamicTypeShowcase";
+			path = "Target Support Files/Pods-DynamicTypeShowcase";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -180,37 +191,9 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				D9E6C69012ED5EE6C8AFF4FE849A9C90 /* Pods */,
-				EFAE926188A61853D34774E2617AFABE /* Products */,
-				908B9FE923A29D05DE3719F45FA41AC2 /* Targets Support Files */,
+				299ED396E97FB5521B88E6FE17B22436 /* Products */,
+				F5EF3762B45E0BA0537180A739D5EFAF /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7DCBE1C7C50E8C590DE7CE4F6FE8E8DB /* Pods-DynamicFontShowcaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				03C038BD7B95E5BE7B2B2C0158CA707F /* Info.plist */,
-				75648EEF754296CFF352A012C5DDC822 /* Pods-DynamicFontShowcaseTests.modulemap */,
-				8030B4C48D36C86E3F86B9121B6C1617 /* Pods-DynamicFontShowcaseTests-acknowledgements.markdown */,
-				5116C10F6982929BD8E7468D97C024BF /* Pods-DynamicFontShowcaseTests-acknowledgements.plist */,
-				2C9A16E63AD6E066F8411437F1219E46 /* Pods-DynamicFontShowcaseTests-dummy.m */,
-				E67BF2DEDAB44825151F0741E88FD7AB /* Pods-DynamicFontShowcaseTests-frameworks.sh */,
-				9F1E92E5C70D4BB17D22698F39EF7105 /* Pods-DynamicFontShowcaseTests-resources.sh */,
-				D6E081181E1721C4D86E417C6D8629D8 /* Pods-DynamicFontShowcaseTests-umbrella.h */,
-				FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */,
-				0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */,
-			);
-			name = "Pods-DynamicFontShowcaseTests";
-			path = "Target Support Files/Pods-DynamicFontShowcaseTests";
-			sourceTree = "<group>";
-		};
-		908B9FE923A29D05DE3719F45FA41AC2 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				641AD75FC24EF4802EA5EFC21654F636 /* Pods-DynamicFontShowcase */,
-				7DCBE1C7C50E8C590DE7CE4F6FE8E8DB /* Pods-DynamicFontShowcaseTests */,
-				769588E3E3413C64ACC505191B9EAFBE /* Pods-DynamicFontShowcaseUITests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -237,33 +220,58 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		EFAE926188A61853D34774E2617AFABE /* Products */ = {
+		DCCCD3ABAB0052EE1949CB08681B4F1D /* Pods-DynamicTypeShowcaseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */,
-				3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */,
-				1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */,
-				3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */,
+				0B81AF28D5254E07FB3D96372A5CE2A4 /* Info.plist */,
+				946DFE46A62F423B8C6E62212B5194F3 /* Pods-DynamicTypeShowcaseUITests.modulemap */,
+				FBCB2E9A39E3C050D7CC67A7B91ABA96 /* Pods-DynamicTypeShowcaseUITests-acknowledgements.markdown */,
+				A00252221A73FD3514174E2A37EE409A /* Pods-DynamicTypeShowcaseUITests-acknowledgements.plist */,
+				59BFB246584B16906FABB8FAF99E169D /* Pods-DynamicTypeShowcaseUITests-dummy.m */,
+				BA739EEDA3333C047B24FC322FC6760B /* Pods-DynamicTypeShowcaseUITests-frameworks.sh */,
+				A95634EF740304BB005CEE1E7BD001CC /* Pods-DynamicTypeShowcaseUITests-resources.sh */,
+				DA3E6B720CCDE0AD89E3E076B5C7462C /* Pods-DynamicTypeShowcaseUITests-umbrella.h */,
+				D24AC9534D6E81A3D34165503062E359 /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */,
+				F9AB0A73B2D84E4D05D7EF709589E79A /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */,
 			);
-			name = Products;
+			name = "Pods-DynamicTypeShowcaseUITests";
+			path = "Target Support Files/Pods-DynamicTypeShowcaseUITests";
+			sourceTree = "<group>";
+		};
+		F5EF3762B45E0BA0537180A739D5EFAF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AFADCE37D458D5CC77A0D81FB7452CE /* Pods-DynamicTypeShowcase */,
+				2108B4308A1EC01B837B53A9980115AF /* Pods-DynamicTypeShowcaseTests */,
+				DCCCD3ABAB0052EE1949CB08681B4F1D /* Pods-DynamicTypeShowcaseUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44E2D04A368AAE8A84F35E03756FBA54 /* Headers */ = {
+		604023ED0AA572E091777866570A5958 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7227D5548E1D7261759FD637B97F636 /* Pods-DynamicFontShowcaseUITests-umbrella.h in Headers */,
+				8742B7CBD9D5792289C657182140FABE /* Pods-DynamicTypeShowcaseUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7583AB3B069C7FBAA93F94FE2325BD1B /* Headers */ = {
+		73B3B158BE75323BF0C8B674AEB7D1C0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32325BAD66717307729EA8B0D0EB1478 /* Pods-DynamicFontShowcaseTests-umbrella.h in Headers */,
+				81B2CDE8FEF215664A8CD8D62A2C325A /* Pods-DynamicTypeShowcaseTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6AD349AC4D83DE09BBCBAFC2CC970A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EFB33950E99A7271914F95530ED4BA /* Pods-DynamicTypeShowcase-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,32 +283,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F83CE1209FB43DA123B3A34E27AA8C74 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9981AF84D0965A1710F71997E34AB120 /* Pods-DynamicFontShowcase-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A915BC26471E51AA90E46F3B7B1DAEFF /* Pods-DynamicFontShowcaseTests */ = {
+		3A35D1334ADF18D69F2BA3949B02111E /* Pods-DynamicTypeShowcaseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 87E7B218D98C2EDFDAB34CF4BDF2985E /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseTests" */;
+			buildConfigurationList = 1E044390F92AFB707A7AA77C7B112146 /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcaseUITests" */;
 			buildPhases = (
-				15B45D8FA13D835F19566C9D4F9F40E5 /* Sources */,
-				427ECF20755F149644AA2697B8ED1731 /* Frameworks */,
-				7583AB3B069C7FBAA93F94FE2325BD1B /* Headers */,
+				A2D439F5D46E4C50D67B13FEE7DCC902 /* Sources */,
+				0460430D04DB01BA98749296208D2C6E /* Frameworks */,
+				604023ED0AA572E091777866570A5958 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-DynamicFontShowcaseTests";
-			productName = "Pods-DynamicFontShowcaseTests";
-			productReference = 1B9050482F2A456F464E2C92A3A38694 /* Pods_DynamicFontShowcaseTests.framework */;
+			name = "Pods-DynamicTypeShowcaseUITests";
+			productName = "Pods-DynamicTypeShowcaseUITests";
+			productReference = C795B3CB0BFCF8DE9688521200D29BD1 /* Pods_DynamicTypeShowcaseUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95FFA568B7FB3FC14B543008B5F59D06 /* Pods-DynamicTypeShowcaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DFC5E7ECAD2ADBC6B90E036ED2F29E6 /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcaseTests" */;
+			buildPhases = (
+				EF94694993E195AB605C06DAFBD9BBE7 /* Sources */,
+				600BB84E8326E6E8A4DFDE261A7E9C98 /* Frameworks */,
+				73B3B158BE75323BF0C8B674AEB7D1C0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DynamicTypeShowcaseTests";
+			productName = "Pods-DynamicTypeShowcaseTests";
+			productReference = CA5DB3961DEE59AEA18703221FD484B4 /* Pods_DynamicTypeShowcaseTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0A74ED08EA66E2895A700488295482A /* Pods-DynamicTypeShowcase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7185C36A2C4A8DA5FD7A052CE5AF9EF /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcase" */;
+			buildPhases = (
+				4B7794722E5F570AADD301BC9B248949 /* Sources */,
+				9FDC87FF8B683E41176EAC9C463BBB1C /* Frameworks */,
+				BB6AD349AC4D83DE09BBCBAFC2CC970A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D935854F77DD6D141FA5630CA96CC37 /* PBXTargetDependency */,
+			);
+			name = "Pods-DynamicTypeShowcase";
+			productName = "Pods-DynamicTypeShowcase";
+			productReference = 90E5991A02ECFF941AF6E971E5CC3C7C /* Pods_DynamicTypeShowcase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */ = {
@@ -317,42 +352,7 @@
 			);
 			name = GrowingTextView;
 			productName = GrowingTextView;
-			productReference = CD50545619F8C3EECF25445239E0C122 /* GrowingTextView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BE1D0AD020491190D7693DD608FBBE78 /* Pods-DynamicFontShowcase */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA9D5E21E07E3C91356F66A2BACB97C7 /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcase" */;
-			buildPhases = (
-				7F24D8A8EC901E3BB66E717DED903944 /* Sources */,
-				2BBFEE33BAF2BC0BFED7B1F76BBCBB5E /* Frameworks */,
-				F83CE1209FB43DA123B3A34E27AA8C74 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61FAB55E1A781778AE32FC32E98D8883 /* PBXTargetDependency */,
-			);
-			name = "Pods-DynamicFontShowcase";
-			productName = "Pods-DynamicFontShowcase";
-			productReference = 3FACDC3C5F2CBA791D9D53A40C5DF75D /* Pods_DynamicFontShowcase.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		D82877F5A17522051D87134BDD791710 /* Pods-DynamicFontShowcaseUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2EB1ECBF70F66B9A2849D882C1618FEF /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseUITests" */;
-			buildPhases = (
-				BEFE5C59F35C245FBA608CB097DA23CB /* Sources */,
-				B075D8D360EB03FC0EE056DFF65D89B7 /* Frameworks */,
-				44E2D04A368AAE8A84F35E03756FBA54 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-DynamicFontShowcaseUITests";
-			productName = "Pods-DynamicFontShowcaseUITests";
-			productReference = 3B95C75CCFB070DEA9BB1D655B765456 /* Pods_DynamicFontShowcaseUITests.framework */;
+			productReference = A889366C7DCA219ABB5E4E5CC31178AE /* GrowingTextView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -372,32 +372,32 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EFAE926188A61853D34774E2617AFABE /* Products */;
+			productRefGroup = 299ED396E97FB5521B88E6FE17B22436 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */,
-				BE1D0AD020491190D7693DD608FBBE78 /* Pods-DynamicFontShowcase */,
-				A915BC26471E51AA90E46F3B7B1DAEFF /* Pods-DynamicFontShowcaseTests */,
-				D82877F5A17522051D87134BDD791710 /* Pods-DynamicFontShowcaseUITests */,
+				A0A74ED08EA66E2895A700488295482A /* Pods-DynamicTypeShowcase */,
+				95FFA568B7FB3FC14B543008B5F59D06 /* Pods-DynamicTypeShowcaseTests */,
+				3A35D1334ADF18D69F2BA3949B02111E /* Pods-DynamicTypeShowcaseUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15B45D8FA13D835F19566C9D4F9F40E5 /* Sources */ = {
+		4B7794722E5F570AADD301BC9B248949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90A648B6023527C347FAB189432C814D /* Pods-DynamicFontShowcaseTests-dummy.m in Sources */,
+				D1929E837F0875EA0BBB8C6F17CE686D /* Pods-DynamicTypeShowcase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7F24D8A8EC901E3BB66E717DED903944 /* Sources */ = {
+		A2D439F5D46E4C50D67B13FEE7DCC902 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40A4FDFAD5B0BB068FF5DC17EA26257 /* Pods-DynamicFontShowcase-dummy.m in Sources */,
+				32B67BFE876DF09C7C3FD004D4918DEE /* Pods-DynamicTypeShowcaseUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,182 +410,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEFE5C59F35C245FBA608CB097DA23CB /* Sources */ = {
+		EF94694993E195AB605C06DAFBD9BBE7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				802297D727FFA26672147C1B42339A53 /* Pods-DynamicFontShowcaseUITests-dummy.m in Sources */,
+				AA825F9A5AD4502B94A44512E29D2AC9 /* Pods-DynamicTypeShowcaseTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61FAB55E1A781778AE32FC32E98D8883 /* PBXTargetDependency */ = {
+		9D935854F77DD6D141FA5630CA96CC37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GrowingTextView;
 			target = ACEF46F3B8A411DED7BF5C736506D068 /* GrowingTextView */;
-			targetProxy = 4341C84CA03B27FD26370814E32A617B /* PBXContainerItemProxy */;
+			targetProxy = EBCD34039260739F7468A5D71741EB55 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D864B3B0BF6DB64E343A77A25617A88 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36027D39D2B4E9A9905D5FB67E9089F3 /* Pods-DynamicFontShowcase.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcase/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcase/Pods-DynamicFontShowcase.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1A41B15D3AA834993ADDD808FA9D8764 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		504CCA395E17F87863FE51BC86814701 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6812F39C19DCFA26A1F960719BF04891 /* Pods-DynamicFontShowcaseUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Pods-DynamicFontShowcaseUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcaseUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		70DF148FC97A7AFCAA9C3D79A63CD0A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FF9EEFFAA6DA149EFFD40412D3940EE /* Pods-DynamicFontShowcaseTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Pods-DynamicFontShowcaseTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcaseTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7D144F724433A09597E3476A57631255 /* Debug */ = {
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -625,7 +470,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -633,45 +478,9 @@
 			};
 			name = Debug;
 		};
-		81CB52521779713B86E40CAB70B9A811 /* Debug */ = {
+		1B4F4B8C8A1E6BF7059EBF3FF4618026 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA3EDB24CE1D16A9CB63BA5A360A4FEF /* Pods-DynamicFontShowcaseTests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseTests/Pods-DynamicFontShowcaseTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcaseTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8C1BF3DF212CE6AC1FD5F3EF2DE9221B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEFDF8279D509B0C7E76234204DE28A8 /* Pods-DynamicFontShowcaseUITests.release.xcconfig */;
+			baseConfigurationReference = F9AB0A73B2D84E4D05D7EF709589E79A /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -685,18 +494,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcaseUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcaseUITests/Pods-DynamicFontShowcaseUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcaseUITests;
+				PRODUCT_NAME = Pods_DynamicTypeShowcaseUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -704,6 +513,161 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		68F933C4AF37AE753C46E6513B83DFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD1019EF7A567F16F30388570C7A3B3 /* Pods-DynamicTypeShowcaseTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcaseTests/Pods-DynamicTypeShowcaseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicTypeShowcaseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76827B01C8C85CBD1E3EB2F184ECEB09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D24AC9534D6E81A3D34165503062E359 /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcaseUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicTypeShowcaseUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87C50F7E1C02D71EEE87C8B5296B7404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BECAC3FE4C970DDF48C28B6F39B90A /* Pods-DynamicTypeShowcase.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicTypeShowcase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		90B01B77CA2250D4DF695E206BA4D17C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -739,9 +703,45 @@
 			};
 			name = Release;
 		};
-		B364710DCC533D780691CB70E64CDDB2 /* Release */ = {
+		9DB913B1BBFA5D09AFF6D1A41A0FF758 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8559C1A43BA516C3B8083782BD4A1FDD /* Pods-DynamicFontShowcase.release.xcconfig */;
+			baseConfigurationReference = 3A24342504A3182D287603E6E02ACE8C /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcaseTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcaseTests/Pods-DynamicTypeShowcaseTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DynamicTypeShowcaseTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDC98DB9949E169D51A3BE1BE1B8C5B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC9A6B760C5A8AAE16F7CD2961A0960C /* Pods-DynamicTypeShowcase.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -755,18 +755,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DynamicFontShowcase/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DynamicTypeShowcase/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DynamicFontShowcase/Pods-DynamicFontShowcase.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_DynamicFontShowcase;
+				PRODUCT_NAME = Pods_DynamicTypeShowcase;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -815,20 +815,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		1E044390F92AFB707A7AA77C7B112146 /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcaseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D144F724433A09597E3476A57631255 /* Debug */,
-				1A41B15D3AA834993ADDD808FA9D8764 /* Release */,
+				76827B01C8C85CBD1E3EB2F184ECEB09 /* Debug */,
+				1B4F4B8C8A1E6BF7059EBF3FF4618026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2EB1ECBF70F66B9A2849D882C1618FEF /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseUITests" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				504CCA395E17F87863FE51BC86814701 /* Debug */,
-				8C1BF3DF212CE6AC1FD5F3EF2DE9221B /* Release */,
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DFC5E7ECAD2ADBC6B90E036ED2F29E6 /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DB913B1BBFA5D09AFF6D1A41A0FF758 /* Debug */,
+				68F933C4AF37AE753C46E6513B83DFF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -842,20 +851,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		87E7B218D98C2EDFDAB34CF4BDF2985E /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcaseTests" */ = {
+		C7185C36A2C4A8DA5FD7A052CE5AF9EF /* Build configuration list for PBXNativeTarget "Pods-DynamicTypeShowcase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81CB52521779713B86E40CAB70B9A811 /* Debug */,
-				70DF148FC97A7AFCAA9C3D79A63CD0A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CA9D5E21E07E3C91356F66A2BACB97C7 /* Build configuration list for PBXNativeTarget "Pods-DynamicFontShowcase" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0D864B3B0BF6DB64E343A77A25617A88 /* Debug */,
-				B364710DCC533D780691CB70E64CDDB2 /* Release */,
+				87C50F7E1C02D71EEE87C8B5296B7404 /* Debug */,
+				EDC98DB9949E169D51A3BE1BE1B8C5B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

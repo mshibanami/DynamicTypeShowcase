@@ -1,4 +1,4 @@
-# DynamicFontShowcase
+# DynamicTypeShowcase
 
 ![demo](./demo.gif)
 

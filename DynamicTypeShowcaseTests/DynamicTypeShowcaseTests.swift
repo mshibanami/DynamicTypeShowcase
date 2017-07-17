@@ -1,15 +1,15 @@
 //
-//  DynamicFontShowcaseTests.swift
-//  DynamicFontShowcaseTests
+//  DynamicTypeShowcaseTests.swift
+//  DynamicTypeShowcaseTests
 //
 //  Created by abc on 2017/07/17.
 //  Copyright © 2017 mshibanami. All rights reserved.
 //
 
 import XCTest
-@testable import DynamicFontShowcase
+@testable import DynamicTypeShowcase
 
-class DynamicFontShowcaseTests: XCTestCase {
+class DynamicTypeShowcaseTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

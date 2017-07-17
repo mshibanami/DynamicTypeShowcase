@@ -1,6 +1,0 @@
-framework module Pods_DynamicFontShowcaseTests {
-  umbrella header "Pods-DynamicFontShowcaseTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

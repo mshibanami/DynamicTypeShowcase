@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DynamicFontShowcase
+//  DynamicTypeShowcase
 //
 //  Created by abc on 2017/07/17.
 //  Copyright © 2017 mshibanami. All rights reserved.

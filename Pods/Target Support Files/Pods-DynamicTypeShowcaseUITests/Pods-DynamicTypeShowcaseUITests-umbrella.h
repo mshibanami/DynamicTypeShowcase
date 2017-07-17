@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_DynamicFontShowcaseVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_DynamicFontShowcaseVersionString[];
+FOUNDATION_EXPORT double Pods_DynamicTypeShowcaseUITestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_DynamicTypeShowcaseUITestsVersionString[];
 
