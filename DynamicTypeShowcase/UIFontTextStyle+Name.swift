@@ -10,7 +10,7 @@ import UIKit
 
 extension UIFontTextStyle {
     
-    /// the name of the enum value
+    /// The name of the enum value
     public var name: String {
         // so ugly
         switch self {
@@ -37,5 +37,21 @@ extension UIFontTextStyle {
         default:
             return "☠️"
         }
+    }
+    
+    /// All enum values
+    public static var values: [UIFontTextStyle] {
+        return [
+            .title1,
+            .title2,
+            .title3,
+            .headline,
+            .subheadline,
+            .body,
+            .callout,
+            .footnote,
+            .caption1,
+            .caption2,
+        ]
     }
 }

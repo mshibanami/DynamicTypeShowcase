@@ -14,21 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet private weak var tableView: UITableView!
     
-    private var fontTextStyles: [UIFontTextStyle] {
-        return [
-            .title1,
-            .title2,
-            .title3,
-            .headline,
-            .subheadline,
-            .body,
-            .callout,
-            .footnote,
-            .caption1,
-            .caption2,
-        ]
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -72,14 +57,14 @@ class ViewController: UIViewController {
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return fontTextStyles.count
+        return UIFontTextStyle.values.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView
             .dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! PreviewCell
         
-        cell.fontTextStyle = fontTextStyles[indexPath.row]
+        cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text ?? ""
         
         return cell
