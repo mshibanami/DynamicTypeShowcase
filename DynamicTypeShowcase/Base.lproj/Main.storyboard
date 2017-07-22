@@ -33,7 +33,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGh-kp-SL9">
                                                     <rect key="frame" x="8" y="8" width="22" height="15"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sample text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Qr-gh-VQV">
@@ -50,9 +50,9 @@
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6Qr-gh-VQV" secondAttribute="bottom" constant="8" id="4Uk-x1-aPo"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6Qr-gh-VQV" secondAttribute="bottom" constant="4" id="4Uk-x1-aPo"/>
                                                 <constraint firstItem="6Qr-gh-VQV" firstAttribute="top" secondItem="EGh-kp-SL9" secondAttribute="bottom" constant="4" id="4Z6-dg-8Pz"/>
-                                                <constraint firstItem="EGh-kp-SL9" firstAttribute="top" secondItem="VmD-29-cuX" secondAttribute="top" constant="8" id="EAa-T9-o7n"/>
+                                                <constraint firstItem="EGh-kp-SL9" firstAttribute="top" secondItem="VmD-29-cuX" secondAttribute="topMargin" id="EAa-T9-o7n"/>
                                                 <constraint firstItem="EGh-kp-SL9" firstAttribute="leading" secondItem="VmD-29-cuX" secondAttribute="leadingMargin" id="H3w-v6-lcj"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="6Qr-gh-VQV" secondAttribute="trailingMargin" id="Hyx-Pg-LAm"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="q1e-Rf-S2I" secondAttribute="trailing" id="WNN-aM-Ts1"/>
@@ -60,6 +60,7 @@
                                                 <constraint firstItem="q1e-Rf-S2I" firstAttribute="top" secondItem="VmD-29-cuX" secondAttribute="topMargin" id="g2Z-QP-HNC"/>
                                                 <constraint firstItem="q1e-Rf-S2I" firstAttribute="leading" secondItem="EGh-kp-SL9" secondAttribute="trailing" constant="8" id="j1k-af-jJP"/>
                                             </constraints>
+                                            <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="sampleTextLabel" destination="6Qr-gh-VQV" id="et2-1V-Ldk"/>
