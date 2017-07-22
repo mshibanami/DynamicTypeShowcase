@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -19,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bT8-mJ-PcO">
-                                <rect key="frame" x="0.0" y="20" width="375" height="598"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="601"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PreviewCell" rowHeight="72" id="trP-tR-Ho4" customClass="PreviewCell" customModule="DynamicTypeShowcase" customModuleProvider="target">
@@ -73,33 +74,24 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YS8-0u-uHB">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <rect key="frame" x="0.0" y="621" width="375" height="46"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="rC3-ff-hAp" customClass="GrowingTextView" customModule="GrowingTextView">
-                                        <rect key="frame" x="8" y="8" width="359" height="33"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V7p-xu-yDk">
+                                        <rect key="frame" x="8" y="8" width="359" height="30"/>
+                                        <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
-                                                <integer key="value" value="200"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="maxHeight">
-                                                <real key="value" value="70"/>
-                                            </userDefinedRuntimeAttribute>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="placeHolder" value="Type words you want to preview"/>
-                                        </userDefinedRuntimeAttributes>
+                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                         <connections>
-                                            <outlet property="delegate" destination="BYZ-38-t0r" id="3Ov-L5-xJR"/>
+                                            <outlet property="delegate" destination="BYZ-38-t0r" id="0Xs-hV-DQN"/>
                                         </connections>
-                                    </textView>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" white="0.92000000000000004" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="rC3-ff-hAp" secondAttribute="bottom" constant="8" id="I39-Fi-5hi"/>
-                                    <constraint firstItem="rC3-ff-hAp" firstAttribute="leading" secondItem="YS8-0u-uHB" secondAttribute="leading" constant="8" id="UUc-PL-ITh"/>
-                                    <constraint firstAttribute="trailing" secondItem="rC3-ff-hAp" secondAttribute="trailing" constant="8" id="Vfq-qK-8wp"/>
-                                    <constraint firstItem="rC3-ff-hAp" firstAttribute="top" secondItem="YS8-0u-uHB" secondAttribute="top" constant="8" id="kjf-MJ-BRJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="V7p-xu-yDk" secondAttribute="trailing" constant="8" id="Dzv-Xu-vcB"/>
+                                    <constraint firstAttribute="bottom" secondItem="V7p-xu-yDk" secondAttribute="bottom" constant="8" id="V6j-Ai-3NX"/>
+                                    <constraint firstItem="V7p-xu-yDk" firstAttribute="top" secondItem="YS8-0u-uHB" secondAttribute="top" constant="8" id="b5t-O4-PLc"/>
+                                    <constraint firstItem="V7p-xu-yDk" firstAttribute="leading" secondItem="YS8-0u-uHB" secondAttribute="leading" constant="8" id="ixn-VH-r5b"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -118,7 +110,7 @@
                     <connections>
                         <outlet property="bottomConstraint" destination="ftw-hK-sSj" id="fKp-9S-IMC"/>
                         <outlet property="tableView" destination="bT8-mJ-PcO" id="o6B-zJ-W9w"/>
-                        <outlet property="textView" destination="rC3-ff-hAp" id="O8h-Im-nHI"/>
+                        <outlet property="textField" destination="V7p-xu-yDk" id="RYQ-51-5KE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -7,12 +7,11 @@
 //
 
 import UIKit
-import GrowingTextView
 
 class ViewController: UIViewController {
     
-    @IBOutlet private weak var textView: GrowingTextView!
-    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    @IBOutlet private weak var textField: UITextField!
+    @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet private weak var tableView: UITableView!
     
     private var fontTextStyles: [UIFontTextStyle] {
@@ -41,20 +40,33 @@ class ViewController: UIViewController {
                 name: .UIKeyboardWillChangeFrame,
                 object: nil)
         
-        let tapGesture = UITapGestureRecognizer(
+        textField.addTarget(
+            self,
+            action: #selector(textFieldDidChange(_:)),
+            for: .editingChanged)
+        
+        let gesture = UITapGestureRecognizer(
             target: self,
-            action: #selector(tapGestureHandler))
-        view.addGestureRecognizer(tapGesture)
+            action: #selector(viewDidTap))
+        view.addGestureRecognizer(gesture)
     }
     
-    @objc func keyboardWillChangeFrame(_ notification: Notification) {
-        let endFrame = ((notification as NSNotification).userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+    @objc private func keyboardWillChangeFrame(_ notification: Notification) {
+        let endFrame = ((notification as NSNotification)
+            .userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue)
+            .cgRectValue
+        
         bottomConstraint.constant = UIScreen.main.bounds.height - endFrame.origin.y
+        
         self.view.layoutIfNeeded()
     }
     
-    @objc func tapGestureHandler() {
+    @objc private func viewDidTap() {
         view.endEditing(true)
+    }
+    
+    @objc private func textFieldDidChange(_ sender: Any) {
+        tableView.reloadData()
     }
 }
 
@@ -64,25 +76,19 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! PreviewCell
+        let cell = tableView
+            .dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! PreviewCell
         
         cell.fontTextStyle = fontTextStyles[indexPath.row]
-        cell.sampleText = textView.text
+        cell.sampleText = textField.text ?? ""
         
         return cell
     }
 }
 
-extension ViewController: UITextViewDelegate {
-    func textViewDidChange(_ textView: UITextView) {
-        tableView.reloadData()
-    }
-}
-
-extension ViewController: GrowingTextViewDelegate {
-    func textViewDidChangeHeight(_ textView: GrowingTextView, height: CGFloat) {
-        UIView.animate(withDuration: 0.3, delay: 0.0, usingSpringWithDamping: 0.7, initialSpringVelocity: 0.7, options: [.curveLinear], animations: { () -> Void in
-            self.view.layoutIfNeeded()
-        }, completion: nil)
+extension ViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+       textField.resignFirstResponder()
+       return false
     }
 }

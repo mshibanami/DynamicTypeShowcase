@@ -6,8 +6,7 @@ target 'DynamicTypeShowcase' do
   use_frameworks!
 
   # Pods for DynamicTypeShowcase
-  pod 'GrowingTextView', git: 'https://github.com/KennethTsang/GrowingTextView.git', branch: 'swift4'
-
+  
   target 'DynamicTypeShowcaseTests' do
     inherit! :search_paths
     # Pods for testing
