@@ -17,6 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let category = UIApplication.shared.preferredContentSizeCategory
+        let categoryStr = category.rawValue.substring(from: "UICTContentSizeCategory".endIndex)
+        title = "LargeType: "
+            + categoryStr
+            + (category == .large
+                ? " (Default)"
+                : "")
+        
         NotificationCenter
             .default
             .addObserver(
