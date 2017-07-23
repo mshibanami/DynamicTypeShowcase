@@ -10,34 +10,35 @@ import UIKit
 
 extension UIContentSizeCategory {
     /// The name of the enum value
+    /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
         switch self {
         case .unspecified:
             return "unspecified"
         case .extraSmall:
-            return "XSmall"
+            return "xsmall"
         case .small:
-            return "small"
+            return "Small"
         case .medium:
-            return "medium"
+            return "Medium"
         case .large:
-            return "large"
+            return "Large"
         case .extraLarge:
-            return "XLarge"
+            return "xLarge"
         case .extraExtraLarge:
-            return "XXLarge"
+            return "xxLarge"
         case .extraExtraExtraLarge:
-            return "XXXLarge"
+            return "xxxLarge"
         case .accessibilityMedium:
-            return "accessibilityMedium"
+            return "AX1"
         case .accessibilityLarge:
-            return "accessibilityLarge"
+            return "AX2"
         case .accessibilityExtraLarge:
-            return "accessibilityXLarge"
+            return "AX3"
         case .accessibilityExtraExtraLarge:
-            return "accessibilityXXLarge"
+            return "AX4"
         case .accessibilityExtraExtraExtraLarge:
-            return "accessibilityXXXLarge"
+            return "AX5"
         default:
             return "🤔"
         }
