@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         
         let category = UIApplication.shared.preferredContentSizeCategory
         let categoryStr = category.rawValue.substring(from: "UICTContentSizeCategory".endIndex)
-        title = "LargeType: "
+        title = "DynamicType: "
             + categoryStr
             + (category == .large
                 ? " (Default)"
