@@ -17,13 +17,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let category = UIApplication.shared.preferredContentSizeCategory
-        let categoryStr = category.rawValue.substring(from: "UICTContentSizeCategory".endIndex)
-        title = "DynamicType: "
-            + categoryStr
-            + (category == .large
-                ? " (Default)"
-                : "")
+        setup()
+    }
+    
+    private func setup() {
+        updateTitle()
         
         NotificationCenter
             .default
@@ -31,6 +29,14 @@ class ViewController: UIViewController {
                 self,
                 selector: #selector(keyboardWillChangeFrame(_:)),
                 name: .UIKeyboardWillChangeFrame,
+                object: nil)
+        
+        NotificationCenter
+            .default
+            .addObserver(
+                self,
+                selector: #selector(contentSizeCategoryDidChange),
+                name: .UIContentSizeCategoryDidChange,
                 object: nil)
         
         textField.addTarget(
@@ -43,6 +49,21 @@ class ViewController: UIViewController {
             action: #selector(viewDidTap))
         view.addGestureRecognizer(gesture)
     }
+    private func updateTitle() {
+        let category = UIApplication.shared.preferredContentSizeCategory
+        let categoryStr = category.name
+        
+        title = "DynamicType: "
+            + categoryStr
+            + (category == .large
+                ? " (Default)"
+                : "")
+    }
+    
+    @objc private func contentSizeCategoryDidChange() {
+        updateTitle()
+        tableView.reloadData()
+    }
     
     @objc private func keyboardWillChangeFrame(_ notification: Notification) {
         let endFrame = ((notification as NSNotification)
@@ -51,7 +72,7 @@ class ViewController: UIViewController {
         
         bottomConstraint.constant = UIScreen.main.bounds.height - endFrame.origin.y
         
-        self.view.layoutIfNeeded()
+        view.layoutIfNeeded()
     }
     
     @objc private func viewDidTap() {
