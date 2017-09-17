@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SizesViewController: UIViewController {
     
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
@@ -50,12 +50,12 @@ class ViewController: UIViewController {
         view.addGestureRecognizer(gesture)
     }
     private func updateTitle() {
-        let category = UIApplication.shared.preferredContentSizeCategory
-        let categoryStr = category.name
+        let size = UIApplication.shared.preferredContentSizeCategory
+        let sizeStr = size.name
         
-        title = "DynamicType: "
-            + categoryStr
-            + (category == .large
+        title = "Size: "
+            + sizeStr
+            + (size == .large
                 ? " (Default)"
                 : "")
     }
@@ -84,7 +84,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDataSource {
+extension SizesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return UIFontTextStyle.values.count
     }
@@ -100,13 +100,13 @@ extension ViewController: UITableViewDataSource {
     }
 }
 
-extension ViewController: UIScrollViewDelegate {
+extension SizesViewController: UIScrollViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         viewDidTap()
     }
 }
 
-extension ViewController: UITextFieldDelegate {
+extension SizesViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
        textField.resignFirstResponder()
        return false

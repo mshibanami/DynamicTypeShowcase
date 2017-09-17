@@ -10,8 +10,9 @@
 		283C551D1F1CE3E30078D9E5 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */; };
 		283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */; };
 		28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */; };
+		28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */; };
 		28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024391F1C939900DF2996 /* AppDelegate.swift */; };
-		28B0243C1F1C939900DF2996 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* ViewController.swift */; };
+		28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* SizesViewController.swift */; };
 		28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B0243D1F1C939900DF2996 /* Main.storyboard */; };
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
 		28B024441F1C939900DF2996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B024421F1C939900DF2996 /* LaunchScreen.storyboard */; };
@@ -46,9 +47,10 @@
 		283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
 		283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontTextStyle+Enum.swift"; sourceTree = "<group>"; };
 		28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Enum.swift"; sourceTree = "<group>"; };
+		28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
 		28B024361F1C939900DF2996 /* DynamicTypeShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024391F1C939900DF2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28B0243B1F1C939900DF2996 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28B0243B1F1C939900DF2996 /* SizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesViewController.swift; sourceTree = "<group>"; };
 		28B0243E1F1C939900DF2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B024401F1C939900DF2996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B024431F1C939900DF2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,10 +124,11 @@
 			children = (
 				28B024451F1C939900DF2996 /* Info.plist */,
 				28B024391F1C939900DF2996 /* AppDelegate.swift */,
+				28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */,
 				283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */,
+				28B0243B1F1C939900DF2996 /* SizesViewController.swift */,
 				28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */,
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
-				28B0243B1F1C939900DF2996 /* ViewController.swift */,
 				28B024401F1C939900DF2996 /* Assets.xcassets */,
 				28B024421F1C939900DF2996 /* LaunchScreen.storyboard */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
@@ -453,9 +456,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
+				28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* PreviewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
-				28B0243C1F1C939900DF2996 /* ViewController.swift in Sources */,
+				28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

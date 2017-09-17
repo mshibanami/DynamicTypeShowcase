@@ -35,13 +35,30 @@ extension UIFontTextStyle {
         case .caption2:
             return "caption2"
         default:
-            return "☠️"
+            break
         }
+        
+        if #available(iOS 11.0, *) {
+            switch self {
+            case .largeTitle:
+                return "largeTitle"
+            default:
+                break
+            }
+        }
+        
+        return "☠"
     }
     
     /// All enum values
     public static var values: [UIFontTextStyle] {
-        return [
+        var v: [UIFontTextStyle] = []
+        
+        if #available(iOS 11.0, *) {
+            v.append(largeTitle)
+        }
+        
+        v.append(contentsOf: [
             .title1,
             .title2,
             .title3,
@@ -52,6 +69,8 @@ extension UIFontTextStyle {
             .footnote,
             .caption1,
             .caption2,
-        ]
+        ])
+        
+        return v
     }
 }
