@@ -15,7 +15,6 @@
 		28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* SizesViewController.swift */; };
 		28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B0243D1F1C939900DF2996 /* Main.storyboard */; };
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
-		28B024441F1C939900DF2996 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B024421F1C939900DF2996 /* LaunchScreen.storyboard */; };
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
@@ -53,7 +52,6 @@
 		28B0243B1F1C939900DF2996 /* SizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesViewController.swift; sourceTree = "<group>"; };
 		28B0243E1F1C939900DF2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B024401F1C939900DF2996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28B024431F1C939900DF2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28B024451F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B0244A1F1C939900DF2996 /* DynamicTypeShowcaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeShowcaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseTests.swift; sourceTree = "<group>"; };
@@ -130,7 +128,6 @@
 				28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */,
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
 				28B024401F1C939900DF2996 /* Assets.xcassets */,
-				28B024421F1C939900DF2996 /* LaunchScreen.storyboard */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 			);
 			path = DynamicTypeShowcase;
@@ -290,7 +287,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28B024441F1C939900DF2996 /* LaunchScreen.storyboard in Resources */,
 				28B024411F1C939900DF2996 /* Assets.xcassets in Resources */,
 				28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */,
 			);
@@ -504,14 +500,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		28B024421F1C939900DF2996 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28B024431F1C939900DF2996 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -627,6 +615,7 @@
 			baseConfigurationReference = 65AA6C726E4D6A7426AE21F4 /* Pods-DynamicTypeShowcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -643,6 +632,7 @@
 			baseConfigurationReference = 62587982384F67B0FA56861C /* Pods-DynamicTypeShowcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
