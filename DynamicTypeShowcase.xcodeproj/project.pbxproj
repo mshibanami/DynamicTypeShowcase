@@ -17,6 +17,8 @@
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
+		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
+		28F999841F6EDCBC0029B2F1 /* SizesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
 		B063D3C82746FD77C8CAA0FA /* Pods_DynamicTypeShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54C1DDFD81A947EBC5D823 /* Pods_DynamicTypeShowcase.framework */; };
 		C7FE936B37A1EC6B98B1EB61 /* Pods_DynamicTypeShowcaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */; };
@@ -59,6 +61,8 @@
 		28B024551F1C939900DF2996 /* DynamicTypeShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeShowcaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseUITests.swift; sourceTree = "<group>"; };
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
+		28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesViewController.storyboard; sourceTree = "<group>"; };
 		32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTypeShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62587982384F67B0FA56861C /* Pods-DynamicTypeShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.release.xcconfig"; sourceTree = "<group>"; };
 		65AA6C726E4D6A7426AE21F4 /* Pods-DynamicTypeShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
 				28B024401F1C939900DF2996 /* Assets.xcassets */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
+				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
+				28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
@@ -289,6 +295,8 @@
 			files = (
 				28B024411F1C939900DF2996 /* Assets.xcassets in Resources */,
 				28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */,
+				28F999841F6EDCBC0029B2F1 /* SizesViewController.storyboard in Resources */,
+				28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

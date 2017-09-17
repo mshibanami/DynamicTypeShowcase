@@ -12,9 +12,5 @@ class MainMenuTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        if let appName = Bundle.main.infoDictionary?[kCFBundleNameKey as String] as? String {
-            title = appName
-        }
     }
 }
