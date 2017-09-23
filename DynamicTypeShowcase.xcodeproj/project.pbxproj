@@ -10,6 +10,7 @@
 		283C551D1F1CE3E30078D9E5 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */; };
 		283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */; };
 		28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */; };
+		285C173F1F7606F9007C0600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */; };
 		28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */; };
 		28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024391F1C939900DF2996 /* AppDelegate.swift */; };
 		28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* SizesViewController.swift */; };
@@ -48,6 +49,7 @@
 		283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
 		283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontTextStyle+Enum.swift"; sourceTree = "<group>"; };
 		28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Enum.swift"; sourceTree = "<group>"; };
+		285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
 		28B024361F1C939900DF2996 /* DynamicTypeShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024391F1C939900DF2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
 				28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */,
+				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				28B024411F1C939900DF2996 /* Assets.xcassets in Resources */,
 				28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */,
 				28F999841F6EDCBC0029B2F1 /* SizesViewController.storyboard in Resources */,
+				285C173F1F7606F9007C0600 /* LaunchScreen.storyboard in Resources */,
 				28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,7 +627,6 @@
 			baseConfigurationReference = 65AA6C726E4D6A7426AE21F4 /* Pods-DynamicTypeShowcase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
@@ -640,7 +643,6 @@
 			baseConfigurationReference = 62587982384F67B0FA56861C /* Pods-DynamicTypeShowcase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
