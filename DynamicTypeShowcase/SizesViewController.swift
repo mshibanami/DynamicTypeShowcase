@@ -100,12 +100,6 @@ extension SizesViewController: UITableViewDataSource {
     }
 }
 
-extension SizesViewController: UIScrollViewDelegate {
-    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        viewDidTap()
-    }
-}
-
 extension SizesViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
        textField.resignFirstResponder()
