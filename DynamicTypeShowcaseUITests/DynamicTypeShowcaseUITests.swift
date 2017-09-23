@@ -33,6 +33,7 @@ class DynamicTypeShowcaseUITests: XCTestCase {
         
         let textField = app.textFields["textField"]
         textField.tap()
+        sleep(1)
         textField.typeText("Hello\n")
         
         snapshot("Sizes")

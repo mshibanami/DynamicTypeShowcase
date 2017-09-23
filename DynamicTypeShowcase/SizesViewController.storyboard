@@ -19,8 +19,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2uK-nX-ZI2">
-                                <rect key="frame" x="0.0" y="20" width="375" height="601"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uK-nX-ZI2">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="621"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PreviewCell" rowHeight="72" id="aoP-kC-IPB" customClass="PreviewCell" customModule="DynamicTypeShowcase" customModuleProvider="target">
@@ -101,7 +101,7 @@
                         <constraints>
                             <constraint firstItem="UvH-1N-GFp" firstAttribute="bottom" secondItem="oDX-p1-H0N" secondAttribute="bottom" id="327-hH-IjP"/>
                             <constraint firstItem="oDX-p1-H0N" firstAttribute="top" secondItem="2uK-nX-ZI2" secondAttribute="bottom" id="5d7-Zs-BqJ"/>
-                            <constraint firstItem="2uK-nX-ZI2" firstAttribute="top" secondItem="UvH-1N-GFp" secondAttribute="top" id="6F5-uW-hj2"/>
+                            <constraint firstItem="2uK-nX-ZI2" firstAttribute="top" secondItem="fee-te-ynx" secondAttribute="top" id="6F5-uW-hj2"/>
                             <constraint firstItem="2uK-nX-ZI2" firstAttribute="trailing" secondItem="UvH-1N-GFp" secondAttribute="trailing" id="6QM-96-U1L"/>
                             <constraint firstItem="UvH-1N-GFp" firstAttribute="trailing" secondItem="oDX-p1-H0N" secondAttribute="trailing" id="apA-QA-gQJ"/>
                             <constraint firstItem="oDX-p1-H0N" firstAttribute="leading" secondItem="fee-te-ynx" secondAttribute="leading" id="gKj-UI-P0t"/>
