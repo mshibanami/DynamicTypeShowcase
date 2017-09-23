@@ -12,7 +12,6 @@ extension UIFontTextStyle {
     
     /// The name of the enum value
     public var name: String {
-        // so ugly
         switch self {
         case .title1:
             return "title1"
@@ -55,7 +54,7 @@ extension UIFontTextStyle {
         var v: [UIFontTextStyle] = []
         
         if #available(iOS 11.0, *) {
-            v.append(largeTitle)
+            v.append(.largeTitle)
         }
         
         v.append(contentsOf: [

@@ -13,8 +13,6 @@ extension UIContentSizeCategory {
     /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
         switch self {
-        case .unspecified:
-            return "unspecified"
         case .extraSmall:
             return "xsmall"
         case .small:
@@ -40,7 +38,18 @@ extension UIContentSizeCategory {
         case .accessibilityExtraExtraExtraLarge:
             return "AX5"
         default:
-            return "🤔"
+            break
         }
+        
+        if #available(iOS 10.0, *) {
+            switch self {
+            case .unspecified:
+                return "unspecified"
+            default:
+                break
+            }
+        }
+        
+        return "🤔"
     }
 }
