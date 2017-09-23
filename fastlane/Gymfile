@@ -1,0 +1,18 @@
+# For more information about this configuration visit
+# https://github.com/fastlane/fastlane/tree/master/gym#gymfile
+
+# In general, you can use the options available
+# fastlane gym --help
+
+# Remove the # in front of the line to enable the option
+
+scheme 'DynamicTypeShowcase'
+
+configuration 'Release'
+
+sdk 'iphoneos11.0'
+
+output_directory './'
+
+# https://github.com/fastlane/fastlane/issues/10251#issuecomment-330841235
+export_xcargs '-allowProvisioningUpdates'
