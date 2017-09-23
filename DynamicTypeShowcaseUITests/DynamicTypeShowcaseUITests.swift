@@ -25,9 +25,16 @@ class DynamicTypeShowcaseUITests: XCTestCase {
     }
     
     func testExample() {
-        snapshot("01LoginScreen")
+        snapshot("Main")
         
         let app = XCUIApplication()
-        app.tables/*@START_MENU_TOKEN@*/.staticTexts["Sizes"]/*[[".cells.staticTexts[\"Sizes\"]",".staticTexts[\"Sizes\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        app.tables/*@START_MENU_TOKEN@*/.staticTexts["Sizes"]/*[[".cells[\"sizesCell\"].staticTexts[\"Sizes\"]",".staticTexts[\"Sizes\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
+        
+        let textField = app.textFields["textField"]
+        textField.tap()
+        textField.typeText("Hello\n")
+        
+        snapshot("Sizes")
     }
 }
