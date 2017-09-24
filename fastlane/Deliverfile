@@ -12,3 +12,5 @@ languages([
             'en-US',
             'ja'
           ])
+
+ipa 'DynamicTypeShowcase.ipa'
