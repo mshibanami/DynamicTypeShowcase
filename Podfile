@@ -15,3 +15,12 @@ target 'DynamicTypeShowcase' do
     inherit! :search_paths
   end
 end
+
+post_install do |_installer|
+  require 'fileutils'
+  FileUtils.cp_r(
+    'Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase-acknowledgements.plist',
+    'DynamicTypeShowcase/Settings.bundle/Pods-acknowledgements.plist',
+    remove_destination: true
+  )
+end

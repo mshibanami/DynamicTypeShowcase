@@ -16,23 +16,31 @@ class TextStylesPreviewCell: UITableViewCell {
     /// Style for sample text
     public var fontTextStyle: UIFontTextStyle? {
         didSet {
-            if let style = fontTextStyle {
-                let font = UIFont.preferredFont(forTextStyle: style)
-
-                titleLabel.text = style.name
-                sampleTextLabel.font = font
-                summaryLabel.text = "(\(font.fontName) \(font.pointSize)pt)"
-            } else {
-                titleLabel.text = "🙄"
-            }
+            updateControls()
         }
     }
 
     public var sampleText: String = "" {
         didSet {
-            sampleTextLabel.text = sampleText.isEmpty
-                ? "\(fontTextStyle?.name ?? " ")"
-                : sampleText
+            updateControls()
+        }
+    }
+
+    func updateControls() {
+        sampleTextLabel.text = sampleText.isEmpty
+            ? "\(fontTextStyle?.name ?? " ")"
+            : sampleText
+
+        if let style = fontTextStyle {
+            let font = UIFont.preferredFont(forTextStyle: style)
+
+            titleLabel.text = self.sampleText.isEmpty
+                ? ""
+                : style.name
+            sampleTextLabel.font = font
+            summaryLabel.text = "(\(font.fontName) \(font.pointSize)pt)"
+        } else {
+            titleLabel.text = "🙄"
         }
     }
 }
