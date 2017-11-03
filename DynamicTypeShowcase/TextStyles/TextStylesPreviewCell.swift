@@ -34,9 +34,7 @@ class TextStylesPreviewCell: UITableViewCell {
         if let style = fontTextStyle {
             let font = UIFont.preferredFont(forTextStyle: style)
 
-            titleLabel.text = self.sampleText.isEmpty
-                ? ""
-                : style.name
+            titleLabel.text = style.name
             sampleTextLabel.font = font
             summaryLabel.text = "(\(font.fontName) \(font.pointSize)pt)"
         } else {
