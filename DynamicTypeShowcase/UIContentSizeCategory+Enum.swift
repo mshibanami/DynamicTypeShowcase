@@ -9,47 +9,41 @@
 import UIKit
 
 extension UIContentSizeCategory {
+    
+    public static var sizes: [(value: UIContentSizeCategory, name: String)]  {
+        var s: [(value: UIContentSizeCategory, name: String)] = [
+            (.extraSmall, "xsmall"),
+            (.small, "Small"),
+            (.medium, "Medium"),
+            (.large, "Large"),
+            (.extraLarge, "xLarge"),
+            (.extraExtraLarge, "xxLarge"),
+            (.extraExtraExtraLarge, "xxxLarge"),
+            (.accessibilityMedium, "AX1"),
+            (.accessibilityLarge, "AX2"),
+            (.accessibilityExtraLarge, "AX3"),
+            (.accessibilityExtraExtraLarge, "AX4"),
+            (.accessibilityExtraExtraExtraLarge, "AX5"),]
+        
+        if #available(iOS 10.0, *) {
+            s.append((.unspecified, "unspecified"))
+        }
+        return s
+    }
+    
     /// The name of the enum value
     /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
-        switch self {
-        case .extraSmall:
-            return "xsmall"
-        case .small:
-            return "Small"
-        case .medium:
-            return "Medium"
-        case .large:
-            return "Large"
-        case .extraLarge:
-            return "xLarge"
-        case .extraExtraLarge:
-            return "xxLarge"
-        case .extraExtraExtraLarge:
-            return "xxxLarge"
-        case .accessibilityMedium:
-            return "AX1"
-        case .accessibilityLarge:
-            return "AX2"
-        case .accessibilityExtraLarge:
-            return "AX3"
-        case .accessibilityExtraExtraLarge:
-            return "AX4"
-        case .accessibilityExtraExtraExtraLarge:
-            return "AX5"
-        default:
-            break
-        }
+        let size = UIContentSizeCategory
+            .sizes
+            .filter({ $0.value == self })
+            .first
         
-        if #available(iOS 10.0, *) {
-            switch self {
-            case .unspecified:
-                return "unspecified"
-            default:
-                break
-            }
+        if let n = size?.name {
+            return n
         }
-        
-        return "🤔"
+        else {
+            return "🤔"
+        }
     }
 }

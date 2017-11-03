@@ -1,3 +1,4 @@
+
 //
 //  ViewController.swift
 //  DynamicTypeShowcase
@@ -7,6 +8,7 @@
 //
 
 import UIKit
+import TGPControls
 
 class SizesViewController: UIViewController {
     
@@ -49,6 +51,7 @@ class SizesViewController: UIViewController {
             action: #selector(viewDidTap))
         view.addGestureRecognizer(gesture)
     }
+    
     private func updateTitle() {
         let size = UIApplication.shared.preferredContentSizeCategory
         let sizeStr = size.name
@@ -58,6 +61,17 @@ class SizesViewController: UIViewController {
             + (size == .large
                 ? " (Default)"
                 : "")
+    }
+    
+    @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
+        
+        let customViewController = UIStoryboard(
+            name: String(describing: SizesSettingPopoverViewController.self),
+            bundle: nil)
+            .instantiateInitialViewController()
+            as! SizesSettingPopoverViewController
+        
+        customViewController.showPopover(sourceView: sender, sourceRect: sender.bounds)
     }
     
     @objc private func contentSizeCategoryDidChange() {
