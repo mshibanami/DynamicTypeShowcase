@@ -459,9 +459,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KUIPopOver/KUIPopOver.framework",
+				"${BUILT_PRODUCTS_DIR}/TGPControls/TGPControls.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KUIPopOver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TGPControls.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

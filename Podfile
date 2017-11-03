@@ -6,7 +6,9 @@ target 'DynamicTypeShowcase' do
   use_frameworks!
 
   # Pods for DynamicTypeShowcase
-  
+  pod 'KUIPopOver'
+  pod 'TGPControls'
+
   target 'DynamicTypeShowcaseTests' do
     inherit! :search_paths
     # Pods for testing
