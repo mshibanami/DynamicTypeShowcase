@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		283C551D1F1CE3E30078D9E5 /* PreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */; };
+		283C551D1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift */; };
 		283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */; };
 		28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */; };
 		285C173F1F7606F9007C0600 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */; };
 		285C17411F761920007C0600 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285C17401F761920007C0600 /* SnapshotHelper.swift */; };
-		289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */; };
-		289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */; };
+		289897DB1FABD2EF007FE067 /* TextStylesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* TextStylesSettingPopoverViewController.storyboard */; };
+		289897DD1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift */; };
 		28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */; };
 		28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024391F1C939900DF2996 /* AppDelegate.swift */; };
-		28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* SizesViewController.swift */; };
+		28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* TextStylesViewController.swift */; };
 		28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B0243D1F1C939900DF2996 /* Main.storyboard */; };
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
-		28F999841F6EDCBC0029B2F1 /* SizesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */; };
+		28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
 		B063D3C82746FD77C8CAA0FA /* Pods_DynamicTypeShowcase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC54C1DDFD81A947EBC5D823 /* Pods_DynamicTypeShowcase.framework */; };
 		C7FE936B37A1EC6B98B1EB61 /* Pods_DynamicTypeShowcaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */; };
@@ -49,17 +49,17 @@
 		058BF1D7099277E00CB8ED15 /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		16771FCE7F3A962DC3BDD2A8 /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseTests/Pods-DynamicTypeShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D3E1B65FC3AF4D6309643FF /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCell.swift; sourceTree = "<group>"; };
+		283C551C1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesPreviewCell.swift; sourceTree = "<group>"; };
 		283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontTextStyle+Enum.swift"; sourceTree = "<group>"; };
 		28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Enum.swift"; sourceTree = "<group>"; };
 		285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		285C17401F761920007C0600 /* SnapshotHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
-		289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
-		289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesSettingPopoverViewController.swift; sourceTree = "<group>"; };
+		289897DA1FABD2EF007FE067 /* TextStylesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStylesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
+		289897DC1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesSettingPopoverViewController.swift; sourceTree = "<group>"; };
 		28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
 		28B024361F1C939900DF2996 /* DynamicTypeShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024391F1C939900DF2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28B0243B1F1C939900DF2996 /* SizesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesViewController.swift; sourceTree = "<group>"; };
+		28B0243B1F1C939900DF2996 /* TextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesViewController.swift; sourceTree = "<group>"; };
 		28B0243E1F1C939900DF2996 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28B024401F1C939900DF2996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28B024451F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseUITests.swift; sourceTree = "<group>"; };
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
-		28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesViewController.storyboard; sourceTree = "<group>"; };
+		28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStylesViewController.storyboard; sourceTree = "<group>"; };
 		32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTypeShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62587982384F67B0FA56861C /* Pods-DynamicTypeShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcase.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.release.xcconfig"; sourceTree = "<group>"; };
 		65AA6C726E4D6A7426AE21F4 /* Pods-DynamicTypeShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,16 +107,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		288F54CD1FACBB0A007FD48E /* Sizes */ = {
+		288F54CD1FACBB0A007FD48E /* TextStyles */ = {
 			isa = PBXGroup;
 			children = (
-				283C551C1F1CE3E30078D9E5 /* PreviewCell.swift */,
-				289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */,
-				289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */,
-				28F999831F6EDCBC0029B2F1 /* SizesViewController.storyboard */,
-				28B0243B1F1C939900DF2996 /* SizesViewController.swift */,
+				283C551C1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift */,
+				289897DA1FABD2EF007FE067 /* TextStylesSettingPopoverViewController.storyboard */,
+				289897DC1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift */,
+				28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */,
+				28B0243B1F1C939900DF2996 /* TextStylesViewController.swift */,
 			);
-			path = Sizes;
+			path = TextStyles;
 			sourceTree = "<group>";
 		};
 		28B0242D1F1C939900DF2996 = {
@@ -153,7 +153,7 @@
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
 				28B024401F1C939900DF2996 /* Assets.xcassets */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
-				288F54CD1FACBB0A007FD48E /* Sizes */,
+				288F54CD1FACBB0A007FD48E /* TextStyles */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
@@ -316,8 +316,8 @@
 			files = (
 				28B024411F1C939900DF2996 /* Assets.xcassets in Resources */,
 				28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */,
-				28F999841F6EDCBC0029B2F1 /* SizesViewController.storyboard in Resources */,
-				289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */,
+				28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */,
+				289897DB1FABD2EF007FE067 /* TextStylesSettingPopoverViewController.storyboard in Resources */,
 				285C173F1F7606F9007C0600 /* LaunchScreen.storyboard in Resources */,
 				28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */,
 			);
@@ -512,10 +512,10 @@
 			files = (
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
 				28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */,
-				289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */,
-				283C551D1F1CE3E30078D9E5 /* PreviewCell.swift in Sources */,
+				289897DD1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift in Sources */,
+				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
-				28B0243C1F1C939900DF2996 /* SizesViewController.swift in Sources */,
+				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

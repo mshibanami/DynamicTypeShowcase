@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PreviewCell: UITableViewCell {
+class TextStylesPreviewCell: UITableViewCell {
     @IBOutlet private weak var titleLabel: UILabel!
     @IBOutlet private weak var summaryLabel: UILabel!
     @IBOutlet private weak var sampleTextLabel: UILabel!

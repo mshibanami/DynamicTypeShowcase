@@ -9,7 +9,7 @@
 import UIKit
 import TGPControls
 
-class SizesViewController: UIViewController {
+class TextStylesViewController: UIViewController {
 
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
@@ -65,10 +65,10 @@ class SizesViewController: UIViewController {
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
 
         let customViewController = UIStoryboard(
-            name: String(describing: SizesSettingPopoverViewController.self),
+            name: String(describing: TextStylesSettingPopoverViewController.self),
             bundle: nil)
             .instantiateInitialViewController()
-            as! SizesSettingPopoverViewController
+            as! TextStylesSettingPopoverViewController
 
         customViewController.showPopover(sourceView: sender, sourceRect: sender.bounds)
     }
@@ -97,14 +97,14 @@ class SizesViewController: UIViewController {
     }
 }
 
-extension SizesViewController: UITableViewDataSource {
+extension TextStylesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return UIFontTextStyle.values.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView
-            .dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! PreviewCell
+            .dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! TextStylesPreviewCell
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text ?? ""
@@ -113,7 +113,7 @@ extension SizesViewController: UITableViewDataSource {
     }
 }
 
-extension SizesViewController: UITextFieldDelegate {
+extension TextStylesViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
        textField.resignFirstResponder()
        return false

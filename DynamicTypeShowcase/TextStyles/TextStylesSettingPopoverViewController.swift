@@ -1,5 +1,5 @@
 //
-//  SizesSettingPopoverViewController.swift
+//  TextStylesSettingPopoverViewController.swift
 //  DynamicTypeShowcase
 //
 //  Created by abc on 2017/11/03.
@@ -10,7 +10,7 @@ import Foundation
 import KUIPopOver
 import TGPControls
 
-class SizesSettingPopoverViewController: UIViewController {
+class TextStylesSettingPopoverViewController: UIViewController {
     @IBOutlet weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet weak var sizeSlider: TGPDiscreteSlider!
 
@@ -19,7 +19,7 @@ class SizesSettingPopoverViewController: UIViewController {
     }
 }
 
-extension SizesSettingPopoverViewController: KUIPopOverUsable {
+extension TextStylesSettingPopoverViewController: KUIPopOverUsable {
     var contentSize: CGSize {
         return self.view.subviews.first?.bounds.size
             ?? CGSize(width: 300, height: 100)
