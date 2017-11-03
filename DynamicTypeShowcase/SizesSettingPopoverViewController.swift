@@ -13,7 +13,7 @@ import TGPControls
 class SizesSettingPopoverViewController: UIViewController {
     @IBOutlet weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet weak var sizeSlider: TGPDiscreteSlider!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }

@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01414EC71DDDF09E1AD8F6C708CE10F2 /* TGPCamelLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3EEC8606FF384FBF8D25EFC96D126C /* TGPCamelLabels.swift */; };
-		0AD48ED0442CA561A4507C82CAE1D7D9 /* KUIPopOverUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE7BAD8CA9DFE38EEA2F5F6D3FA9AA /* KUIPopOverUsable.swift */; };
+		01414EC71DDDF09E1AD8F6C708CE10F2 /* TGPCamelLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D236828806A359830618111C54D580B /* TGPCamelLabels.swift */; };
+		0AD48ED0442CA561A4507C82CAE1D7D9 /* KUIPopOverUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD056E91BC30FE01304C26E1C8FD7614 /* KUIPopOverUsable.swift */; };
 		2EBE6B74D5F2A0E530660C87E9A4AB21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		32B67BFE876DF09C7C3FD004D4918DEE /* Pods-DynamicTypeShowcaseUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59BFB246584B16906FABB8FAF99E169D /* Pods-DynamicTypeShowcaseUITests-dummy.m */; };
-		3C38C611BB6F4B9E4AECE60FE3523F88 /* TGPDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAC12386F50784C345485486EF082DB /* TGPDiscreteSlider.swift */; };
-		43A590589AC1F477A445B53FE7F4BC2B /* TGPControlsTicksProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9521C9E915BF5D3337F6090F205193FC /* TGPControlsTicksProtocol.swift */; };
+		3C38C611BB6F4B9E4AECE60FE3523F88 /* TGPDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D133698B75D4A0EA320128FC7F53305E /* TGPDiscreteSlider.swift */; };
+		43A590589AC1F477A445B53FE7F4BC2B /* TGPControlsTicksProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBB4820135D009A44F6FF61CAE466FE /* TGPControlsTicksProtocol.swift */; };
 		4B8255610DE9310D73321E57E0DB5597 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		5976A56FE0A1414338640650CE1AF941 /* KUIPopOver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA5B541BFF2B8769703DFF01565704D /* KUIPopOver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E04271AB22A94FDE40ABA653698A362 /* TGPControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBBB3142815BCFC8210F8FD44CC9EBB /* TGPControls-dummy.m */; };
+		5976A56FE0A1414338640650CE1AF941 /* KUIPopOver-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32D8DDDABABA7EB1875DE547213752F5 /* KUIPopOver-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E04271AB22A94FDE40ABA653698A362 /* TGPControls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD22C24FB1EA8918586DB0EE0709515 /* TGPControls-dummy.m */; };
 		81B2CDE8FEF215664A8CD8D62A2C325A /* Pods-DynamicTypeShowcaseTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A01899079594303C4B7E5C74047C6C55 /* Pods-DynamicTypeShowcaseTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8742B7CBD9D5792289C657182140FABE /* Pods-DynamicTypeShowcaseUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3E6B720CCDE0AD89E3E076B5C7462C /* Pods-DynamicTypeShowcaseUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E3B069D89B2D93BC044C429B36B786E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
-		91AB33BA56881ED69BE83141F7656624 /* TGPControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61BC903FD3FFFCF4635EF339EAAFB250 /* TGPControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91AB33BA56881ED69BE83141F7656624 /* TGPControls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A098157FABBCD004FDCF67EC3A1504D /* TGPControls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2C61C92066E7D1256846453B851FA39 /* Pods-DynamicTypeShowcase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC7D77252CB465509B3662911C2C47C /* Pods-DynamicTypeShowcase-dummy.m */; };
 		AA825F9A5AD4502B94A44512E29D2AC9 /* Pods-DynamicTypeShowcaseTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6B7CF8BF0B89415B3AB6DACEB4DD441 /* Pods-DynamicTypeShowcaseTests-dummy.m */; };
 		B9A05C830361A44510D5BA1800B62D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
-		BA65E9D9F724F86B2AD381074451AFB5 /* KUIPopOver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B468D61571A6EB5E6144CB758AEB7B /* KUIPopOver-dummy.m */; };
+		BA65E9D9F724F86B2AD381074451AFB5 /* KUIPopOver-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C294857B297AEAC5164CC7539F6D5F1 /* KUIPopOver-dummy.m */; };
 		BCEA9C3BD77CF24CB272FFBC5627890F /* Pods-DynamicTypeShowcase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3C9C71538214EE02B9D2307DA59927 /* Pods-DynamicTypeShowcase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDF5094969F7647C5551D1CBBD015C90 /* KUIPopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36F42B81101B5CF7C0CDCEB5DE71238F /* KUIPopOver.swift */; };
+		BDF5094969F7647C5551D1CBBD015C90 /* KUIPopOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8459A5CB91FC726CB46988BD9C2CA9 /* KUIPopOver.swift */; };
 		BFE39DB8AA7A2854D476FB6FF5A1DD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		E0ED742005CEF2CEDAC210B72D567F4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -49,56 +49,56 @@
 
 /* Begin PBXFileReference section */
 		001F8BF092A19EDC6602EBDE48BE8B54 /* Pods-DynamicTypeShowcaseTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcaseTests.modulemap"; sourceTree = "<group>"; };
-		0730D266641B926CC364719F23E48227 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3C9C71538214EE02B9D2307DA59927 /* Pods-DynamicTypeShowcase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcase-umbrella.h"; sourceTree = "<group>"; };
 		0B81AF28D5254E07FB3D96372A5CE2A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12D6EC138611B8079AEA6E077C4D5B41 /* KUIPopOver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-prefix.pch"; sourceTree = "<group>"; };
+		0D236828806A359830618111C54D580B /* TGPCamelLabels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPCamelLabels.swift; path = TGPControls/TGPCamelLabels.swift; sourceTree = "<group>"; };
 		177A65E751C25C746DB9F93AB8D32E3E /* Pods-DynamicTypeShowcaseTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseTests-frameworks.sh"; sourceTree = "<group>"; };
+		1DD22C24FB1EA8918586DB0EE0709515 /* TGPControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGPControls-dummy.m"; sourceTree = "<group>"; };
+		22A821130A410C8D01A8579579BE2275 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D2C5BDB0D79683D9EFEDFE1251D2938 /* Pods-DynamicTypeShowcase-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcase-acknowledgements.plist"; sourceTree = "<group>"; };
-		36F42B81101B5CF7C0CDCEB5DE71238F /* KUIPopOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOver.swift; path = KUIPopOver/Classes/KUIPopOver.swift; sourceTree = "<group>"; };
+		2DBB4820135D009A44F6FF61CAE466FE /* TGPControlsTicksProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPControlsTicksProtocol.swift; path = TGPControls/TGPControlsTicksProtocol.swift; sourceTree = "<group>"; };
+		32D8DDDABABA7EB1875DE547213752F5 /* KUIPopOver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-umbrella.h"; sourceTree = "<group>"; };
+		3765D6075F42CB6A10B3E0AAC9AF3F86 /* KUIPopOver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KUIPopOver.xcconfig; sourceTree = "<group>"; };
 		37BF3A90E37B3D01039078F6E48DCCD8 /* Pods_DynamicTypeShowcase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcase.framework; path = "Pods-DynamicTypeShowcase.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A24342504A3182D287603E6E02ACE8C /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4F99BA56E922249170930299C7EB4C47 /* KUIPopOver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KUIPopOver.modulemap; sourceTree = "<group>"; };
-		520F7538A80BE54808FAD64BAA81C42D /* TGPControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-prefix.pch"; sourceTree = "<group>"; };
 		5626490AF75F42BAF8808EF5B4F16093 /* TGPControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TGPControls.framework; path = TGPControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		579754F88ACC7D4525E321CEA3684ADD /* KUIPopOver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KUIPopOver.framework; path = KUIPopOver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59BFB246584B16906FABB8FAF99E169D /* Pods-DynamicTypeShowcaseUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcaseUITests-dummy.m"; sourceTree = "<group>"; };
-		61BC903FD3FFFCF4635EF339EAAFB250 /* TGPControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-umbrella.h"; sourceTree = "<group>"; };
-		6669AD04E5D7AACC461176618710D901 /* TGPControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TGPControls.modulemap; sourceTree = "<group>"; };
+		5A9E3474A4E3F46344C5BCB349A862E6 /* KUIPopOver.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KUIPopOver.modulemap; sourceTree = "<group>"; };
+		6C294857B297AEAC5164CC7539F6D5F1 /* KUIPopOver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KUIPopOver-dummy.m"; sourceTree = "<group>"; };
 		6D03BC22DDDE6E0FD77CF56007FB51F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		712172D8D5551E27BCA4DDE9F716EEB1 /* TGPControls-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-prefix.pch"; sourceTree = "<group>"; };
 		715C555725C50DAE7C19BB109ADE30FE /* Pods-DynamicTypeShowcaseTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseTests-resources.sh"; sourceTree = "<group>"; };
 		7369B9E3DC9A7B00E0C1D22350D09379 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcaseUITests.framework; path = "Pods-DynamicTypeShowcaseUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73B7CC4771B10FEB5D879E039D699BEC /* TGPControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGPControls.xcconfig; sourceTree = "<group>"; };
 		7C88F3864C4F11D0A7DB37D75E12E94F /* Pods-DynamicTypeShowcase-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcase-frameworks.sh"; sourceTree = "<group>"; };
 		7D5427C33BD1B508FC3D97A33F543EB4 /* Pods-DynamicTypeShowcaseTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcaseTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7EA5B541BFF2B8769703DFF01565704D /* KUIPopOver-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-umbrella.h"; sourceTree = "<group>"; };
-		86B468D61571A6EB5E6144CB758AEB7B /* KUIPopOver-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KUIPopOver-dummy.m"; sourceTree = "<group>"; };
-		86DE7BAD8CA9DFE38EEA2F5F6D3FA9AA /* KUIPopOverUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOverUsable.swift; path = KUIPopOver/Classes/KUIPopOverUsable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		946DFE46A62F423B8C6E62212B5194F3 /* Pods-DynamicTypeShowcaseUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcaseUITests.modulemap"; sourceTree = "<group>"; };
-		9521C9E915BF5D3337F6090F205193FC /* TGPControlsTicksProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPControlsTicksProtocol.swift; path = TGPControls/TGPControlsTicksProtocol.swift; sourceTree = "<group>"; };
+		9A098157FABBCD004FDCF67EC3A1504D /* TGPControls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TGPControls-umbrella.h"; sourceTree = "<group>"; };
 		A00252221A73FD3514174E2A37EE409A /* Pods-DynamicTypeShowcaseUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcaseUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A01899079594303C4B7E5C74047C6C55 /* Pods-DynamicTypeShowcaseTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcaseTests-umbrella.h"; sourceTree = "<group>"; };
 		A95634EF740304BB005CEE1E7BD001CC /* Pods-DynamicTypeShowcaseUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseUITests-resources.sh"; sourceTree = "<group>"; };
 		AAD24BC9865387971CA54DDBF5C32DCD /* Pods_DynamicTypeShowcaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DynamicTypeShowcaseTests.framework; path = "Pods-DynamicTypeShowcaseTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9A6B760C5A8AAE16F7CD2961A0960C /* Pods-DynamicTypeShowcase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcase.release.xcconfig"; sourceTree = "<group>"; };
-		ACAC12386F50784C345485486EF082DB /* TGPDiscreteSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPDiscreteSlider.swift; path = TGPControls/TGPDiscreteSlider.swift; sourceTree = "<group>"; };
 		ADD1019EF7A567F16F30388570C7A3B3 /* Pods-DynamicTypeShowcaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseTests.release.xcconfig"; sourceTree = "<group>"; };
 		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		BA739EEDA3333C047B24FC322FC6760B /* Pods-DynamicTypeShowcaseUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DynamicTypeShowcaseUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BDBBB3142815BCFC8210F8FD44CC9EBB /* TGPControls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TGPControls-dummy.m"; sourceTree = "<group>"; };
 		C540155F2512F2274B8262A061C86147 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C68DC38B00D1F5A78DC1F5C4AA0F1AB5 /* Pods-DynamicTypeShowcase-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcase-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CAAE1D82CA6EAE91240A299AD6C033D0 /* KUIPopOver.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KUIPopOver.xcconfig; sourceTree = "<group>"; };
+		CC8459A5CB91FC726CB46988BD9C2CA9 /* KUIPopOver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOver.swift; path = KUIPopOver/Classes/KUIPopOver.swift; sourceTree = "<group>"; };
+		CD056E91BC30FE01304C26E1C8FD7614 /* KUIPopOverUsable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KUIPopOverUsable.swift; path = KUIPopOver/Classes/KUIPopOverUsable.swift; sourceTree = "<group>"; };
 		CFC7D77252CB465509B3662911C2C47C /* Pods-DynamicTypeShowcase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcase-dummy.m"; sourceTree = "<group>"; };
+		D133698B75D4A0EA320128FC7F53305E /* TGPDiscreteSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPDiscreteSlider.swift; path = TGPControls/TGPDiscreteSlider.swift; sourceTree = "<group>"; };
 		D24AC9534D6E81A3D34165503062E359 /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D29087E1F7819EF43DF432DC61A99B8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E177744425A1034AAFA4E3D3BA460F /* KUIPopOver-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KUIPopOver-prefix.pch"; sourceTree = "<group>"; };
 		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DA3E6B720CCDE0AD89E3E076B5C7462C /* Pods-DynamicTypeShowcaseUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DynamicTypeShowcaseUITests-umbrella.h"; sourceTree = "<group>"; };
+		DC00FFD2542FB77C0135C304279917D6 /* TGPControls.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TGPControls.xcconfig; sourceTree = "<group>"; };
 		DCBDF6D6F08A91AF64E7A804D9762795 /* Pods-DynamicTypeShowcase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-DynamicTypeShowcase.modulemap"; sourceTree = "<group>"; };
 		DE0D38D23BB5095CA8CE892C0381B1C7 /* Pods-DynamicTypeShowcaseTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DynamicTypeShowcaseTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6B7CF8BF0B89415B3AB6DACEB4DD441 /* Pods-DynamicTypeShowcaseTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DynamicTypeShowcaseTests-dummy.m"; sourceTree = "<group>"; };
-		E6C6A66DA13E2C6B6D14FE615A3E3B8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB3EEC8606FF384FBF8D25EFC96D126C /* TGPCamelLabels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TGPCamelLabels.swift; path = TGPControls/TGPCamelLabels.swift; sourceTree = "<group>"; };
+		E877F4AEF46EF0401529E12BA19AD2DE /* TGPControls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TGPControls.modulemap; sourceTree = "<group>"; };
 		F8BECAC3FE4C970DDF48C28B6F39B90A /* Pods-DynamicTypeShowcase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcase.debug.xcconfig"; sourceTree = "<group>"; };
 		F9AB0A73B2D84E4D05D7EF709589E79A /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DynamicTypeShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		FBCB2E9A39E3C050D7CC67A7B91ABA96 /* Pods-DynamicTypeShowcaseUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DynamicTypeShowcaseUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -150,6 +150,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11BCABEC50ED14C6BF59A4C0E49A7B1A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29087E1F7819EF43DF432DC61A99B8E /* Info.plist */,
+				5A9E3474A4E3F46344C5BCB349A862E6 /* KUIPopOver.modulemap */,
+				3765D6075F42CB6A10B3E0AAC9AF3F86 /* KUIPopOver.xcconfig */,
+				6C294857B297AEAC5164CC7539F6D5F1 /* KUIPopOver-dummy.m */,
+				D5E177744425A1034AAFA4E3D3BA460F /* KUIPopOver-prefix.pch */,
+				32D8DDDABABA7EB1875DE547213752F5 /* KUIPopOver-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KUIPopOver";
+			sourceTree = "<group>";
+		};
 		2108B4308A1EC01B837B53A9980115AF /* Pods-DynamicTypeShowcaseTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,18 +182,12 @@
 			path = "Target Support Files/Pods-DynamicTypeShowcaseTests";
 			sourceTree = "<group>";
 		};
-		2B64737C7AA8A76DF6A46127B30E1F05 /* Support Files */ = {
+		41DE09DF93DE471C16C56A7353E99027 /* SwiftLint */ = {
 			isa = PBXGroup;
 			children = (
-				E6C6A66DA13E2C6B6D14FE615A3E3B8F /* Info.plist */,
-				6669AD04E5D7AACC461176618710D901 /* TGPControls.modulemap */,
-				73B7CC4771B10FEB5D879E039D699BEC /* TGPControls.xcconfig */,
-				BDBBB3142815BCFC8210F8FD44CC9EBB /* TGPControls-dummy.m */,
-				520F7538A80BE54808FAD64BAA81C42D /* TGPControls-prefix.pch */,
-				61BC903FD3FFFCF4635EF339EAAFB250 /* TGPControls-umbrella.h */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TGPControls";
+			name = SwiftLint;
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -217,36 +225,16 @@
 			path = "Target Support Files/Pods-DynamicTypeShowcase";
 			sourceTree = "<group>";
 		};
-		5FAD6C7BFF6C965726FE43BD8B118179 /* Pods */ = {
+		5956510E4BEDFA054DC5D63E96AAE6FE /* TGPControls */ = {
 			isa = PBXGroup;
 			children = (
-				628033566AEC9DFD6BA6E9CA2BD1A16F /* KUIPopOver */,
-				62698C75EB1C0C81AC4ADC52EB3441FF /* TGPControls */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		62698C75EB1C0C81AC4ADC52EB3441FF /* TGPControls */ = {
-			isa = PBXGroup;
-			children = (
-				EB3EEC8606FF384FBF8D25EFC96D126C /* TGPCamelLabels.swift */,
-				9521C9E915BF5D3337F6090F205193FC /* TGPControlsTicksProtocol.swift */,
-				ACAC12386F50784C345485486EF082DB /* TGPDiscreteSlider.swift */,
-				2B64737C7AA8A76DF6A46127B30E1F05 /* Support Files */,
+				0D236828806A359830618111C54D580B /* TGPCamelLabels.swift */,
+				2DBB4820135D009A44F6FF61CAE466FE /* TGPControlsTicksProtocol.swift */,
+				D133698B75D4A0EA320128FC7F53305E /* TGPDiscreteSlider.swift */,
+				D0B9E5577D005D05B3D91C5061450951 /* Support Files */,
 			);
 			name = TGPControls;
 			path = TGPControls;
-			sourceTree = "<group>";
-		};
-		628033566AEC9DFD6BA6E9CA2BD1A16F /* KUIPopOver */ = {
-			isa = PBXGroup;
-			children = (
-				36F42B81101B5CF7C0CDCEB5DE71238F /* KUIPopOver.swift */,
-				86DE7BAD8CA9DFE38EEA2F5F6D3FA9AA /* KUIPopOverUsable.swift */,
-				F315382AC99958978B75F494172010CA /* Support Files */,
-			);
-			name = KUIPopOver;
-			path = KUIPopOver;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -254,10 +242,31 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				5FAD6C7BFF6C965726FE43BD8B118179 /* Pods */,
+				8C3A1940E9A5E7B4FFB7AB7565E28305 /* Pods */,
 				C24A338351136E39575753DC1BB36091 /* Products */,
 				F5EF3762B45E0BA0537180A739D5EFAF /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8C3A1940E9A5E7B4FFB7AB7565E28305 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DD9EF10ECAD4C12E1C3A673FB6AEA38 /* KUIPopOver */,
+				41DE09DF93DE471C16C56A7353E99027 /* SwiftLint */,
+				5956510E4BEDFA054DC5D63E96AAE6FE /* TGPControls */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DD9EF10ECAD4C12E1C3A673FB6AEA38 /* KUIPopOver */ = {
+			isa = PBXGroup;
+			children = (
+				CC8459A5CB91FC726CB46988BD9C2CA9 /* KUIPopOver.swift */,
+				CD056E91BC30FE01304C26E1C8FD7614 /* KUIPopOverUsable.swift */,
+				11BCABEC50ED14C6BF59A4C0E49A7B1A /* Support Files */,
+			);
+			name = KUIPopOver;
+			path = KUIPopOver;
 			sourceTree = "<group>";
 		};
 		C24A338351136E39575753DC1BB36091 /* Products */ = {
@@ -270,6 +279,20 @@
 				5626490AF75F42BAF8808EF5B4F16093 /* TGPControls.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B9E5577D005D05B3D91C5061450951 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22A821130A410C8D01A8579579BE2275 /* Info.plist */,
+				E877F4AEF46EF0401529E12BA19AD2DE /* TGPControls.modulemap */,
+				DC00FFD2542FB77C0135C304279917D6 /* TGPControls.xcconfig */,
+				1DD22C24FB1EA8918586DB0EE0709515 /* TGPControls-dummy.m */,
+				712172D8D5551E27BCA4DDE9F716EEB1 /* TGPControls-prefix.pch */,
+				9A098157FABBCD004FDCF67EC3A1504D /* TGPControls-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TGPControls";
 			sourceTree = "<group>";
 		};
 		DCCCD3ABAB0052EE1949CB08681B4F1D /* Pods-DynamicTypeShowcaseUITests */ = {
@@ -288,20 +311,6 @@
 			);
 			name = "Pods-DynamicTypeShowcaseUITests";
 			path = "Target Support Files/Pods-DynamicTypeShowcaseUITests";
-			sourceTree = "<group>";
-		};
-		F315382AC99958978B75F494172010CA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0730D266641B926CC364719F23E48227 /* Info.plist */,
-				4F99BA56E922249170930299C7EB4C47 /* KUIPopOver.modulemap */,
-				CAAE1D82CA6EAE91240A299AD6C033D0 /* KUIPopOver.xcconfig */,
-				86B468D61571A6EB5E6144CB758AEB7B /* KUIPopOver-dummy.m */,
-				12D6EC138611B8079AEA6E077C4D5B41 /* KUIPopOver-prefix.pch */,
-				7EA5B541BFF2B8769703DFF01565704D /* KUIPopOver-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/KUIPopOver";
 			sourceTree = "<group>";
 		};
 		F5EF3762B45E0BA0537180A739D5EFAF /* Targets Support Files */ = {
@@ -543,7 +552,7 @@
 /* Begin XCBuildConfiguration section */
 		595093D2A1ECCC4BF3D125FBAB5D08E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B7CC4771B10FEB5D879E039D699BEC /* TGPControls.xcconfig */;
+			baseConfigurationReference = DC00FFD2542FB77C0135C304279917D6 /* TGPControls.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -694,7 +703,7 @@
 		};
 		7DF5491F87316681078C1B8283C597E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAAE1D82CA6EAE91240A299AD6C033D0 /* KUIPopOver.xcconfig */;
+			baseConfigurationReference = 3765D6075F42CB6A10B3E0AAC9AF3F86 /* KUIPopOver.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -760,7 +769,7 @@
 		};
 		A967F89ADF885D529A947CC6530E9693 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B7CC4771B10FEB5D879E039D699BEC /* TGPControls.xcconfig */;
+			baseConfigurationReference = DC00FFD2542FB77C0135C304279917D6 /* TGPControls.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -951,7 +960,7 @@
 		};
 		ED18A520547C110FAABC75C7E363161A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAAE1D82CA6EAE91240A299AD6C033D0 /* KUIPopOver.xcconfig */;
+			baseConfigurationReference = 3765D6075F42CB6A10B3E0AAC9AF3F86 /* KUIPopOver.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

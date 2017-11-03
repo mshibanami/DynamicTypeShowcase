@@ -9,8 +9,8 @@
 import UIKit
 
 extension UIContentSizeCategory {
-    
-    public static var sizes: [(value: UIContentSizeCategory, name: String)]  {
+
+    public static var sizes: [(value: UIContentSizeCategory, name: String)] {
         var s: [(value: UIContentSizeCategory, name: String)] = [
             (.extraSmall, "xsmall"),
             (.small, "Small"),
@@ -23,14 +23,14 @@ extension UIContentSizeCategory {
             (.accessibilityLarge, "AX2"),
             (.accessibilityExtraLarge, "AX3"),
             (.accessibilityExtraExtraLarge, "AX4"),
-            (.accessibilityExtraExtraExtraLarge, "AX5"),]
-        
+            (.accessibilityExtraExtraExtraLarge, "AX5") ]
+
         if #available(iOS 10.0, *) {
             s.append((.unspecified, "unspecified"))
         }
         return s
     }
-    
+
     /// The name of the enum value
     /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
@@ -38,11 +38,10 @@ extension UIContentSizeCategory {
             .sizes
             .filter({ $0.value == self })
             .first
-        
+
         if let n = size?.name {
             return n
-        }
-        else {
+        } else {
             return "🤔"
         }
     }

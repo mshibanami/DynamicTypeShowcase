@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIFontTextStyle {
-    
+
     /// The name of the enum value
     public var name: String {
         switch self {
@@ -36,7 +36,7 @@ extension UIFontTextStyle {
         default:
             break
         }
-        
+
         if #available(iOS 11.0, *) {
             switch self {
             case .largeTitle:
@@ -45,18 +45,18 @@ extension UIFontTextStyle {
                 break
             }
         }
-        
+
         return "☠"
     }
-    
+
     /// All enum values
     public static var values: [UIFontTextStyle] {
         var v: [UIFontTextStyle] = []
-        
+
         if #available(iOS 11.0, *) {
             v.append(.largeTitle)
         }
-        
+
         v.append(contentsOf: [
             .title1,
             .title2,
@@ -67,9 +67,9 @@ extension UIFontTextStyle {
             .callout,
             .footnote,
             .caption1,
-            .caption2,
+            .caption2
         ])
-        
+
         return v
     }
 }
