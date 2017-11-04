@@ -161,15 +161,15 @@
 		28B024381F1C939900DF2996 /* DynamicTypeShowcase */ = {
 			isa = PBXGroup;
 			children = (
-				2804B6D81FADF86500DCA192 /* Extensions */,
-				28B024391F1C939900DF2996 /* AppDelegate.swift */,
-				28B024401F1C939900DF2996 /* Assets.xcassets */,
+				288D5FAE1FACED070080F44D /* Settings.bundle */,
 				28B024451F1C939900DF2996 /* Info.plist */,
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
-				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
+				28B024391F1C939900DF2996 /* AppDelegate.swift */,
 				28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */,
-				288D5FAE1FACED070080F44D /* Settings.bundle */,
+				28B024401F1C939900DF2996 /* Assets.xcassets */,
+				2804B6D81FADF86500DCA192 /* Extensions */,
+				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 				288F54CD1FACBB0A007FD48E /* TextStyles */,
 			);
 			path = DynamicTypeShowcase;
