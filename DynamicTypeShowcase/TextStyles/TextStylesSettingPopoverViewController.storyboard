@@ -103,7 +103,7 @@
                     </view>
                     <size key="freeformSize" width="300" height="300"/>
                     <connections>
-                        <outlet property="sizeSlider" destination="Ehw-d3-Ytk" id="Y4W-P0-Mjg"/>
+                        <outlet property="sizesSlider" destination="Ehw-d3-Ytk" id="Sw8-bO-2rw"/>
                         <outlet property="useSizeForSceneSwitch" destination="p6R-06-AbY" id="jtJ-aS-sR0"/>
                     </connections>
                 </viewController>

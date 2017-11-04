@@ -8,6 +8,8 @@
 
 import UIKit
 import TGPControls
+import RxSwift
+import RxCocoa
 
 class TextStylesViewController: UIViewController {
 
@@ -64,13 +66,16 @@ class TextStylesViewController: UIViewController {
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
 
-        let customViewController = UIStoryboard(
+        let vc = UIStoryboard(
             name: String(describing: TextStylesSettingPopoverViewController.self),
             bundle: nil)
             .instantiateInitialViewController()
             as! TextStylesSettingPopoverViewController
 
-        customViewController.showPopover(sourceView: sender, sourceRect: sender.bounds)
+        vc.showPopover(
+            sourceView: sender,
+            sourceRect: sender.bounds)
+
     }
 
     @objc private func contentSizeCategoryDidChange() {

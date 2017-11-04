@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */; };
 		283C551D1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift */; };
 		283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */; };
 		28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */; };
@@ -50,6 +51,7 @@
 		058BF1D7099277E00CB8ED15 /* Pods-DynamicTypeShowcaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.release.xcconfig"; sourceTree = "<group>"; };
 		16771FCE7F3A962DC3BDD2A8 /* Pods-DynamicTypeShowcaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseTests/Pods-DynamicTypeShowcaseTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1D3E1B65FC3AF4D6309643FF /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TGPControls+Rx.swift"; sourceTree = "<group>"; };
 		283C551C1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesPreviewCell.swift; sourceTree = "<group>"; };
 		283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontTextStyle+Enum.swift"; sourceTree = "<group>"; };
 		28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentSizeCategory+Enum.swift"; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 				288D5FAE1FACED070080F44D /* Settings.bundle */,
+				283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
@@ -495,11 +498,15 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KUIPopOver/KUIPopOver.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/TGPControls/TGPControls.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KUIPopOver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TGPControls.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +524,7 @@
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
 				28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */,
 				289897DD1FABE073007FE067 /* TextStylesSettingPopoverViewController.swift in Sources */,
+				283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,

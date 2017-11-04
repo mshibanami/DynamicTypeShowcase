@@ -5,6 +5,8 @@ target 'DynamicTypeShowcase' do
 
   pod 'KUIPopOver'
   pod 'TGPControls'
+  pod 'RxCocoa'
+  pod 'RxSwift'
   pod 'SwiftLint'
 
   target 'DynamicTypeShowcaseTests' do
