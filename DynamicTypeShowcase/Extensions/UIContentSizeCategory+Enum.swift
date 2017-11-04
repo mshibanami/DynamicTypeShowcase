@@ -10,24 +10,24 @@ import UIKit
 
 extension UIContentSizeCategory {
 
-    public static var sizes: [(value: UIContentSizeCategory, name: String)] {
-        var s: [(value: UIContentSizeCategory, name: String)] = [
-            (.extraSmall, "xsmall"),
+    /**
+     * Valid UIContentSizeCategories.
+     * `.unspecified` isn't included in this.
+     */
+    public static var validSizes: [(value: UIContentSizeCategory, name: String)] {
+        let s: [(value: UIContentSizeCategory, name: String)] = [
+            (.extraSmall, "XSmall"),
             (.small, "Small"),
             (.medium, "Medium"),
             (.large, "Large"),
-            (.extraLarge, "xLarge"),
-            (.extraExtraLarge, "xxLarge"),
-            (.extraExtraExtraLarge, "xxxLarge"),
+            (.extraLarge, "XLarge"),
+            (.extraExtraLarge, "XXLarge"),
+            (.extraExtraExtraLarge, "XXXLarge"),
             (.accessibilityMedium, "AX1"),
             (.accessibilityLarge, "AX2"),
             (.accessibilityExtraLarge, "AX3"),
             (.accessibilityExtraExtraLarge, "AX4"),
             (.accessibilityExtraExtraExtraLarge, "AX5") ]
-
-        if #available(iOS 10.0, *) {
-            s.append((.unspecified, "unspecified"))
-        }
         return s
     }
 
@@ -35,7 +35,7 @@ extension UIContentSizeCategory {
     /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
         let size = UIContentSizeCategory
-            .sizes
+            .validSizes
             .filter({ $0.value == self })
             .first
 
@@ -45,4 +45,9 @@ extension UIContentSizeCategory {
             return "🤔"
         }
     }
+
+    public var isDefault: Bool {
+        return self == .large
+    }
+
 }
