@@ -17,6 +17,26 @@ class TextStylesViewController: UIViewController {
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet private weak var tableView: UITableView!
 
+    private var contentSizeCategory: UIContentSizeCategory? {
+        didSet {
+            print("csc: \(contentSizeCategory?.name)")
+        }
+    }
+
+    private let disposeBag = DisposeBag()
+
+    override var traitCollection: UITraitCollection {
+        var traits = [super.traitCollection]
+
+        if let contentSizeCategory = self.contentSizeCategory {
+            traits.append(
+                UITraitCollection(
+                    preferredContentSizeCategory: contentSizeCategory))
+        }
+
+        return UITraitCollection(traitsFrom: traits)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,17 +45,18 @@ class TextStylesViewController: UIViewController {
 
     private func setup() {
         updateTitle()
+        setupTextField()
+    }
 
-        NotificationCenter
-            .default
+    private func setupTextField() {
+        NotificationCenter.default
             .addObserver(
                 self,
                 selector: #selector(keyboardWillChangeFrame(_:)),
                 name: .UIKeyboardWillChangeFrame,
                 object: nil)
 
-        NotificationCenter
-            .default
+        NotificationCenter.default
             .addObserver(
                 self,
                 selector: #selector(contentSizeCategoryDidChange),
@@ -47,10 +68,10 @@ class TextStylesViewController: UIViewController {
             action: #selector(textFieldDidChange(_:)),
             for: .editingChanged)
 
-        let gesture = UITapGestureRecognizer(
-            target: self,
-            action: #selector(viewDidTap))
-        view.addGestureRecognizer(gesture)
+        view.addGestureRecognizer(
+            UITapGestureRecognizer(
+                target: self,
+                action: #selector(viewDidTap)))
     }
 
     private func updateTitle() {
@@ -59,23 +80,29 @@ class TextStylesViewController: UIViewController {
 
         title = "Size: "
             + sizeStr
-            + (size == .large
+            + (size.isDefault
                 ? " (Default)"
                 : "")
     }
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
-
         let vc = UIStoryboard(
             name: String(describing: TextStylesSettingPopoverViewController.self),
             bundle: nil)
             .instantiateInitialViewController()
             as! TextStylesSettingPopoverViewController
 
+        vc.contentSizeCategory.value = self.contentSizeCategory
+        vc.contentSizeCategory
+            .asObservable()
+            .subscribe(onNext: {[weak self] in
+                self?.contentSizeCategory = $0
+            })
+            .disposed(by: self.disposeBag)
+
         vc.showPopover(
             sourceView: sender,
             sourceRect: sender.bounds)
-
     }
 
     @objc private func contentSizeCategoryDidChange() {
