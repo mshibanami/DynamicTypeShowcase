@@ -7,19 +7,29 @@ PODS:
   - TGPControls (4.0.0)
 
 DEPENDENCIES:
-  - KUIPopOver
+  - KUIPopOver (from `https://github.com/mshibanami/KUIPopOver`, branch `popover-not-working-on-plus-size`)
   - RxCocoa
   - RxSwift
   - SwiftLint
   - TGPControls
 
+EXTERNAL SOURCES:
+  KUIPopOver:
+    :branch: popover-not-working-on-plus-size
+    :git: https://github.com/mshibanami/KUIPopOver
+
+CHECKOUT OPTIONS:
+  KUIPopOver:
+    :commit: dfe341125456f007dd2cf3d39a4285aff4c5bac3
+    :git: https://github.com/mshibanami/KUIPopOver
+
 SPEC CHECKSUMS:
-  KUIPopOver: 2c18c6c57fd75667001887c05650d77a42c622e0
+  KUIPopOver: f8d46411bdfeba142ebb81c58c513bcb35541f39
   RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   SwiftLint: 1b670ce79284c76520f84060e87d645078fd32fa
   TGPControls: d7ab5a338746c100b2ae57f6b6cedee7151f116a
 
-PODFILE CHECKSUM: 761cae07a8a255e856e2299f2cc699122e40501e
+PODFILE CHECKSUM: 87ceb153aa8c89e3012ff10e1c49a93dfbe81abb
 
 COCOAPODS: 1.3.1

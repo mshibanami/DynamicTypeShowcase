@@ -3,7 +3,7 @@ platform :ios, '9.0'
 target 'DynamicTypeShowcase' do
   use_frameworks!
 
-  pod 'KUIPopOver'
+  pod 'KUIPopOver', git: 'https://github.com/mshibanami/KUIPopOver', branch: 'popover-not-working-on-plus-size'
   pod 'TGPControls'
   pod 'RxCocoa'
   pod 'RxSwift'
