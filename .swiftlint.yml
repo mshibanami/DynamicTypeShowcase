@@ -2,6 +2,9 @@ excluded:
   - Pods
   - fastlane
 
+disabled_rules:
+  - identifier_name
+
 line_length:
   ignores_function_declarations: true
   ignores_comments: true
