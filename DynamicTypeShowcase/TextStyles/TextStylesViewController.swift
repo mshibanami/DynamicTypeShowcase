@@ -19,27 +19,25 @@ class TextStylesViewController: UIViewController {
 
     private var contentSizeCategory: UIContentSizeCategory? {
         didSet {
-            print("csc: \(contentSizeCategory?.name)")
+            self.tableView.reloadData()
+            self.updateTitle()
         }
     }
 
     private let disposeBag = DisposeBag()
 
     override var traitCollection: UITraitCollection {
-        var traits = [super.traitCollection]
+        var traits: [UITraitCollection] = [super.traitCollection]
 
         if let contentSizeCategory = self.contentSizeCategory {
-            traits.append(
-                UITraitCollection(
-                    preferredContentSizeCategory: contentSizeCategory))
+            traits.append(UITraitCollection(
+                preferredContentSizeCategory: contentSizeCategory))
         }
-
         return UITraitCollection(traitsFrom: traits)
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         setup()
     }
 
@@ -75,7 +73,8 @@ class TextStylesViewController: UIViewController {
     }
 
     private func updateTitle() {
-        let size = UIApplication.shared.preferredContentSizeCategory
+        let size = contentSizeCategory
+            ?? UIApplication.shared.preferredContentSizeCategory
         let sizeStr = size.name
 
         title = "Size: "
@@ -135,11 +134,13 @@ extension TextStylesViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView
-            .dequeueReusableCell(withIdentifier: "PreviewCell", for: indexPath) as! TextStylesPreviewCell
+        let cell = tableView.dequeueReusableCell(
+            withIdentifier: "TextStylesPreviewCell",
+            for: indexPath) as! TextStylesPreviewCell
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text ?? ""
+        cell.contentSizeCategory = self.contentSizeCategory
 
         return cell
     }
@@ -147,7 +148,7 @@ extension TextStylesViewController: UITableViewDataSource {
 
 extension TextStylesViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-       textField.resignFirstResponder()
-       return false
+        textField.resignFirstResponder()
+        return false
     }
 }

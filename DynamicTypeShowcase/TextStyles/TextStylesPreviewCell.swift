@@ -20,6 +20,22 @@ class TextStylesPreviewCell: UITableViewCell {
         }
     }
 
+    var contentSizeCategory: UIContentSizeCategory? {
+        didSet {
+            updateControls()
+        }
+    }
+
+    override var traitCollection: UITraitCollection {
+        var traits: [UITraitCollection] = [super.traitCollection]
+
+        if let contentSizeCategory = self.contentSizeCategory {
+            traits.append(UITraitCollection(
+                preferredContentSizeCategory: contentSizeCategory))
+        }
+        return UITraitCollection(traitsFrom: traits)
+    }
+
     public var sampleText: String = "" {
         didSet {
             updateControls()
@@ -32,7 +48,9 @@ class TextStylesPreviewCell: UITableViewCell {
             : sampleText
 
         if let style = fontTextStyle {
-            let font = UIFont.preferredFont(forTextStyle: style)
+            let font = UIFont.preferredFont(
+                forTextStyle: style,
+                compatibleWith: traitCollection)
 
             titleLabel.text = style.name
             sampleTextLabel.font = font

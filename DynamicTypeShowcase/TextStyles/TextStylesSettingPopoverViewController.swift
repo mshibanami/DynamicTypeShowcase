@@ -63,10 +63,11 @@ class TextStylesSettingPopoverViewController: UIViewController {
 
         self.useSizeForSceneSwitch.rx.isOn
             .asDriver()
+            .skip(1)
             .drive(onNext: { [weak self] in
                 self?.contentSizeCategory.value = $0
-                    ? nil
-                    : .large
+                    ? .large
+                    : nil
             })
             .disposed(by: self.disposeBag)
 
