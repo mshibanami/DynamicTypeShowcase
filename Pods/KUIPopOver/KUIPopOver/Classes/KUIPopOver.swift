@@ -41,7 +41,7 @@ extension KUIPopOverUsable where Self: UIView {
         return frame.size
     }
     
-    public func showPopover(sourceView: UIView, sourceRect: CGRect) {
+    public func showPopover(sourceView: UIView, sourceRect: CGRect? = nil) {
         let usableViewController = KUIPopOverUsableViewController(popOverUsable: self)
         usableViewController.showPopover(sourceView: sourceView, sourceRect: sourceRect)
         onDismissHandler = { [weak self] animated in
@@ -77,8 +77,9 @@ extension KUIPopOverUsable where Self: UIViewController {
     private var popOverUsableNavigationController: KUIPopOverUsableNavigationController {
         let naviController = KUIPopOverUsableNavigationController(rootViewController: self)
         naviController.modalPresentationStyle = .popover
-        naviController.popoverPresentationController?.permittedArrowDirections = arrowDirection
         naviController.popoverPresentationController?.delegate = KUIPopOverDelegation.shared
+        naviController.popoverPresentationController?.backgroundColor = popOverBackgroundColor
+        naviController.popoverPresentationController?.permittedArrowDirections = arrowDirection
         return naviController
     }
     
@@ -86,13 +87,14 @@ extension KUIPopOverUsable where Self: UIViewController {
         modalPresentationStyle = .popover
         preferredContentSize = contentSize
         popoverPresentationController?.delegate = KUIPopOverDelegation.shared
+        popoverPresentationController?.backgroundColor = popOverBackgroundColor
         popoverPresentationController?.permittedArrowDirections = arrowDirection
     }
     
-    public func setupPopover(sourceView: UIView, sourceRect: CGRect) {
+    public func setupPopover(sourceView: UIView, sourceRect: CGRect? = nil) {
         setup()
         popoverPresentationController?.sourceView = sourceView
-        popoverPresentationController?.sourceRect = sourceRect
+        popoverPresentationController?.sourceRect = sourceRect ?? sourceView.bounds
     }
     
     public func setupPopover(barButtonItem: UIBarButtonItem) {
@@ -100,15 +102,15 @@ extension KUIPopOverUsable where Self: UIViewController {
         popoverPresentationController?.barButtonItem = barButtonItem
     }
     
-    public func showPopover(sourceView: UIView, sourceRect: CGRect) {
+    public func showPopover(sourceView: UIView, sourceRect: CGRect? = nil) {
         setupPopover(sourceView: sourceView, sourceRect: sourceRect)
         rootViewController?.present(self, animated: true, completion: nil)
     }
     
-    public func showPopover(withNavigationController sourceView: UIView, sourceRect: CGRect) {
+    public func showPopover(withNavigationController sourceView: UIView, sourceRect: CGRect? = nil) {
         let naviController = popOverUsableNavigationController
         naviController.popoverPresentationController?.sourceView = sourceView
-        naviController.popoverPresentationController?.sourceRect = sourceRect
+        naviController.popoverPresentationController?.sourceRect = sourceRect ?? sourceView.bounds
         rootViewController?.present(naviController, animated: true, completion: nil)
     }
     
@@ -150,6 +152,10 @@ private final class KUIPopOverUsableViewController: UIViewController, KUIPopOver
     
     var contentView: UIView {
         return view
+    }
+    
+    var popOverBackgroundColor: UIColor? {
+        return popOverUsable.popOverBackgroundColor
     }
     
     var arrowDirection: UIPopoverArrowDirection {
