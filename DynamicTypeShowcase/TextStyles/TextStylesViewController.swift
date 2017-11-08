@@ -91,11 +91,20 @@ class TextStylesViewController: UIViewController {
             .instantiateInitialViewController()
             as! TextStylesSettingPopoverViewController
 
-        vc.contentSizeCategory.value = self.contentSizeCategory
-        vc.contentSizeCategory
-            .asObservable()
-            .subscribe(onNext: {[weak self] in
-                self?.contentSizeCategory = $0
+        if let category = self.contentSizeCategory {
+            vc.contentSizeCategory.value = category
+        }
+        vc.usesSizeForScene.value = (self.contentSizeCategory != nil)
+
+        Observable.combineLatest(
+            vc.contentSizeCategory.asObservable(),
+            vc.usesSizeForScene.asObservable()) { category, _ in
+                return category
+            }
+            .subscribe(onNext: {[weak self, weak vc] in
+                self?.contentSizeCategory = (vc?.usesSizeForScene.value ?? false)
+                    ? $0
+                    : nil
             })
             .disposed(by: self.disposeBag)
 

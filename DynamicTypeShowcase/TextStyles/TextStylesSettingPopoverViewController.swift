@@ -17,7 +17,8 @@ class TextStylesSettingPopoverViewController: UIViewController {
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
     @IBOutlet weak var sizesSliderStackView: UIStackView!
 
-    let contentSizeCategory = Variable<UIContentSizeCategory?>(nil)
+    let usesSizeForScene = Variable<Bool>(false)
+    let contentSizeCategory = Variable<UIContentSizeCategory>(.large)
 
     lazy private var sizeSliderIndex: Observable<Int?> = {
         contentSizeCategory.asObservable()
@@ -37,11 +38,21 @@ class TextStylesSettingPopoverViewController: UIViewController {
         sizesSlider.tickCount
             = UIContentSizeCategory.validSizes.count
 
-        self.contentSizeCategory
+        self.usesSizeForScene
             .asObservable()
             .observeOn(MainScheduler.instance)
-            .map({ $0 != nil })
             .bind(to: self.useSizeForSceneSwitch.rx.isOn)
+            .disposed(by: self.disposeBag)
+
+        self.usesSizeForScene
+            .asDriver()
+            .skip(1)
+            .drive(onNext: { [weak self] in
+//                self?.contentSizeCategory.value = $0
+//                    ? .large
+//                    : nil
+                self?.sizesSliderStackView.isHidden = !$0
+            })
             .disposed(by: self.disposeBag)
 
         self.contentSizeCategory
@@ -50,33 +61,32 @@ class TextStylesSettingPopoverViewController: UIViewController {
                 guard let `self` = self else {
                     return
                 }
-
-                self.sizesSlider.value =
-                    CGFloat(UIContentSizeCategory.validSizes
+                self.sizesSlider.value
+                    = CGFloat(UIContentSizeCategory.validSizes
                         .index(where: { $0.value == size })
                         ?? -1)
-
-                self.sizesSliderStackView.isHidden = (size == nil)
             })
             .disposed(by: self.disposeBag)
 
         self.useSizeForSceneSwitch.rx.isOn
-            .asDriver()
-            .skip(1)
-            .drive(onNext: { [weak self] in
-                self?.contentSizeCategory.value = $0
-                    ? .large
-                    : nil
-            })
+            .asObservable()
+            .observeOn(MainScheduler.instance)
+            .bind(to: self.usesSizeForScene)
             .disposed(by: self.disposeBag)
 
         self.sizesSlider.rx.value
             .distinctUntilChanged()
             .subscribe(onNext: { [weak self] in
-                self?.contentSizeCategory.value
-                    = UIContentSizeCategory
+                guard let `self` = self,
+                    let category = UIContentSizeCategory
                         .validSizes[optional: Int($0)]?
-                        .value
+                        .value else {
+                        return
+                }
+
+                if self.usesSizeForScene.value {
+                    self.contentSizeCategory.value = category
+                }
             })
             .disposed(by: self.disposeBag)
     }
