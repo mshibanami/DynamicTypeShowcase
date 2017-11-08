@@ -15,6 +15,7 @@ import RxCocoa
 class TextStylesSettingPopoverViewController: UIViewController {
     @IBOutlet private weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
+    @IBOutlet weak var sizesSliderStackView: UIStackView!
 
     let contentSizeCategory = Variable<UIContentSizeCategory?>(nil)
 
@@ -46,18 +47,16 @@ class TextStylesSettingPopoverViewController: UIViewController {
         self.contentSizeCategory
             .asDriver()
             .drive(onNext: { [weak self] size in
-                self?.sizesSlider.value =
+                guard let `self` = self else {
+                    return
+                }
+
+                self.sizesSlider.value =
                     CGFloat(UIContentSizeCategory.validSizes
                         .index(where: { $0.value == size })
                         ?? -1)
 
-                UIView.animate(
-                    withDuration: 0.2,
-                    animations: { [weak self] in
-                        self?.sizesSlider.alpha = (size != nil)
-                            ? 1.0
-                            : 0
-                })
+                self.sizesSliderStackView.isHidden = (size == nil)
             })
             .disposed(by: self.disposeBag)
 
@@ -78,10 +77,19 @@ class TextStylesSettingPopoverViewController: UIViewController {
                     = UIContentSizeCategory
                         .validSizes[optional: Int($0)]?
                         .value
-
-                print("\($0): \(self?.contentSizeCategory.value?.name ?? "") ")
             })
             .disposed(by: self.disposeBag)
+    }
+
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.preferredContentSize = self.contentSize
+    }
+
+    override func willRotate(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
+        super.willRotate(to: toInterfaceOrientation, duration: duration)
+        // Solution for a popover's crash bug after rotating
+        self.dismissPopover(animated: true)
     }
 }
 
