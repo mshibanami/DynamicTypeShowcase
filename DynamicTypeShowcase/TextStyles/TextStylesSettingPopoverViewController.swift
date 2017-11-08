@@ -98,7 +98,7 @@ class TextStylesSettingPopoverViewController: UIViewController {
 
     override func willRotate(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
         super.willRotate(to: toInterfaceOrientation, duration: duration)
-        // Solution for a popover's crash bug after rotating
+        // Solution for a popover's crash after rotating
         self.dismissPopover(animated: true)
     }
 }
