@@ -89,7 +89,7 @@
                                                 <rect key="frame" x="8" y="8" width="359" height="34"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97j-W0-33p">
-                                                        <rect key="frame" x="0.0" y="0.0" width="305" height="34"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="326" height="34"/>
                                                         <accessibility key="accessibilityConfiguration" identifier="textField"/>
                                                         <nil key="textColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -99,8 +99,8 @@
                                                         </connections>
                                                     </textField>
                                                     <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" verticalHuggingPriority="255" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUl-Ja-Ri9">
-                                                        <rect key="frame" x="313" y="0.0" width="46" height="34"/>
-                                                        <state key="normal" title="Button"/>
+                                                        <rect key="frame" x="334" y="0.0" width="25" height="34"/>
+                                                        <state key="normal" image="SizeChangeButton"/>
                                                         <connections>
                                                             <action selector="touchUpInsideSettingButton:" destination="shW-vi-aVH" eventType="touchUpInside" id="Co7-eR-pXM"/>
                                                         </connections>
@@ -141,4 +141,7 @@
             <point key="canvasLocation" x="920.79999999999995" y="114.69265367316342"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SizeChangeButton" width="25" height="25"/>
+    </resources>
 </document>
