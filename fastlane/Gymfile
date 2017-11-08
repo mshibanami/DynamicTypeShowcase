@@ -10,7 +10,7 @@ scheme 'DynamicTypeShowcase'
 
 configuration 'Release'
 
-sdk 'iphoneos11.0'
+sdk 'iphoneos'
 
 output_directory './'
 
