@@ -11,7 +11,7 @@ import UIKit
 class ImageViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
 
-    let images = [#imageLiteral(resourceName: "SampleImage1_40x40"), #imageLiteral(resourceName: "SampleImage2_40x40")]
+    let images = [#imageLiteral(resourceName: "SampleImage1_40x40"), #imageLiteral(resourceName: "SampleImage2_40x40"), #imageLiteral(resourceName: "SampleImage3_40x40")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
