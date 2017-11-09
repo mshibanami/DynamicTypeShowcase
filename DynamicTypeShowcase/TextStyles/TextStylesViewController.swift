@@ -26,6 +26,7 @@ class TextStylesViewController: UIViewController {
 
     private let disposeBag = DisposeBag()
 
+    // HACK: Generally traitConllection should NOT be overriden.
     override var traitCollection: UITraitCollection {
         var traits: [UITraitCollection] = [super.traitCollection]
 
@@ -86,10 +87,10 @@ class TextStylesViewController: UIViewController {
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
         let vc = UIStoryboard(
-            name: String(describing: TextStylesSettingPopoverViewController.self),
+            name: String(describing: SizesSettingPopoverViewController.self),
             bundle: nil)
             .instantiateInitialViewController()
-            as! TextStylesSettingPopoverViewController
+            as! SizesSettingPopoverViewController
 
         if let category = self.contentSizeCategory {
             vc.contentSizeCategory.value = category

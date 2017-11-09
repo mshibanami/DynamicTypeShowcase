@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Text Styles Setting Popover View Controller-->
+        <!--Sizes Setting Popover View Controller-->
         <scene sceneID="MqS-tt-bkL">
             <objects>
-                <viewController id="urC-FY-ggf" customClass="TextStylesSettingPopoverViewController" customModule="DynamicTypeShowcase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="urC-FY-ggf" customClass="SizesSettingPopoverViewController" customModule="DynamicTypeShowcase" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yIm-Og-yen">
                         <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

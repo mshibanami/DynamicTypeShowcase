@@ -26,6 +26,7 @@ class TextStylesPreviewCell: UITableViewCell {
         }
     }
 
+    // HACK: Generally traitConllection should NOT be overriden.
     override var traitCollection: UITraitCollection {
         var traits: [UITraitCollection] = [super.traitCollection]
 

@@ -12,7 +12,7 @@ import TGPControls
 import RxSwift
 import RxCocoa
 
-class TextStylesSettingPopoverViewController: UIViewController {
+class SizesSettingPopoverViewController: UIViewController {
     @IBOutlet private weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
     @IBOutlet weak var sizesSliderStackView: UIStackView!
@@ -48,9 +48,6 @@ class TextStylesSettingPopoverViewController: UIViewController {
             .asDriver()
             .skip(1)
             .drive(onNext: { [weak self] in
-//                self?.contentSizeCategory.value = $0
-//                    ? .large
-//                    : nil
                 self?.sizesSliderStackView.isHidden = !$0
             })
             .disposed(by: self.disposeBag)
@@ -103,7 +100,7 @@ class TextStylesSettingPopoverViewController: UIViewController {
     }
 }
 
-extension TextStylesSettingPopoverViewController: KUIPopOverUsable {
+extension SizesSettingPopoverViewController: KUIPopOverUsable {
     var contentSize: CGSize {
         return self.view.subviews.first?.bounds.size
             ?? CGSize(width: 300, height: 100)
