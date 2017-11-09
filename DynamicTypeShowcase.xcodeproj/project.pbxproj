@@ -20,6 +20,8 @@
 		289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */; };
 		289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */; };
 		28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */; };
+		28ABE2C51FB4800700F76B25 /* CustomFontViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28ABE2C41FB4800700F76B25 /* CustomFontViewController.storyboard */; };
+		28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ABE2C61FB4801500F76B25 /* CustomFontViewController.swift */; };
 		28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024391F1C939900DF2996 /* AppDelegate.swift */; };
 		28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0243B1F1C939900DF2996 /* TextStylesViewController.swift */; };
 		28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B0243D1F1C939900DF2996 /* Main.storyboard */; };
@@ -67,6 +69,8 @@
 		289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
 		289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesSettingPopoverViewController.swift; sourceTree = "<group>"; };
 		28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
+		28ABE2C41FB4800700F76B25 /* CustomFontViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomFontViewController.storyboard; sourceTree = "<group>"; };
+		28ABE2C61FB4801500F76B25 /* CustomFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontViewController.swift; sourceTree = "<group>"; };
 		28B024361F1C939900DF2996 /* DynamicTypeShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTypeShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024391F1C939900DF2996 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B0243B1F1C939900DF2996 /* TextStylesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,15 @@
 			path = TextStyles;
 			sourceTree = "<group>";
 		};
+		28ABE2C31FB47FDE00F76B25 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				28ABE2C41FB4800700F76B25 /* CustomFontViewController.storyboard */,
+				28ABE2C61FB4801500F76B25 /* CustomFontViewController.swift */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
 		28B0242D1F1C939900DF2996 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +187,7 @@
 		28B024381F1C939900DF2996 /* DynamicTypeShowcase */ = {
 			isa = PBXGroup;
 			children = (
+				28ABE2C31FB47FDE00F76B25 /* CustomFont */,
 				288D5FAE1FACED070080F44D /* Settings.bundle */,
 				28B024451F1C939900DF2996 /* Info.plist */,
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
@@ -347,6 +361,7 @@
 			files = (
 				28B024411F1C939900DF2996 /* Assets.xcassets in Resources */,
 				28B0243F1F1C939900DF2996 /* Main.storyboard in Resources */,
+				28ABE2C51FB4800700F76B25 /* CustomFontViewController.storyboard in Resources */,
 				28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */,
 				289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */,
 				285C173F1F7606F9007C0600 /* LaunchScreen.storyboard in Resources */,
@@ -555,6 +570,7 @@
 				283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
+				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
 			);
