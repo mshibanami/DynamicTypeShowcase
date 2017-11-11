@@ -93,9 +93,9 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
         self.preferredContentSize = self.contentSize
     }
 
+    // HACK: Solution for a popover's crash after rotating
     override func willRotate(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
         super.willRotate(to: toInterfaceOrientation, duration: duration)
-        // Solution for a popover's crash after rotating
         self.dismissPopover(animated: true)
     }
 }
