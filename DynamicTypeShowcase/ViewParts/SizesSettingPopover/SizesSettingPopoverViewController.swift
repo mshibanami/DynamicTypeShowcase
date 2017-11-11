@@ -75,14 +75,14 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
         self.sizesSlider.rx.value
             .distinctUntilChanged()
             .subscribe(onNext: { [weak self] in
-                guard let `self` = self,
-                    let category = UIContentSizeCategory
-                        .validSizes[optional: Int($0)]?
-                        .value else {
+                guard let `self` = self else {
                         return
                 }
 
                 if self.usesSizeForScene.value {
+                    let category = UIContentSizeCategory
+                        .validSizes[Int($0)]
+                        .value
                     self.contentSizeCategory.value = category
                 }
             })
