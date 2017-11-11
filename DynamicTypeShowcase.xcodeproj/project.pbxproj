@@ -29,6 +29,7 @@
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
+		28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
 		28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
@@ -85,6 +86,7 @@
 		28B024551F1C939900DF2996 /* DynamicTypeShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeShowcaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseUITests.swift; sourceTree = "<group>"; };
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTableViewCell.swift; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
 		28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStylesViewController.storyboard; sourceTree = "<group>"; };
 		32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTypeShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +170,7 @@
 			children = (
 				28ABE2C41FB4800700F76B25 /* CustomFontViewController.storyboard */,
 				28ABE2C61FB4801500F76B25 /* CustomFontViewController.swift */,
+				28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */,
 			);
 			path = CustomFont;
 			sourceTree = "<group>";
@@ -575,6 +578,7 @@
 			files = (
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
 				284ABB561FB497C8008CCF59 /* ImageTableViewCell.swift in Sources */,
+				28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */,
 				287145A01FADEA6900B275D2 /* Collection+Util.swift in Sources */,
 				287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */,
 				28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */,
