@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Reusable
 
-class CustomFontTableViewCell: UITableViewCell {
+class CustomFontTableViewCell: UITableViewCell, Reusable {
     @IBOutlet weak var sampleTextLabel: UILabel!
     @IBOutlet weak var textStyleLabel: UILabel!
     @IBOutlet weak var fontLabel: UILabel!

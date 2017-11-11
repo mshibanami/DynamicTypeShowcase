@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Reusable
 
-class TextStylesPreviewCell: UITableViewCell {
+class TextStylesPreviewCell: UITableViewCell, Reusable {
     @IBOutlet private weak var sampleTextLabel: UILabel!
     @IBOutlet private weak var textStyleLabel: UILabel!
     @IBOutlet private weak var fontLabel: UILabel!

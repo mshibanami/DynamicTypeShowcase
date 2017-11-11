@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Reusable
 
 class CustomFontViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -31,9 +32,8 @@ extension CustomFontViewController: UITableViewDataSource {
         }
 
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "CustomFontTableViewCell",
-            for: indexPath)
-            as! CustomFontTableViewCell
+            for: indexPath,
+            cellType: CustomFontTableViewCell.self)
 
         let textStyle = UIFontTextStyle.values[indexPath.row]
         let fontName = UIFont.familyNames[5]
@@ -50,7 +50,7 @@ extension CustomFontViewController: UITableViewDataSource {
 
         cell.sampleTextLabel.font = scaledFont
         cell.textStyleLabel.text = "\(textStyle.name)"
-        
+
         var fontLabelText = "(\(scaledFont.fontName) " + "\(scaledFont.pointSize)pt) "
         if let maxFontSize = maxFontSize {
             fontLabelText += "- max:\(maxFontSize) pt"

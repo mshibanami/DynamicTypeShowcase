@@ -1,5 +1,10 @@
 PODS:
   - KUIPopOver (1.0.2)
+  - Reusable (4.0.0):
+    - Reusable/Storyboard (= 4.0.0)
+    - Reusable/View (= 4.0.0)
+  - Reusable/Storyboard (4.0.0)
+  - Reusable/View (4.0.0)
   - RxCocoa (4.0.0):
     - RxSwift (~> 4.0)
   - RxSwift (4.0.0)
@@ -8,6 +13,7 @@ PODS:
 
 DEPENDENCIES:
   - KUIPopOver
+  - Reusable
   - RxCocoa
   - RxSwift
   - SwiftLint
@@ -15,11 +21,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   KUIPopOver: 10d512237d0758273e8b49dc23a263974f380f6e
+  Reusable: 98e5fff1e0e2e00872199699b276dde08ee56c07
   RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
   RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
   SwiftLint: 1b670ce79284c76520f84060e87d645078fd32fa
   TGPControls: d7ab5a338746c100b2ae57f6b6cedee7151f116a
 
-PODFILE CHECKSUM: 761cae07a8a255e856e2299f2cc699122e40501e
+PODFILE CHECKSUM: a1f9fde1a657489d2f49bc2928b5782c53e22c99
 
 COCOAPODS: 1.3.1

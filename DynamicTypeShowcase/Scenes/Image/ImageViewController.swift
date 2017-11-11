@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Reusable
 
 class ImageViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
@@ -29,9 +30,8 @@ extension ImageViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "ImageTableViewCell",
-            for: indexPath)
-            as! ImageTableViewCell
+            for: indexPath,
+            cellType: ImageTableViewCell.self)
 
         let img = images[indexPath.row]
         cell.scalableImageView.image = img

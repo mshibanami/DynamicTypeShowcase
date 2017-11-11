@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import Reusable
 
-class ImageTableViewCell: UITableViewCell {
+class ImageTableViewCell: UITableViewCell, Reusable {
 
     @IBOutlet weak var scalableImageView: UIImageView!
     @IBOutlet weak var originalSizeLabel: UILabel!

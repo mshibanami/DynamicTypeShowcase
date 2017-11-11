@@ -8,6 +8,7 @@
 
 import UIKit
 import TGPControls
+import Reusable
 import RxSwift
 import RxCocoa
 
@@ -86,11 +87,7 @@ class TextStylesViewController: UIViewController {
     }
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
-        let vc = UIStoryboard(
-            name: String(describing: SizesSettingPopoverViewController.self),
-            bundle: nil)
-            .instantiateInitialViewController()
-            as! SizesSettingPopoverViewController
+        let vc = SizesSettingPopoverViewController.instantiate()
 
         if let category = self.contentSizeCategory {
             vc.contentSizeCategory.value = category
@@ -145,8 +142,8 @@ extension TextStylesViewController: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
-            withIdentifier: "TextStylesPreviewCell",
-            for: indexPath) as! TextStylesPreviewCell
+            for: indexPath,
+            cellType: TextStylesPreviewCell.self)
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text ?? ""

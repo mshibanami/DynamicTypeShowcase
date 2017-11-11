@@ -11,8 +11,9 @@ import KUIPopOver
 import TGPControls
 import RxSwift
 import RxCocoa
+import Reusable
 
-class SizesSettingPopoverViewController: UIViewController {
+class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     @IBOutlet private weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
     @IBOutlet weak var sizesSliderStackView: UIStackView!
