@@ -10,6 +10,7 @@ import UIKit
 
 class CustomFontViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var currentFontButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,13 +38,24 @@ extension CustomFontViewController: UITableViewDataSource {
         let textStyle = UIFontTextStyle.values[indexPath.row]
         let fontName = UIFont.familyNames[5]
         let fontSize: CGFloat = 20.0
-        let font = UIFont(name: fontName, size: fontSize)!
+        let originalFont = UIFont(name: fontName, size: fontSize)!
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
+        let maxFontSize: CGFloat? = 30.0
+        let scaledFont: UIFont
+        if let maxFontSize = maxFontSize {
+             scaledFont = fontMetrics.scaledFont(for: originalFont, maximumPointSize: maxFontSize)
+        } else {
+            scaledFont = fontMetrics.scaledFont(for: originalFont)
+        }
 
-        cell.sampleTextLabel.font = fontMetrics.scaledFont(for: font)
-        cell.textStyleNameLabel.text = "TextStyle: \(textStyle.name)"
-        cell.fontNameLabel.text = fontName
-        cell.fontSizeLabel.text = "\(fontSize)pt"
+        cell.sampleTextLabel.font = scaledFont
+        cell.textStyleLabel.text = "\(textStyle.name)"
+        var fontLabelText = "(\(scaledFont.fontName) " + "\(scaledFont.pointSize)pt) "
+
+        if let maxFontSize = maxFontSize {
+            fontLabelText += "- max:\(maxFontSize) pt"
+        }
+        cell.fontLabel.text = fontLabelText
 
         return cell
     }

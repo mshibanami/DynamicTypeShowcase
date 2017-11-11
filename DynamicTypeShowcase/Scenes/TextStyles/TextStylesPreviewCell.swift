@@ -9,9 +9,9 @@
 import UIKit
 
 class TextStylesPreviewCell: UITableViewCell {
-    @IBOutlet private weak var titleLabel: UILabel!
-    @IBOutlet private weak var summaryLabel: UILabel!
     @IBOutlet private weak var sampleTextLabel: UILabel!
+    @IBOutlet private weak var textStyleLabel: UILabel!
+    @IBOutlet private weak var fontLabel: UILabel!
 
     /// Style for sample text
     public var fontTextStyle: UIFontTextStyle? {
@@ -53,11 +53,11 @@ class TextStylesPreviewCell: UITableViewCell {
                 forTextStyle: style,
                 compatibleWith: traitCollection)
 
-            titleLabel.text = style.name
+            textStyleLabel.text = style.name
             sampleTextLabel.font = font
-            summaryLabel.text = "(\(font.fontName) \(font.pointSize)pt)"
+            fontLabel.text = "(\(font.fontName) \(font.pointSize)pt)"
         } else {
-            titleLabel.text = "🙄"
+            textStyleLabel.text = "🙄"
         }
     }
 }

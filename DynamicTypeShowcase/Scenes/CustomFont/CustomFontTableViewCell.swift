@@ -10,7 +10,6 @@ import UIKit
 
 class CustomFontTableViewCell: UITableViewCell {
     @IBOutlet weak var sampleTextLabel: UILabel!
-    @IBOutlet weak var textStyleNameLabel: UILabel!
-    @IBOutlet weak var fontNameLabel: UILabel!
-    @IBOutlet weak var fontSizeLabel: UILabel!
+    @IBOutlet weak var textStyleLabel: UILabel!
+    @IBOutlet weak var fontLabel: UILabel!
 }
