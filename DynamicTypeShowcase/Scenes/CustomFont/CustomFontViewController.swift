@@ -50,8 +50,8 @@ extension CustomFontViewController: UITableViewDataSource {
 
         cell.sampleTextLabel.font = scaledFont
         cell.textStyleLabel.text = "\(textStyle.name)"
+        
         var fontLabelText = "(\(scaledFont.fontName) " + "\(scaledFont.pointSize)pt) "
-
         if let maxFontSize = maxFontSize {
             fontLabelText += "- max:\(maxFontSize) pt"
         }
