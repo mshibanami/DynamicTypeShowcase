@@ -34,4 +34,6 @@ clear_previous_screenshots true # remove the '#' to clear all previously generat
 # For more information about all available options run
 # fastlane snapshot --help
 
-xcargs '-only-testing:DynamicTypeShowcaseUITests/DynamicTypeShowcaseUITests/testExample'
+stop_after_first_error true
+
+xcargs '-only-testing:DynamicTypeShowcaseUITests/DynamicTypeShowcaseUITests'
