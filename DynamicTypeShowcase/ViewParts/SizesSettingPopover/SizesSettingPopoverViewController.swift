@@ -38,19 +38,24 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     func setup() {
         sizesSlider.tickCount
             = UIContentSizeCategory.validSizes.count
+        bind()
+    }
+
+    private func bind() {
 
         self.usesSizeForScene
             .asObservable()
             .observeOn(MainScheduler.instance)
-            .bind(to: self.useSizeForSceneSwitch.rx.isOn)
-            .disposed(by: self.disposeBag)
-
-        self.usesSizeForScene
-            .asDriver()
-            .skip(1)
-            .drive(onNext: { [weak self] in
+            .subscribe(onNext: { [weak self] in
+                self?.useSizeForSceneSwitch.isOn = $0
                 self?.sizesSliderStackView.isHidden = !$0
             })
+            .disposed(by: self.disposeBag)
+
+        self.useSizeForSceneSwitch.rx.isOn
+            .asObservable()
+            .observeOn(MainScheduler.instance)
+            .bind(to: self.usesSizeForScene)
             .disposed(by: self.disposeBag)
 
         self.contentSizeCategory
@@ -66,17 +71,11 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
             })
             .disposed(by: self.disposeBag)
 
-        self.useSizeForSceneSwitch.rx.isOn
-            .asObservable()
-            .observeOn(MainScheduler.instance)
-            .bind(to: self.usesSizeForScene)
-            .disposed(by: self.disposeBag)
-
         self.sizesSlider.rx.value
             .distinctUntilChanged()
             .subscribe(onNext: { [weak self] in
                 guard let `self` = self else {
-                        return
+                    return
                 }
 
                 if self.usesSizeForScene.value {
