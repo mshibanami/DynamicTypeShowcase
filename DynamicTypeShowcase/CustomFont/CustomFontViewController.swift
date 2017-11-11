@@ -22,26 +22,28 @@ extension CustomFontViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return UIFontTextStyle.values.count
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard #available(iOS 11, *) else {
+            return UITableViewCell()
+        }
+
         let cell = tableView.dequeueReusableCell(
             withIdentifier: "CustomFontTableViewCell",
             for: indexPath)
             as! CustomFontTableViewCell
 
-        if #available(iOS 11, *) {
-            let textStyle = UIFontTextStyle.body
-            let fontName = UIFont.familyNames.first!
-            let fontSize: CGFloat = 20.0
-            let font = UIFont(name: fontName, size: fontSize)!
-            let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
+        let textStyle = UIFontTextStyle.values[indexPath.row]
+        let fontName = UIFont.familyNames[5]
+        let fontSize: CGFloat = 20.0
+        let font = UIFont(name: fontName, size: fontSize)!
+        let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
 
-            cell.sampleTextLabel.font = fontMetrics.scaledFont(for: font)
-            cell.textStyleNameLabel.text = "TextStyle: \(textStyle.name)"
-            cell.fontNameLabel.text = fontName
-            cell.fontSizeLabel.text = "\(fontSize)pt"
-        }
+        cell.sampleTextLabel.font = fontMetrics.scaledFont(for: font)
+        cell.textStyleNameLabel.text = "TextStyle: \(textStyle.name)"
+        cell.fontNameLabel.text = fontName
+        cell.fontSizeLabel.text = "\(fontSize)pt"
 
         return cell
     }
