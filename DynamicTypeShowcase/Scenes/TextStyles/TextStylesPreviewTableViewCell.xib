@@ -54,7 +54,6 @@
                     <constraint firstItem="CYs-DX-qSX" firstAttribute="leading" secondItem="RdM-tD-OVg" secondAttribute="leading" id="l4E-wZ-vXO"/>
                     <constraint firstAttribute="trailing" secondItem="CYs-DX-qSX" secondAttribute="trailing" id="tl2-fy-7dC"/>
                 </constraints>
-                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
             </tableViewCellContentView>
             <connections>
                 <outlet property="fontLabel" destination="vT1-JA-pac" id="HrO-XZ-mdt"/>

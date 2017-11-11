@@ -120,11 +120,12 @@ class TextStylesViewController: UIViewController {
     // MARK: TextField
 
     @objc private func keyboardWillChangeFrame(_ notification: Notification) {
-        let endFrame = ((notification as NSNotification)
-            .userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue)
-            .cgRectValue
-
-        bottomConstraint.constant = UIScreen.main.bounds.height - endFrame.origin.y
+        if let endFrame = ((notification as NSNotification)
+            .userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?
+            .cgRectValue {
+            bottomConstraint.constant
+                = UIScreen.main.bounds.height - endFrame.origin.y
+        }
 
         view.layoutIfNeeded()
     }
