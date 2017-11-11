@@ -19,11 +19,20 @@ target 'DynamicTypeShowcase' do
   end
 end
 
-post_install do |_installer|
+post_install do |installer|
   require 'fileutils'
   FileUtils.cp_r(
     'Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase-acknowledgements.plist',
     'DynamicTypeShowcase/Settings.bundle/Pods-acknowledgements.plist',
     remove_destination: true
   )
+
+  installer.pods_project.targets.each do |target|
+    next unless target.name == 'RxSwift'
+    target.build_configurations.each do |config|
+      if config.name == 'Debug'
+        config.build_settings['OTHER_SWIFT_FLAGS'] ||= ['-D', 'TRACE_RESOURCES']
+      end
+    end
+  end
 end
