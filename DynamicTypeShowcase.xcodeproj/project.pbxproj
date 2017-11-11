@@ -31,6 +31,7 @@
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
 		28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */; };
+		28F3598D1FB763E000F0F1FF /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3598C1FB763E000F0F1FF /* Const.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
 		28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
@@ -89,6 +90,7 @@
 		28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseUITests.swift; sourceTree = "<group>"; };
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTableViewCell.swift; sourceTree = "<group>"; };
+		28F3598C1FB763E000F0F1FF /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
 		28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStylesViewController.storyboard; sourceTree = "<group>"; };
 		32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTypeShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -267,6 +269,7 @@
 				28B024451F1C939900DF2996 /* Info.plist */,
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
 				28B024391F1C939900DF2996 /* AppDelegate.swift */,
+				28F3598C1FB763E000F0F1FF /* Const.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -627,6 +630,7 @@
 				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
+				28F3598D1FB763E000F0F1FF /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
