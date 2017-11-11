@@ -29,7 +29,7 @@ class DynamicTypeShowcaseUITests: XCTestCase {
 
         let app = XCUIApplication()
 
-        app.tables.staticTexts["TextStyles"].tap()
+        app.tables.staticTexts["Text Styles"].tap()
 
         let textField = app.textFields["textField"]
         textField.tap()
