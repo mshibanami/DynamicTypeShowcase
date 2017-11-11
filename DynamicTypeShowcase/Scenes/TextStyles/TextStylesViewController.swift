@@ -40,12 +40,11 @@ class TextStylesViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setup()
-    }
 
-    private func setup() {
-        updateTitle()
+        self.tableView.register(cellType: TextStylesPreviewTableViewCell.self)
         setupTextField()
+
+        updateTitle()
     }
 
     private func setupTextField() {
@@ -85,6 +84,8 @@ class TextStylesViewController: UIViewController {
                 ? " (Default)"
                 : "")
     }
+
+    /// MARK: IBAction
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
         let vc = SizesSettingPopoverViewController.instantiate()
