@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class TextStylesPreviewTableViewCell: UITableViewCell, Reusable {
+class TextStylesPreviewTableViewCell: UITableViewCell, NibLoadable, Reusable {
     @IBOutlet private weak var sampleTextLabel: UILabel!
     @IBOutlet private weak var textStyleLabel: UILabel!
     @IBOutlet private weak var fontLabel: UILabel!
@@ -47,9 +47,9 @@ class TextStylesPreviewTableViewCell: UITableViewCell, Reusable {
     func updateControls() {
         if let sampleText = self.sampleText,
             !sampleText.isEmpty {
-            sampleTextLabel.text = "\(fontTextStyle?.name ?? " ")"
-        } else {
             sampleTextLabel.text = sampleText
+        } else {
+            sampleTextLabel.text = "\(fontTextStyle?.name ?? " ")"
         }
 
         if let style = fontTextStyle {
