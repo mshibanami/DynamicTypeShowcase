@@ -825,6 +825,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -842,6 +843,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcaseTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcaseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -858,6 +860,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcaseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcaseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -874,6 +877,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcaseUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcaseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
