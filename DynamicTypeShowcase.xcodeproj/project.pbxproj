@@ -231,15 +231,10 @@
 		28B024381F1C939900DF2996 /* DynamicTypeShowcase */ = {
 			isa = PBXGroup;
 			children = (
+				28F3598A1FB7622B00F0F1FF /* Misc */,
 				281F4CD21FB700AD006DBAEE /* ViewParts */,
 				281F4CCF1FB7002D006DBAEE /* Scenes */,
-				288D5FAE1FACED070080F44D /* Settings.bundle */,
-				28B024451F1C939900DF2996 /* Info.plist */,
-				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
-				28B024391F1C939900DF2996 /* AppDelegate.swift */,
-				28B024401F1C939900DF2996 /* Assets.xcassets */,
 				2804B6D81FADF86500DCA192 /* Extensions */,
-				28B0243D1F1C939900DF2996 /* Main.storyboard */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
@@ -261,6 +256,19 @@
 				28B0245B1F1C939900DF2996 /* Info.plist */,
 			);
 			path = DynamicTypeShowcaseUITests;
+			sourceTree = "<group>";
+		};
+		28F3598A1FB7622B00F0F1FF /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				28B0243D1F1C939900DF2996 /* Main.storyboard */,
+				28B024401F1C939900DF2996 /* Assets.xcassets */,
+				288D5FAE1FACED070080F44D /* Settings.bundle */,
+				28B024451F1C939900DF2996 /* Info.plist */,
+				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
+				28B024391F1C939900DF2996 /* AppDelegate.swift */,
+			);
+			path = Misc;
 			sourceTree = "<group>";
 		};
 		2A67D04B7105EB39800C93CD /* Frameworks */ = {
@@ -779,7 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
-				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
+				INFOPLIST_FILE = DynamicTypeShowcase/Misc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcase;
@@ -795,7 +803,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
-				INFOPLIST_FILE = DynamicTypeShowcase/Info.plist;
+				INFOPLIST_FILE = DynamicTypeShowcase/Misc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcase;
