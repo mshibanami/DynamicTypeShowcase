@@ -136,6 +136,34 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		281F4CCF1FB7002D006DBAEE /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				281F4CD31FB701E6006DBAEE /* MainMenu */,
+				288F54CD1FACBB0A007FD48E /* TextStyles */,
+				287DC94E1FB34E8E0021FDFB /* Image */,
+				28ABE2C31FB47FDE00F76B25 /* CustomFont */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		281F4CD21FB700AD006DBAEE /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+				28A7BFD01FB48BDF005B4585 /* SizesSettingPopover */,
+			);
+			path = ViewParts;
+			sourceTree = "<group>";
+		};
+		281F4CD31FB701E6006DBAEE /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
+				28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
 		287DC94E1FB34E8E0021FDFB /* Image */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,19 +228,15 @@
 		28B024381F1C939900DF2996 /* DynamicTypeShowcase */ = {
 			isa = PBXGroup;
 			children = (
-				28A7BFD01FB48BDF005B4585 /* SizesSettingPopover */,
-				28ABE2C31FB47FDE00F76B25 /* CustomFont */,
+				281F4CD21FB700AD006DBAEE /* ViewParts */,
+				281F4CCF1FB7002D006DBAEE /* Scenes */,
 				288D5FAE1FACED070080F44D /* Settings.bundle */,
 				28B024451F1C939900DF2996 /* Info.plist */,
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
-				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
 				28B024391F1C939900DF2996 /* AppDelegate.swift */,
-				28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */,
 				28B024401F1C939900DF2996 /* Assets.xcassets */,
 				2804B6D81FADF86500DCA192 /* Extensions */,
-				287DC94E1FB34E8E0021FDFB /* Image */,
 				28B0243D1F1C939900DF2996 /* Main.storyboard */,
-				288F54CD1FACBB0A007FD48E /* TextStyles */,
 			);
 			path = DynamicTypeShowcase;
 			sourceTree = "<group>";
