@@ -25,7 +25,7 @@ class TextStylesViewController: UIViewController {
         }
     }
 
-    private let disposeBag = DisposeBag()
+    let disposeBag = DisposeBag()
 
     // HACK: Generally traitConllection should NOT be overriden.
     override var traitCollection: UITraitCollection {
@@ -104,7 +104,7 @@ class TextStylesViewController: UIViewController {
                     ? $0
                     : nil
             })
-            .disposed(by: self.disposeBag)
+            .disposed(by: vc.disposeBag)
 
         vc.showPopover(
             sourceView: sender,

@@ -28,7 +28,7 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
                     .index(where: { $0.0 == size })
         }}()
 
-    private let disposeBag = DisposeBag()
+    let disposeBag = DisposeBag()
 
     override func viewDidLoad() {
         super.viewDidLoad()
