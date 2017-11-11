@@ -1,5 +1,5 @@
 //
-//  PreviewCell.swift
+//  TextStylesPreviewTableViewCell.swift
 //  DynamicTypeShowcase
 //
 //  Created by abc on 2017/07/17.
@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class TextStylesPreviewCell: UITableViewCell, Reusable {
+class TextStylesPreviewTableViewCell: UITableViewCell, Reusable {
     @IBOutlet private weak var sampleTextLabel: UILabel!
     @IBOutlet private weak var textStyleLabel: UILabel!
     @IBOutlet private weak var fontLabel: UILabel!
@@ -27,6 +27,12 @@ class TextStylesPreviewCell: UITableViewCell, Reusable {
         }
     }
 
+    public var sampleText: String? {
+        didSet {
+            updateControls()
+        }
+    }
+
     // HACK: Generally traitConllection should NOT be overriden.
     override var traitCollection: UITraitCollection {
         var traits: [UITraitCollection] = [super.traitCollection]
@@ -38,16 +44,13 @@ class TextStylesPreviewCell: UITableViewCell, Reusable {
         return UITraitCollection(traitsFrom: traits)
     }
 
-    public var sampleText: String = "" {
-        didSet {
-            updateControls()
-        }
-    }
-
     func updateControls() {
-        sampleTextLabel.text = sampleText.isEmpty
-            ? "\(fontTextStyle?.name ?? " ")"
-            : sampleText
+        if let sampleText = self.sampleText,
+            !sampleText.isEmpty {
+            sampleTextLabel.text = "\(fontTextStyle?.name ?? " ")"
+        } else {
+            sampleTextLabel.text = sampleText
+        }
 
         if let style = fontTextStyle {
             let font = UIFont.preferredFont(

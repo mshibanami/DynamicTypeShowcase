@@ -116,6 +116,8 @@ class TextStylesViewController: UIViewController {
         tableView.reloadData()
     }
 
+    // MARK: TextField
+
     @objc private func keyboardWillChangeFrame(_ notification: Notification) {
         let endFrame = ((notification as NSNotification)
             .userInfo![UIKeyboardFrameEndUserInfoKey] as! NSValue)
@@ -143,7 +145,7 @@ extension TextStylesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(
             for: indexPath,
-            cellType: TextStylesPreviewCell.self)
+            cellType: TextStylesPreviewTableViewCell.self)
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text ?? ""
