@@ -305,13 +305,13 @@
 			buildConfigurationList = 28B0245E1F1C939900DF2996 /* Build configuration list for PBXNativeTarget "DynamicTypeShowcase" */;
 			buildPhases = (
 				895C779933AF1F78EF7FF7FB /* [CP] Check Pods Manifest.lock */,
+				28367FB81FB8520B0077177D /* Run Script - Auto Versioning */,
 				28B024321F1C939900DF2996 /* Sources */,
 				28B024331F1C939900DF2996 /* Frameworks */,
 				28B024341F1C939900DF2996 /* Resources */,
 				E8074D3A11765B4F0BA240FF /* [CP] Embed Pods Frameworks */,
 				D2A3CEB30BA91054FFB993E0 /* [CP] Copy Pods Resources */,
 				288F54CC1FACB4AD007FD48E /* SwiftLint */,
-				28367FB81FB8520B0077177D /* Run Script - Auto Versioning */,
 			);
 			buildRules = (
 			);
