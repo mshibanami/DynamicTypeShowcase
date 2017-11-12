@@ -36,17 +36,17 @@ class DynamicTypeShowcaseUITests: XCTestCase {
         textField.tap()
         sleep(1)
         textField.typeText("Hello\n")
-        app.navigationBars.firstMatch.buttons["Menu"].tap()
         snapshot("TextStyles")
+        app.navigationBars.firstMatch.buttons["Menu"].tap()
 
         /// Image
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Image"]/*[[".cells.staticTexts[\"Image\"]",".staticTexts[\"Image\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        app.navigationBars.firstMatch.buttons["Menu"].tap()
         snapshot("Image")
+        app.navigationBars.firstMatch.buttons["Menu"].tap()
 
         /// Custom Font
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Custom Font"]/*[[".cells.staticTexts[\"Custom Font\"]",".staticTexts[\"Custom Font\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        app.navigationBars.firstMatch.buttons["Menu"].tap()
         snapshot("CustomFont")
+        app.navigationBars.firstMatch.buttons["Menu"].tap()
     }
 }
