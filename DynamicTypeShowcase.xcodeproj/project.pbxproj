@@ -311,6 +311,7 @@
 				E8074D3A11765B4F0BA240FF /* [CP] Embed Pods Frameworks */,
 				D2A3CEB30BA91054FFB993E0 /* [CP] Copy Pods Resources */,
 				288F54CC1FACB4AD007FD48E /* SwiftLint */,
+				28367FB81FB8520B0077177D /* Run Script - Auto Versioning */,
 			);
 			buildRules = (
 			);
@@ -441,6 +442,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		28367FB81FB8520B0077177D /* Run Script - Auto Versioning */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Auto Versioning";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "plistBuddy=\"/usr/libexec/PlistBuddy\"\ninfoPlistFileDestination=\"${TEMP_DIR}/Preprocessed-Info.plist\"\n\nversion=\" $(date -r $(git log -1 --format=\"%at\") '+%Y.%m%d.%H%M')\"\nif [ ${CONFIGURATION} = \"Debug\" ]; then\n    prefix=\"Development-\"\nfi\n\nversionString=\"$prefix$version\"\n$plistBuddy -c \"Set :CFBundleVersion $versionString\" $infoPlistFileDestination";
+		};
 		288F54CC1FACB4AD007FD48E /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -792,6 +807,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Misc/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcase;
@@ -808,6 +824,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4RZDV856WY;
 				INFOPLIST_FILE = DynamicTypeShowcase/Misc/Info.plist;
+				INFOPLIST_PREPROCESS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.mshibanami.DynamicTypeShowcase;
