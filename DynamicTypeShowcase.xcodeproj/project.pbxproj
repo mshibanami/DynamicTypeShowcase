@@ -30,6 +30,8 @@
 		28B024411F1C939900DF2996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B024401F1C939900DF2996 /* Assets.xcassets */; };
 		28B0244F1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0244E1F1C939900DF2996 /* DynamicTypeShowcaseTests.swift */; };
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
+		28B4737B1FB9DD0F00ED0B6E /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */; };
+		28B4737D1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */; };
 		28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */; };
 		28F3598D1FB763E000F0F1FF /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3598C1FB763E000F0F1FF /* Const.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
@@ -89,6 +91,8 @@
 		28B024551F1C939900DF2996 /* DynamicTypeShowcaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTypeShowcaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeShowcaseUITests.swift; sourceTree = "<group>"; };
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
+		28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperatingSystemVersion+Util.swift"; sourceTree = "<group>"; };
 		28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTableViewCell.swift; sourceTree = "<group>"; };
 		28F3598C1FB763E000F0F1FF /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */,
 				28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */,
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
+				28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */,
+				28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -643,9 +649,11 @@
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
 				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
+				28B4737D1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
 				28F3598D1FB763E000F0F1FF /* Const.swift in Sources */,
+				28B4737B1FB9DD0F00ED0B6E /* UIViewController+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

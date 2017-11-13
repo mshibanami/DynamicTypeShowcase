@@ -9,12 +9,17 @@
 import UIKit
 import Reusable
 
-class CustomFontViewController: UIViewController {
+class CustomFontViewController: UIViewController, Versionable {
+    var availableOSVersion = OperatingSystemVersion(majorVersion: 11, minorVersion: 0, patchVersion: 0)
+
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var currentFontButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        presentVersionAlertIfNeeded(completion: {
+            self.navigationController?.dismiss(animated: true, completion: nil)
+        })
     }
 }
 
@@ -26,6 +31,7 @@ extension CustomFontViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return UIFontTextStyle.values.count
     }
+
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard #available(iOS 11, *) else {
             return UITableViewCell()
