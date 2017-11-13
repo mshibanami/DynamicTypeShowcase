@@ -100,10 +100,3 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
         self.dismissPopover(animated: true)
     }
 }
-
-extension SizesSettingPopoverViewController: KUIPopOverUsable {
-    var contentSize: CGSize {
-        return self.view.subviews.first?.bounds.size
-            ?? CGSize(width: 300, height: 100)
-    }
-}

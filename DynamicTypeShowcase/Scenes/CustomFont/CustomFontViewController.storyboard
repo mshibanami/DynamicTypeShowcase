@@ -108,6 +108,9 @@
                                                                     <constraint firstAttribute="height" constant="30" id="bL5-hr-rkG"/>
                                                                 </constraints>
                                                                 <state key="normal" title="currentFontButton"/>
+                                                                <connections>
+                                                                    <action selector="touchUpInsideCurrentFontButton:" destination="VmD-uK-t70" eventType="touchUpInside" id="2uf-xk-SLs"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>

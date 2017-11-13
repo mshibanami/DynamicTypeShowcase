@@ -8,6 +8,9 @@
 
 import UIKit
 import Reusable
+import RxSwift
+import RxCocoa
+import KUIPopOver
 
 class CustomFontViewController: UIViewController, Versionable {
     var availableOSVersion = OperatingSystemVersion(majorVersion: 11, minorVersion: 0, patchVersion: 0)
@@ -15,11 +18,22 @@ class CustomFontViewController: UIViewController, Versionable {
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var currentFontButton: UIButton!
 
+    let disposeBag = DisposeBag()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         presentVersionAlertIfNeeded(completion: {
             self.navigationController?.dismiss(animated: true, completion: nil)
         })
+    }
+
+    // MARK: IBAction
+
+    @IBAction func touchUpInsideCurrentFontButton(_ sender: UIButton) {
+        let vc = FontPickerPopoverViewController.instantiate()
+        vc.showPopover(
+            sourceView: sender,
+            sourceRect: sender.bounds)
     }
 }
 
