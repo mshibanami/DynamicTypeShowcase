@@ -23,7 +23,7 @@ post_install do |installer|
   require 'fileutils'
   FileUtils.cp_r(
     'Pods/Target Support Files/Pods-DynamicTypeShowcase/Pods-DynamicTypeShowcase-acknowledgements.plist',
-    'DynamicTypeShowcase/Settings.bundle/Pods-acknowledgements.plist',
+    'DynamicTypeShowcase/Misc/Settings.bundle/Pods-acknowledgements.plist',
     remove_destination: true
   )
 
