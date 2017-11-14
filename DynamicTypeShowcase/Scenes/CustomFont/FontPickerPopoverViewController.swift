@@ -13,41 +13,56 @@ import KUIPopOver
 class FontPickerPopoverViewController: UIViewController, StoryboardBased {
     @IBOutlet weak var pickerView: UIPickerView!
 
+    private let availableFontSizeRange = Array(1...100)
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 }
 
 extension FontPickerPopoverViewController: UIPickerViewDataSource {
-    enum TableSection: Int {
+    enum Section: Int {
         case name
         case pointSize
         case maxSize
 
-        var values: [TableSection] {
-            return [TableSection.name,
-                    TableSection.pointSize,
-                    TableSection.maxSize]
+        static var values: [Section] {
+            return [Section.name,
+                    Section.pointSize,
+                    Section.maxSize]
         }
     }
 
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 3
+        return Section.values.count
     }
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return 3
+        switch Section(rawValue: component)! {
+        case .name:
+            return UIFont.familyNames.count
+        case .pointSize:
+            return self.availableFontSizeRange.count
+        case .maxSize:
+            return self.availableFontSizeRange.count
+        }
     }
 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        switch TableSection(rawValue: component)! {
+        switch Section(rawValue: component)! {
         case .name:
-            return "name"
-        case .pointSize:
-            return "pointSize"
-        case .maxSize:
-            return "maxSize"
+            return UIFont.familyNames[row]
+        case .pointSize, .maxSize:
+            return String(availableFontSizeRange[row])
         }
+    }
 
+    func pickerView(_ pickerView: UIPickerView, widthForComponent component: Int) -> CGFloat {
+        switch Section(rawValue: component)! {
+        case .name:
+            return self.pickerView.bounds.width - (50 * 2) - 60
+        case .pointSize, .maxSize:
+            return 50.0
+        }
     }
 }
 

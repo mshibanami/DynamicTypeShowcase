@@ -99,18 +99,30 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-gK-6Bp">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="114"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ktU-dh-TtD">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ktU-dh-TtD">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81o-Bh-pDn">
-                                                                <rect key="frame" x="8" y="8" width="359" height="30"/>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="81o-Bh-pDn">
+                                                                <rect key="frame" x="8" y="8" width="31" height="30"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="30" id="bL5-hr-rkG"/>
                                                                 </constraints>
-                                                                <state key="normal" title="currentFontButton"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                                <state key="normal" title="Font"/>
                                                                 <connections>
                                                                     <action selector="touchUpInsideCurrentFontButton:" destination="VmD-uK-t70" eventType="touchUpInside" id="2uf-xk-SLs"/>
                                                                 </connections>
+                                                            </button>
+                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAo-JT-Y1G">
+                                                                <rect key="frame" x="47" y="8" width="287" height="30"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="textField"/>
+                                                                <nil key="textColor"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" verticalHuggingPriority="255" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5p-AR-woM">
+                                                                <rect key="frame" x="342" y="8" width="25" height="30"/>
+                                                                <state key="normal" image="SizeChangeButton"/>
                                                             </button>
                                                         </subviews>
                                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
@@ -149,4 +161,7 @@
             <point key="canvasLocation" x="5.5999999999999996" y="99.01477832512316"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SizeChangeButton" width="25" height="25"/>
+    </resources>
 </document>
