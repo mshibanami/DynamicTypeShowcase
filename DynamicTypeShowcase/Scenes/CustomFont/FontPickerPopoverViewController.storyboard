@@ -23,6 +23,10 @@
                                 <subviews>
                                     <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sf0-ds-GeF">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                                        <connections>
+                                            <outlet property="dataSource" destination="THI-l3-Bcg" id="vcj-46-Cxw"/>
+                                            <outlet property="delegate" destination="THI-l3-Bcg" id="PzU-nS-0iG"/>
+                                        </connections>
                                     </pickerView>
                                 </subviews>
                             </stackView>
@@ -37,6 +41,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="300"/>
+                    <connections>
+                        <outlet property="pickerView" destination="Sf0-ds-GeF" id="pFL-wI-xsB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Gu-ET-wId" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
