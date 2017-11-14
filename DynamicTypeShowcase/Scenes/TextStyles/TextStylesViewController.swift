@@ -150,7 +150,7 @@ extension TextStylesViewController: UITableViewDataSource {
             cellType: TextStylesPreviewTableViewCell.self)
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
-        cell.sampleText = textField.text ?? ""
+        cell.sampleText = textField.text
         cell.contentSizeCategory = self.contentSizeCategory
 
         return cell

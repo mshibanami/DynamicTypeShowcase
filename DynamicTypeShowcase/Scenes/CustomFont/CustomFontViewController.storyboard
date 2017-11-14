@@ -29,7 +29,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="170"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RqL-bM-nr2" id="Mvd-Ry-gGe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="169.66666666666666"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="169.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fYa-b8-aI6">
@@ -152,8 +152,10 @@
                         <viewLayoutGuide key="safeArea" id="efK-VJ-bJY"/>
                     </view>
                     <connections>
+                        <outlet property="bottomConstraint" destination="VaC-R8-Mxy" id="2C9-3N-Lna"/>
                         <outlet property="currentFontButton" destination="81o-Bh-pDn" id="TQN-J5-JNf"/>
                         <outlet property="tableView" destination="ukb-UR-LUR" id="Vjj-Hq-vjm"/>
+                        <outlet property="textField" destination="GAo-JT-Y1G" id="IDi-Ac-lnv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fmy-iq-Vbk" userLabel="First Responder" sceneMemberID="firstResponder"/>

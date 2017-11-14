@@ -15,8 +15,10 @@ import KUIPopOver
 class CustomFontViewController: UIViewController, Versionable {
     var availableOSVersion = OperatingSystemVersion(majorVersion: 11, minorVersion: 0, patchVersion: 0)
 
+    @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var currentFontButton: UIButton!
+    @IBOutlet weak var textField: UITextField!
 
     let disposeBag = DisposeBag()
 
@@ -25,6 +27,7 @@ class CustomFontViewController: UIViewController, Versionable {
         presentVersionAlertIfNeeded(completion: {
             self.navigationController?.dismiss(animated: true, completion: nil)
         })
+        setupTextField()
     }
 
     // MARK: IBAction
@@ -34,6 +37,46 @@ class CustomFontViewController: UIViewController, Versionable {
         vc.showPopover(
             sourceView: sender,
             sourceRect: sender.bounds)
+    }
+
+    // MARK: TextField
+
+    private func setupTextField() {
+        NotificationCenter.default
+            .addObserver(
+                self,
+                selector: #selector(keyboardWillChangeFrame(_:)),
+                name: .UIKeyboardWillChangeFrame,
+                object: nil)
+
+        self.textField.addTarget(
+            self,
+            action: #selector(textFieldDidChange(_:)),
+            for: .editingChanged)
+
+        view.addGestureRecognizer(
+            UITapGestureRecognizer(
+                target: self,
+                action: #selector(viewDidTap)))
+    }
+
+    @objc private func keyboardWillChangeFrame(_ notification: Notification) {
+        if let endFrame = ((notification as NSNotification)
+            .userInfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue)?
+            .cgRectValue {
+            bottomConstraint.constant
+                = UIScreen.main.bounds.height - endFrame.origin.y
+        }
+
+        view.layoutIfNeeded()
+    }
+
+    @objc private func viewDidTap() {
+        view.endEditing(true)
+    }
+
+    @objc private func textFieldDidChange(_ sender: Any) {
+        tableView.reloadData()
     }
 }
 
@@ -68,6 +111,7 @@ extension CustomFontViewController: UITableViewDataSource {
             scaledFont = fontMetrics.scaledFont(for: originalFont)
         }
 
+        cell.sampleTextLabel.text = self.textField.text
         cell.sampleTextLabel.font = scaledFont
         cell.textStyleLabel.text = "\(textStyle.name)"
 
