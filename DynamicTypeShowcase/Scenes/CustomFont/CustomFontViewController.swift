@@ -98,12 +98,13 @@ extension CustomFontViewController: UITableViewDataSource {
             for: indexPath,
             cellType: CustomFontTableViewCell.self)
 
+        let fontName = UIFont.familyNames[5] // TODO
+        let fontSize: CGFloat = 20.0 // TODO
+        let maxFontSize: CGFloat? = 30.0 // TODO
+
         let textStyle = UIFontTextStyle.values[indexPath.row]
-        let fontName = UIFont.familyNames[5]
-        let fontSize: CGFloat = 20.0
         let originalFont = UIFont(name: fontName, size: fontSize)!
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
-        let maxFontSize: CGFloat? = 30.0
         let scaledFont: UIFont
         if let maxFontSize = maxFontSize {
              scaledFont = fontMetrics.scaledFont(for: originalFont, maximumPointSize: maxFontSize)
@@ -111,7 +112,13 @@ extension CustomFontViewController: UITableViewDataSource {
             scaledFont = fontMetrics.scaledFont(for: originalFont)
         }
 
-        cell.sampleTextLabel.text = self.textField.text
+        if let t =  self.textField.text,
+            !t.isEmpty {
+            cell.sampleTextLabel.text = t
+        } else {
+            cell.sampleTextLabel.text = textStyle.name
+        }
+
         cell.sampleTextLabel.font = scaledFont
         cell.textStyleLabel.text = "\(textStyle.name)"
 
