@@ -19,6 +19,18 @@ class FontPickerPopoverViewController: UIViewController, StoryboardBased {
 }
 
 extension FontPickerPopoverViewController: UIPickerViewDataSource {
+    enum TableSection: Int {
+        case name
+        case pointSize
+        case maxSize
+
+        var values: [TableSection] {
+            return [TableSection.name,
+                    TableSection.pointSize,
+                    TableSection.maxSize]
+        }
+    }
+
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 3
     }
@@ -27,7 +39,15 @@ extension FontPickerPopoverViewController: UIPickerViewDataSource {
     }
 
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return "🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️🙆‍♂️"
+        switch TableSection(rawValue: component)! {
+        case .name:
+            return "name"
+        case .pointSize:
+            return "pointSize"
+        case .maxSize:
+            return "maxSize"
+        }
+
     }
 }
 
