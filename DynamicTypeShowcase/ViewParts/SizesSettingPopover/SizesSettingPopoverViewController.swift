@@ -49,6 +49,13 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     func setup() {
         sizesSlider.tickCount
             = UIContentSizeCategory.validSizes.count
+
+        if let category = self.adjustableViewController.contentSizeCategory {
+            self.contentSizeCategory.value = category
+            self.usesSizeForScene.value
+                = (self.adjustableViewController.contentSizeCategory != nil)
+        }
+
         bind()
     }
 
@@ -96,12 +103,6 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
                 }
             })
             .disposed(by: self.disposeBag)
-
-        if let category = self.adjustableViewController.contentSizeCategory {
-            self.contentSizeCategory.value = category
-            self.usesSizeForScene.value
-                = (self.adjustableViewController.contentSizeCategory != nil)
-        }
 
         Observable.combineLatest(
             self.contentSizeCategory.asObservable(),
