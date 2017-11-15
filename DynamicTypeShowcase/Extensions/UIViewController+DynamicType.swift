@@ -8,12 +8,13 @@
 
 import UIKit
 
-protocol DynamicTypeAdjustable {
+/// This protocol is only for UIViewController and its subclasses.
+protocol DynamicTypeAdjustable: class {
     var contentSizeCategory: UIContentSizeCategory? { get }
 }
 
 extension DynamicTypeAdjustable where Self: UIViewController {
-    /// Update View Controller's content size category with `contentSizeCategory`.
+    /// Update the view controller's content size category with `contentSizeCategory`.
     /// You should call this method MANUALLY😫, generally on `didSet` of `contentSizeCategory`.
     func updateContentSizeCategory() {
         if let vc = self.parent {
