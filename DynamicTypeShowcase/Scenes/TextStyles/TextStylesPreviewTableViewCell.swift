@@ -21,27 +21,10 @@ class TextStylesPreviewTableViewCell: UITableViewCell, NibLoadable, Reusable {
         }
     }
 
-    var contentSizeCategory: UIContentSizeCategory? {
-        didSet {
-            updateControls()
-        }
-    }
-
     public var sampleText: String? {
         didSet {
             updateControls()
         }
-    }
-
-    // HACK: Generally traitConllection should NOT be overriden.
-    override var traitCollection: UITraitCollection {
-        var traits: [UITraitCollection] = [super.traitCollection]
-
-        if let contentSizeCategory = self.contentSizeCategory {
-            traits.append(UITraitCollection(
-                preferredContentSizeCategory: contentSizeCategory))
-        }
-        return UITraitCollection(traitsFrom: traits)
     }
 
     func updateControls() {

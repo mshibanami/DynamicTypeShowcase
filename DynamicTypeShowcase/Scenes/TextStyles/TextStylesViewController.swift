@@ -12,31 +12,21 @@ import Reusable
 import RxSwift
 import RxCocoa
 
-class TextStylesViewController: UIViewController {
+class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
 
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet private weak var tableView: UITableView!
 
-    private var contentSizeCategory: UIContentSizeCategory? {
+    var contentSizeCategory: UIContentSizeCategory? {
         didSet {
+            self.updateContentSizeCategory()
             self.tableView.reloadData()
             self.updateTitle()
         }
     }
 
     let disposeBag = DisposeBag()
-
-    // HACK: Generally traitConllection should NOT be overriden.
-    override var traitCollection: UITraitCollection {
-        var traits: [UITraitCollection] = [super.traitCollection]
-
-        if let contentSizeCategory = self.contentSizeCategory {
-            traits.append(UITraitCollection(
-                preferredContentSizeCategory: contentSizeCategory))
-        }
-        return UITraitCollection(traitsFrom: traits)
-    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -151,7 +141,6 @@ extension TextStylesViewController: UITableViewDataSource {
 
         cell.fontTextStyle = UIFontTextStyle.values[indexPath.row]
         cell.sampleText = textField.text
-        cell.contentSizeCategory = self.contentSizeCategory
 
         return cell
     }

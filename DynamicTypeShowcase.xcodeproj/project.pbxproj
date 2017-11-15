@@ -22,6 +22,7 @@
 		287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287DC94F1FB34EB50021FDFB /* ImageViewController.swift */; };
 		287DC9521FB34EE90021FDFB /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */; };
 		288D5FAF1FACED070080F44D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 288D5FAE1FACED070080F44D /* Settings.bundle */; };
+		28934D371FBC790D0020A3B1 /* UIViewController+DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */; };
 		289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */; };
 		289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */; };
 		28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */; };
@@ -80,6 +81,7 @@
 		287DC94F1FB34EB50021FDFB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewController.storyboard; sourceTree = "<group>"; };
 		288D5FAE1FACED070080F44D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DynamicType.swift"; sourceTree = "<group>"; };
 		289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
 		289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesSettingPopoverViewController.swift; sourceTree = "<group>"; };
 		28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuTableViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +151,7 @@
 				28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */,
 				28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */,
 				281576131FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift */,
+				28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -659,6 +662,7 @@
 				283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
+				28934D371FBC790D0020A3B1 /* UIViewController+DynamicType.swift in Sources */,
 				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
 				28B4737D1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
