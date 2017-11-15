@@ -10,7 +10,7 @@ import UIKit
 
 /// This protocol is only for UIViewController and its subclasses.
 protocol DynamicTypeAdjustable: class {
-    var contentSizeCategory: UIContentSizeCategory? { get }
+    var contentSizeCategory: UIContentSizeCategory? { get set }
 }
 
 extension DynamicTypeAdjustable where Self: UIViewController {

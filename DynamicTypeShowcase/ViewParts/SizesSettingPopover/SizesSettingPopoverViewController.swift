@@ -16,7 +16,9 @@ import Reusable
 class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     @IBOutlet private weak var useSizeForSceneSwitch: UISwitch!
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
-    @IBOutlet weak var sizesSliderStackView: UIStackView!
+    @IBOutlet private weak var sizesSliderStackView: UIStackView!
+
+    var adjustableViewController: DynamicTypeAdjustable!
 
     let usesSizeForScene = Variable<Bool>(false)
     let contentSizeCategory = Variable<UIContentSizeCategory>(.large)
@@ -32,7 +34,16 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        guard self.adjustableViewController != nil else {
+            fatalError("SizesSettingPopover should be present by a view controller which implements DynamicTypeAdjustable protocol.")
+        }
+
         setup()
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     func setup() {
@@ -42,7 +53,6 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     }
 
     private func bind() {
-
         self.usesSizeForScene
             .asObservable()
             .observeOn(MainScheduler.instance)
@@ -84,6 +94,29 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
                         .value
                     self.contentSizeCategory.value = category
                 }
+            })
+            .disposed(by: self.disposeBag)
+
+        if let category = self.adjustableViewController.contentSizeCategory {
+            self.contentSizeCategory.value = category
+            self.usesSizeForScene.value
+                = (self.adjustableViewController.contentSizeCategory != nil)
+        }
+
+        Observable.combineLatest(
+            self.contentSizeCategory.asObservable(),
+            self.usesSizeForScene.asObservable()) { category, _ in
+                return category
+            }
+            .subscribe(onNext: {[weak self] in
+                guard let `self` = self else {
+                    return
+                }
+
+                self.adjustableViewController.contentSizeCategory =
+                    (self.usesSizeForScene.value ?? false)
+                    ? $0
+                    : nil
             })
             .disposed(by: self.disposeBag)
     }

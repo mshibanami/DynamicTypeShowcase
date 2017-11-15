@@ -79,24 +79,7 @@ class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
 
     @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
         let vc = SizesSettingPopoverViewController.instantiate()
-
-        if let category = self.contentSizeCategory {
-            vc.contentSizeCategory.value = category
-        }
-        vc.usesSizeForScene.value = (self.contentSizeCategory != nil)
-
-        Observable.combineLatest(
-            vc.contentSizeCategory.asObservable(),
-            vc.usesSizeForScene.asObservable()) { category, _ in
-                return category
-            }
-            .subscribe(onNext: {[weak self, weak vc] in
-                self?.contentSizeCategory = (vc?.usesSizeForScene.value ?? false)
-                    ? $0
-                    : nil
-            })
-            .disposed(by: vc.disposeBag)
-
+        vc.adjustableViewController = self
         vc.showPopover(
             sourceView: sender,
             sourceRect: sender.bounds)
