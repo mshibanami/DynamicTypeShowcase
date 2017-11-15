@@ -12,13 +12,20 @@ import RxSwift
 import RxCocoa
 import KUIPopOver
 
-class CustomFontViewController: UIViewController, Versionable {
+class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjustable {
+
     var availableOSVersion = OperatingSystemVersion(majorVersion: 11, minorVersion: 0, patchVersion: 0)
 
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var currentFontButton: UIButton!
     @IBOutlet weak var textField: UITextField!
+
+    var contentSizeCategory: UIContentSizeCategory? {
+        didSet {
+            updateContentSizeCategory()
+        }
+    }
 
     let disposeBag = DisposeBag()
 

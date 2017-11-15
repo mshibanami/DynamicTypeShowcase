@@ -9,7 +9,13 @@
 import UIKit
 import Reusable
 
-class ImageViewController: UIViewController {
+class ImageViewController: UIViewController, DynamicTypeAdjustable {
+    var contentSizeCategory: UIContentSizeCategory? {
+        didSet {
+            updateContentSizeCategory()
+        }
+    }
+
     @IBOutlet weak var tableView: UITableView!
 
     let images = [#imageLiteral(resourceName: "SampleImage1_40x40"), #imageLiteral(resourceName: "SampleImage2_40x40"), #imageLiteral(resourceName: "SampleImage3_40x40")]
