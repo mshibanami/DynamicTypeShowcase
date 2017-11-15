@@ -115,9 +115,7 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
                 }
 
                 self.adjustableViewController.contentSizeCategory =
-                    (self.usesSizeForScene.value ?? false)
-                    ? $0
-                    : nil
+                    self.usesSizeForScene.value ? $0 : nil
             })
             .disposed(by: self.disposeBag)
     }
