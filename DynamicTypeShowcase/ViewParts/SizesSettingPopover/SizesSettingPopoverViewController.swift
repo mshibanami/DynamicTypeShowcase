@@ -90,6 +90,7 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
 
         self.sizesSlider.rx.value
             .distinctUntilChanged()
+            .observeOn(MainScheduler.instance)
             .subscribe(onNext: { [weak self] in
                 guard let `self` = self else {
                     return
@@ -109,6 +110,7 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
             self.usesSizeForScene.asObservable()) { category, _ in
                 return category
             }
+            .observeOn(MainScheduler.instance)
             .subscribe(onNext: {[weak self] in
                 guard let `self` = self else {
                     return
