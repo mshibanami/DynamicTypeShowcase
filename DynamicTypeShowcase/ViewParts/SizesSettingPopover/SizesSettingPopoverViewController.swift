@@ -18,7 +18,7 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
     @IBOutlet private weak var sizesSlider: TGPDiscreteSlider!
     @IBOutlet private weak var sizesSliderStackView: UIStackView!
 
-    var adjustableViewController: DynamicTypeAdjustable!
+    weak var adjustableViewController: DynamicTypeAdjustable!
 
     let usesSizeForScene = Variable<Bool>(false)
     let contentSizeCategory = Variable<UIContentSizeCategory>(.large)
