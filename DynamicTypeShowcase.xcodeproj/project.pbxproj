@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		281576101FBA080100CB54B4 /* FontPickerPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2815760F1FBA080100CB54B4 /* FontPickerPopoverViewController.swift */; };
 		281576121FBA083A00CB54B4 /* FontPickerPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281576111FBA083A00CB54B4 /* FontPickerPopoverViewController.storyboard */; };
-		281576141FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281576131FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift */; };
 		283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */; };
 		283C551D1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551C1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift */; };
 		283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */; };
@@ -68,7 +67,6 @@
 		1D3E1B65FC3AF4D6309643FF /* Pods-DynamicTypeShowcaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTypeShowcaseUITests/Pods-DynamicTypeShowcaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2815760F1FBA080100CB54B4 /* FontPickerPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontPickerPopoverViewController.swift; sourceTree = "<group>"; };
 		281576111FBA083A00CB54B4 /* FontPickerPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FontPickerPopoverViewController.storyboard; sourceTree = "<group>"; };
-		281576131FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+KUIPopOverUsable.swift"; sourceTree = "<group>"; };
 		283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TGPControls+Rx.swift"; sourceTree = "<group>"; };
 		283C551C1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStylesPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFontTextStyle+Enum.swift"; sourceTree = "<group>"; };
@@ -150,7 +148,6 @@
 				283C551E1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift */,
 				28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */,
 				28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */,
-				281576131FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift */,
 				28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */,
 			);
 			path = Extensions;
@@ -666,7 +663,6 @@
 				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
 				28B4737D1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift in Sources */,
 				28B0243C1F1C939900DF2996 /* TextStylesViewController.swift in Sources */,
-				281576141FBA0CAF00CB54B4 /* UIViewController+KUIPopOverUsable.swift in Sources */,
 				28B0243A1F1C939900DF2996 /* AppDelegate.swift in Sources */,
 				28F3598D1FB763E000F0F1FF /* Const.swift in Sources */,
 				28B4737B1FB9DD0F00ED0B6E /* UIViewController+Util.swift in Sources */,
