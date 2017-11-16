@@ -13,7 +13,7 @@ import KUIPopOver
 class FontPickerPopoverViewController: UIViewController, StoryboardBased {
     @IBOutlet weak var pickerView: UIPickerView!
 
-    private let availableFontSizeRange = Array(1...100)
+    private let availableFontSizes = Array(1...100)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,10 +40,8 @@ extension FontPickerPopoverViewController: UIPickerViewDataSource {
         switch Section(rawValue: component)! {
         case .name:
             return UIFont.familyNames.count
-        case .pointSize:
-            return self.availableFontSizeRange.count
-        case .maxSize:
-            return self.availableFontSizeRange.count
+        case .pointSize, .maxSize:
+            return self.availableFontSizes.count
         }
     }
 
@@ -52,7 +50,7 @@ extension FontPickerPopoverViewController: UIPickerViewDataSource {
         case .name:
             return UIFont.familyNames[row]
         case .pointSize, .maxSize:
-            return String(availableFontSizeRange[row])
+            return String(availableFontSizes[row])
         }
     }
 
