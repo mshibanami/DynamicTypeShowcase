@@ -122,10 +122,9 @@ class SizesSettingPopoverViewController: UIViewController, StoryboardBased {
             .disposed(by: self.disposeBag)
     }
 
-    // HACK: This is deprecated Method. But we need it for a solution of a popover's crash after rotating.
-    override func willRotate(to toInterfaceOrientation: UIInterfaceOrientation, duration: TimeInterval) {
-        super.willRotate(to: toInterfaceOrientation, duration: duration)
-        self.dismissPopover(animated: true)
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        self.preferredContentSize = self.contentSize
     }
 }
 

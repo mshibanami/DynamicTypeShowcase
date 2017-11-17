@@ -35,14 +35,12 @@
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rUS-wS-HoI">
                                                         <rect key="frame" x="0.0" y="0.0" width="240" height="4.5"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </view>
                                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p6R-06-AbY">
                                                         <rect key="frame" x="0.0" y="4.5" width="242" height="31"/>
                                                     </switch>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XBw-OE-4or">
                                                         <rect key="frame" x="0.0" y="35.5" width="240" height="4.5"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                     </view>
                                                 </subviews>
                                                 <constraints>
@@ -61,20 +59,19 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="284" height="20"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q3B-A8-h7O">
-                                                        <rect key="frame" x="10" y="0.0" width="0.0" height="20"/>
+                                                        <rect key="frame" x="10" y="0.0" width="8.5" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryJ-Rg-Tjv">
-                                                        <rect key="frame" x="10" y="0.0" width="252" height="20"/>
-                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <rect key="frame" x="18.5" y="0.0" width="236" height="20"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="20" id="NFm-5f-Wuz"/>
+                                                            <constraint firstAttribute="height" priority="999" constant="20" id="NFm-5f-Wuz"/>
                                                         </constraints>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yux-1S-nWb">
-                                                        <rect key="frame" x="262" y="0.0" width="12" height="20"/>
+                                                        <rect key="frame" x="254.5" y="0.0" width="19.5" height="20"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -87,7 +84,7 @@
                                                 <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="26" id="z9I-Ii-346"/>
+                                                    <constraint firstAttribute="height" priority="999" constant="26" id="z9I-Ii-346"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="tickStyle">
