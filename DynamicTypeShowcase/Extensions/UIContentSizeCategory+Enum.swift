@@ -30,12 +30,17 @@ extension UIContentSizeCategory {
             (.accessibilityExtraExtraExtraLarge, "AX5") ]
         return s
     }
+    public static var allSizes: [(value: UIContentSizeCategory, name: String)] {
+        var s: [(value: UIContentSizeCategory, name: String)] = validSizes
+        s.append((.unspecified, name: "Unspecified"))
+        return s
+    }
 
     /// The name of the enum value
     /// See Also: https://developer.apple.com/ios/human-interface-guidelines/visual-design/typography/
     public var name: String {
         let size = UIContentSizeCategory
-            .validSizes
+            .allSizes
             .filter({ $0.value == self })
             .first
 
