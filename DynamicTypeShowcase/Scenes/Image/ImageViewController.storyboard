@@ -96,6 +96,17 @@
                                             <outlet property="delegate" destination="Rq9-QQ-xkC" id="rwb-oL-OPw"/>
                                         </connections>
                                     </tableView>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MH-sA-Y4l">
+                                        <rect key="frame" x="0.0" y="667" width="375" height="0.0"/>
+                                        <items>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="MdH-Ra-bk7"/>
+                                            <barButtonItem title="Item" image="SizeChangeButton" id="dSz-XV-8WS">
+                                                <connections>
+                                                    <action selector="onTapSizeSettingButton:" destination="Rq9-QQ-xkC" id="4Zt-DI-Oo3"/>
+                                                </connections>
+                                            </barButtonItem>
+                                        </items>
+                                    </toolbar>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -117,4 +128,7 @@
             <point key="canvasLocation" x="72.799999999999997" y="64.31784107946028"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="SizeChangeButton" width="25" height="25"/>
+    </resources>
 </document>

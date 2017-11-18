@@ -8,20 +8,31 @@
 
 import UIKit
 import Reusable
+import KUIPopOver
 
 class ImageViewController: UIViewController, DynamicTypeAdjustable {
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
+            self.tableView.reloadData()
         }
     }
 
     @IBOutlet weak var tableView: UITableView!
 
-    let images = [#imageLiteral(resourceName: "SampleImage1_40x40"), #imageLiteral(resourceName: "SampleImage2_40x40"), #imageLiteral(resourceName: "SampleImage3_40x40")]
+    let imageNames: [String] = [
+        "SampleImage1_40x40",
+        "SampleImage2_40x40",
+        "SampleImage3_40x40" ]
 
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    @IBAction func onTapSizeSettingButton(_ sender: UIBarButtonItem) {
+        let vc = SizesSettingPopoverViewController.instantiate()
+        vc.adjustableViewController = self
+        vc.showPopover(barButtonItem: sender)
     }
 }
 
@@ -31,7 +42,7 @@ extension ImageViewController: UITableViewDataSource {
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return images.count
+        return imageNames.count
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -39,9 +50,14 @@ extension ImageViewController: UITableViewDataSource {
             for: indexPath,
             cellType: ImageTableViewCell.self)
 
-        let img = images[indexPath.row]
+        let imgName = imageNames[indexPath.row]
+        let img = UIImage(named: imgName,
+                          in: nil,
+                          compatibleWith: traitCollection)!
+        print("img.size: \(img.size)")
         cell.scalableImageView.image = img
-        cell.originalSizeLabel.text = "original size: \(img.size.width)x\(img.size.height)"
+        cell.originalSizeLabel.text
+            = "original size: \(img.size.width)x\(img.size.height)"
 
         return cell
     }
