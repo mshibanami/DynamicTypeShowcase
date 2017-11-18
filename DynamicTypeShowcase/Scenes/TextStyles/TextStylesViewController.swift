@@ -64,8 +64,7 @@ class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
     }
 
     private func updateTitle() {
-        let size = contentSizeCategory
-            ?? UIApplication.shared.preferredContentSizeCategory
+        let size = self.traitCollection.preferredContentSizeCategory
         let sizeStr = size.name
 
         title = "Size: "
@@ -87,7 +86,6 @@ class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
 
     @objc private func contentSizeCategoryDidChange() {
         updateTitle()
-        tableView.reloadData()
     }
 
     // MARK: TextField

@@ -24,6 +24,7 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
+            self.tableView.reloadData()
         }
     }
 
