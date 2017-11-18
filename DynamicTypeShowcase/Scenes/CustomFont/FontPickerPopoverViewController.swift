@@ -33,8 +33,8 @@ class FontPickerPopoverViewController: UIViewController, StoryboardBased {
 //            animated: false)
     }
 
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         self.preferredContentSize = self.contentSize
     }
 }
