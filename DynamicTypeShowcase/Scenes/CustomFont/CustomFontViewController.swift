@@ -46,6 +46,14 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
             sourceRect: sender.bounds)
     }
 
+    @IBAction func onTapSizeSettingButton(_ sender: UIButton) {
+        let vc = SizesSettingPopoverViewController.instantiate()
+        vc.adjustableViewController = self
+        vc.showPopover(
+            sourceView: sender,
+            sourceRect: sender.bounds)
+    }
+
     // MARK: TextField
 
     private func setupTextField() {

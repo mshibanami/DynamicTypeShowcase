@@ -123,6 +123,9 @@
                                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" verticalHuggingPriority="255" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b5p-AR-woM">
                                                                 <rect key="frame" x="342" y="8" width="25" height="30"/>
                                                                 <state key="normal" image="SizeChangeButton"/>
+                                                                <connections>
+                                                                    <action selector="onTapSizeSettingButton:" destination="VmD-uK-t70" eventType="touchUpInside" id="CRf-BK-XZd"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
