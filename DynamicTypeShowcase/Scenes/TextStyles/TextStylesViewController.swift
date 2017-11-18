@@ -77,7 +77,7 @@ class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
 
     /// MARK: IBAction
 
-    @IBAction func touchUpInsideSettingButton(_ sender: UIButton) {
+    @IBAction func onTapSizeSettingButton(_ sender: UIButton) {
         let vc = SizesSettingPopoverViewController.instantiate()
         vc.adjustableViewController = self
         vc.showPopover(
