@@ -39,7 +39,7 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
 
     // MARK: IBAction
 
-    @IBAction func touchUpInsideCurrentFontButton(_ sender: UIButton) {
+    @IBAction func onTapCurrentFontButton(_ sender: UIButton) {
         let vc = FontPickerPopoverViewController.instantiate()
         vc.showPopover(
             sourceView: sender,

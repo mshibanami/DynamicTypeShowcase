@@ -29,7 +29,7 @@
                                                 <rect key="frame" x="0.0" y="28" width="375" height="170"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RqL-bM-nr2" id="Mvd-Ry-gGe">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="169.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="169.66666666666666"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fYa-b8-aI6">
@@ -110,7 +110,7 @@
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <state key="normal" title="Font"/>
                                                                 <connections>
-                                                                    <action selector="touchUpInsideCurrentFontButton:" destination="VmD-uK-t70" eventType="touchUpInside" id="2uf-xk-SLs"/>
+                                                                    <action selector="onTapCurrentFontButton:" destination="VmD-uK-t70" eventType="touchUpInside" id="rSA-tq-kE7"/>
                                                                 </connections>
                                                             </button>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GAo-JT-Y1G">
