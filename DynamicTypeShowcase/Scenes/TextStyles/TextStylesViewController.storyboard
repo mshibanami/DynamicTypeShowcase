@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="44" width="375" height="768"/>
                                 <subviews>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uK-nX-ZI2">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="686.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="692.33333333333337"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <connections>
                                             <outlet property="dataSource" destination="shW-vi-aVH" id="Xks-Q7-LbN"/>
@@ -30,23 +30,23 @@
                                         </connections>
                                     </tableView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="b5k-d1-oEf">
-                                        <rect key="frame" x="0.0" y="686.66666666666663" width="375" height="81.333333333333371"/>
+                                        <rect key="frame" x="0.0" y="692.33333333333337" width="375" height="75.666666666666629"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PF8-m8-U1g">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1.3333333333333333"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="0.66666666666666663"/>
                                                 <color key="backgroundColor" red="0.69803921568627447" green="0.69803921568627447" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="0.5" id="sng-RY-XKB"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozq-5N-oRy">
-                                                <rect key="frame" x="0.0" y="1.3333333333333712" width="375" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.66666666666662877" width="375" height="75"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="ijz-7A-lGA">
-                                                        <rect key="frame" x="8" y="8" width="359" height="30"/>
+                                                        <rect key="frame" x="8" y="8" width="359" height="25"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your text" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="97j-W0-33p">
-                                                                <rect key="frame" x="0.0" y="0.0" width="326" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="326" height="25"/>
                                                                 <accessibility key="accessibilityConfiguration" identifier="textField"/>
                                                                 <nil key="textColor"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
