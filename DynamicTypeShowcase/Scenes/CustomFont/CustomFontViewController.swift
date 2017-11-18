@@ -122,9 +122,14 @@ extension CustomFontViewController: UITableViewDataSource {
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
         let scaledFont: UIFont
         if let maxFontSize = maxFontSize {
-             scaledFont = fontMetrics.scaledFont(for: originalFont, maximumPointSize: maxFontSize)
+             scaledFont = fontMetrics.scaledFont(
+                for: originalFont,
+                maximumPointSize: maxFontSize,
+                compatibleWith: traitCollection)
         } else {
-            scaledFont = fontMetrics.scaledFont(for: originalFont)
+            scaledFont = fontMetrics.scaledFont(
+                for: originalFont,
+                compatibleWith: traitCollection)
         }
 
         if let t =  self.textField.text,
