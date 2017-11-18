@@ -32,9 +32,14 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         presentVersionAlertIfNeeded(completion: {
-            self.navigationController?.dismiss(animated: true, completion: nil)
+            self.navigationController?
+                .dismiss(animated: true, completion: nil)
         })
+
+        self.tableView.register(cellType: CustomFontTableViewCell.self)
+
         setupTextField()
     }
 

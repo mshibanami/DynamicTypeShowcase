@@ -9,7 +9,7 @@
 import UIKit
 import Reusable
 
-class TextStylesPreviewTableViewCell: UITableViewCell, NibLoadable, Reusable {
+class TextStylesPreviewTableViewCell: UITableViewCell, NibReusable {
     @IBOutlet private weak var sampleTextLabel: UILabel!
     @IBOutlet private weak var textStyleLabel: UILabel!
     @IBOutlet private weak var fontLabel: UILabel!

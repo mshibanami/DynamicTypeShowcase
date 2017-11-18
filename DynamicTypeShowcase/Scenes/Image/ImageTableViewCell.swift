@@ -9,11 +9,11 @@
 import UIKit
 import Reusable
 
-class ImageTableViewCell: UITableViewCell, Reusable {
+class ImageTableViewCell: UITableViewCell, NibReusable {
 
     @IBOutlet weak var scalableImageView: UIImageView!
     @IBOutlet weak var originalSizeLabel: UILabel!
-    @IBOutlet weak var currentSizeLabel: UILabel!
+    @IBOutlet private weak var currentSizeLabel: UILabel!
 
     override func layoutSubviews() {
         super.layoutSubviews()

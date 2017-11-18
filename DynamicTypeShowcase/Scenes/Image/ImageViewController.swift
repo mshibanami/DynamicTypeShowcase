@@ -27,6 +27,8 @@ class ImageViewController: UIViewController, DynamicTypeAdjustable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        self.tableView.register(cellType: ImageTableViewCell.self)
     }
 
     @IBAction func onTapSizeSettingButton(_ sender: UIBarButtonItem) {
