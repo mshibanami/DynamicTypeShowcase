@@ -56,7 +56,6 @@ extension ImageViewController: UITableViewDataSource {
         let img = UIImage(named: imgName,
                           in: nil,
                           compatibleWith: traitCollection)!
-        print("img.size: \(img.size)")
         cell.scalableImageView.image = img
         cell.originalSizeLabel.text
             = "original size: \(img.size.width)x\(img.size.height)"
