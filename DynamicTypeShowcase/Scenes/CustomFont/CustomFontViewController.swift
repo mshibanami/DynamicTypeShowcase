@@ -21,6 +21,17 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
     @IBOutlet weak var currentFontButton: UIButton!
     @IBOutlet weak var textField: UITextField!
 
+    var currentFont: UIFont = UIFont(name: "Helvetica Neue", size: 16.0)! {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
+    var maxFontSize: CGFloat? {
+        didSet {
+            self.tableView.reloadData()
+        }
+    }
+
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
