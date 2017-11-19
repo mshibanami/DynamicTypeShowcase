@@ -24,7 +24,7 @@ class DynamicTypeShowcaseUITests: XCTestCase {
         super.tearDown()
     }
 
-    func testExample() {
+    func testForScreenshot() {
         snapshot("Main")
 
         let app = XCUIApplication()
@@ -37,6 +37,15 @@ class DynamicTypeShowcaseUITests: XCTestCase {
         sleep(1)
         textField.typeText("Hello\n")
         snapshot("TextStyles")
+
+        app.buttons["SizeChangeButton"]
+            .tap()
+        app.switches["0"]
+            .tap()
+        app.otherElements["PopoverDismissRegion"]
+            .tap()
+        snapshot("SizeChange")
+
         app.navigationBars.firstMatch.buttons["Menu"].tap()
 
         /// Image
@@ -46,7 +55,11 @@ class DynamicTypeShowcaseUITests: XCTestCase {
 
         /// Custom Font
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Custom Font"]/*[[".cells.staticTexts[\"Custom Font\"]",".staticTexts[\"Custom Font\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
-        snapshot("CustomFont")
+        app.buttons["Font"].tap()
+        app.otherElements["PopoverDismissRegion"]
+            .tap()
+        snapshot("FontChange")
+
         app.navigationBars.firstMatch.buttons["Menu"].tap()
     }
 }

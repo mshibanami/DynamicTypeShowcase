@@ -28,8 +28,8 @@ class ImageViewController: UIViewController, DynamicTypeAdjustable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        updateTitle()
         self.tableView.register(cellType: ImageTableViewCell.self)
+        updateTitle()
     }
 
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {

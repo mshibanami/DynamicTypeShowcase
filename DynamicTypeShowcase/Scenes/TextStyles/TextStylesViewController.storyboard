@@ -57,6 +57,7 @@
                                                             </textField>
                                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="255" verticalHuggingPriority="255" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUl-Ja-Ri9">
                                                                 <rect key="frame" x="334" y="0.0" width="25" height="25"/>
+                                                                <accessibility key="accessibilityConfiguration" identifier="SizeChangeButton"/>
                                                                 <state key="normal" image="SizeChangeButton"/>
                                                                 <connections>
                                                                     <action selector="onTapSizeSettingButton:" destination="shW-vi-aVH" eventType="touchUpInside" id="Co7-eR-pXM"/>
