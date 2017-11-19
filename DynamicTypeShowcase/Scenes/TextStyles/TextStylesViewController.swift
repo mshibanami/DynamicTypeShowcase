@@ -63,17 +63,6 @@ class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
                 action: #selector(viewDidTap)))
     }
 
-    private func updateTitle() {
-        let size = self.traitCollection.preferredContentSizeCategory
-        let sizeStr = size.name
-
-        title = "Size: "
-            + sizeStr
-            + (size.isDefault
-                ? " (Default)"
-                : "")
-    }
-
     /// MARK: IBAction
 
     @IBAction func onTapSizeSettingButton(_ sender: UIButton) {

@@ -24,4 +24,15 @@ extension DynamicTypeAdjustable where Self: UIViewController {
                 forChildViewController: self)
         }
     }
+
+    func updateTitle() {
+        let size = self.traitCollection.preferredContentSizeCategory
+        let sizeStr = size.name
+
+        title = "Size: "
+            + sizeStr
+            + (size.isDefault
+                ? " (Default)"
+                : "")
+    }
 }

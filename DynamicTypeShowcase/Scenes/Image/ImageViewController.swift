@@ -14,6 +14,7 @@ class ImageViewController: UIViewController, DynamicTypeAdjustable {
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
+            updateTitle()
             self.tableView.reloadData()
         }
     }
@@ -27,9 +28,16 @@ class ImageViewController: UIViewController, DynamicTypeAdjustable {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        updateTitle()
         self.tableView.register(cellType: ImageTableViewCell.self)
     }
+
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        updateTitle()
+    }
+
+    // MARK: IBAction
 
     @IBAction func onTapSizeSettingButton(_ sender: UIBarButtonItem) {
         let vc = SizesSettingPopoverViewController.instantiate()

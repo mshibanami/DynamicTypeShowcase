@@ -35,6 +35,7 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
+            updateTitle()
             self.tableView.reloadData()
         }
     }
@@ -43,6 +44,7 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        updateTitle()
 
         presentVersionAlertIfNeeded(completion: {
             self.navigationController?
@@ -52,6 +54,11 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
         self.tableView.register(cellType: CustomFontTableViewCell.self)
 
         setupTextField()
+    }
+
+    override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
+        super.traitCollectionDidChange(previousTraitCollection)
+        updateTitle()
     }
 
     // MARK: IBAction
