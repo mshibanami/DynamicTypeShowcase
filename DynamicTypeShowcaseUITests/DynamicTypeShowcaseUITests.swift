@@ -42,9 +42,9 @@ class DynamicTypeShowcaseUITests: XCTestCase {
             .tap()
         app.switches["0"]
             .tap()
+        snapshot("SizeChange")
         app.otherElements["PopoverDismissRegion"]
             .tap()
-        snapshot("SizeChange")
 
         app.navigationBars.firstMatch.buttons["Menu"].tap()
 
@@ -56,9 +56,9 @@ class DynamicTypeShowcaseUITests: XCTestCase {
         /// Custom Font
         tablesQuery/*@START_MENU_TOKEN@*/.staticTexts["Custom Font"]/*[[".cells.staticTexts[\"Custom Font\"]",".staticTexts[\"Custom Font\"]"],[[[-1,1],[-1,0]]],[0]]@END_MENU_TOKEN@*/.tap()
         app.buttons["Font"].tap()
+        snapshot("FontChange")
         app.otherElements["PopoverDismissRegion"]
             .tap()
-        snapshot("FontChange")
 
         app.navigationBars.firstMatch.buttons["Menu"].tap()
     }
