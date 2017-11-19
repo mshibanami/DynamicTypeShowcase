@@ -21,7 +21,7 @@ class ImageViewController: UIViewController, DynamicTypeAdjustable {
 
     @IBOutlet weak var tableView: UITableView!
 
-    let imageNames: [String] = [
+    private let imageNames: [String] = [
         "SampleImage1_40x40",
         "SampleImage2_40x40",
         "SampleImage3_40x40" ]
