@@ -58,6 +58,22 @@ class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjust
 
     @IBAction func onTapCurrentFontButton(_ sender: UIButton) {
         let vc = FontPickerPopoverViewController.instantiate()
+        vc.font.value = currentFont
+        vc.maxSize.value = maxFontSize
+        vc.font
+            .asDriver()
+            .drive(onNext: { f in
+                self.currentFont = f
+            })
+            .disposed(by: self.disposeBag)
+
+        vc.maxSize
+            .asDriver()
+            .drive(onNext: { [weak self] m in
+                self?.maxFontSize = m
+            })
+            .disposed(by: self.disposeBag)
+
         vc.showPopover(
             sourceView: sender,
             sourceRect: sender.bounds)
@@ -130,13 +146,10 @@ extension CustomFontViewController: UITableViewDataSource {
             for: indexPath,
             cellType: CustomFontTableViewCell.self)
 
-        let fontName = UIFont.familyNames[5] // TODO
-        let fontSize: CGFloat = 20.0 // TODO
-        let maxFontSize: CGFloat? = 30.0 // TODO
-
         let textStyle = UIFontTextStyle.values[indexPath.row]
-        let originalFont = UIFont(name: fontName, size: fontSize)!
+        let originalFont = self.currentFont
         let fontMetrics = UIFontMetrics(forTextStyle: textStyle)
+
         let scaledFont: UIFont
         if let maxFontSize = maxFontSize {
              scaledFont = fontMetrics.scaledFont(
