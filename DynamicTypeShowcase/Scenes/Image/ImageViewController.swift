@@ -67,6 +67,7 @@ extension ImageViewController: UITableViewDataSource {
         cell.scalableImageView.image = img
         cell.originalSizeLabel.text
             = "original size: \(img.size.width)x\(img.size.height)"
+        cell.updateControls()
         return cell
     }
 }
