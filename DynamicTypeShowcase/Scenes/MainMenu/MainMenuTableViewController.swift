@@ -24,7 +24,7 @@ class MainMenuTableViewController: UITableViewController {
             Cell(
                 cell: {
                     let cell = DynamicTypeableTableViewCell.loadFromNib()
-                    cell.textLabel?.text = "Text Styles"
+                    cell.titleLabel?.text = "Text Styles"
                     return cell}(),
                 didSelect: { [weak self] in
                     self?.navigationController?.pushViewController(
