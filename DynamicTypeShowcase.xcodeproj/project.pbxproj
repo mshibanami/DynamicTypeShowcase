@@ -38,6 +38,8 @@
 		28B0245A1F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B024591F1C939900DF2996 /* DynamicTypeShowcaseUITests.swift */; };
 		28B4737B1FB9DD0F00ED0B6E /* UIViewController+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */; };
 		28B4737D1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */; };
+		28CEB6CF1FC708F700E0C885 /* DynamicTypeableTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28CEB6CE1FC708F700E0C885 /* DynamicTypeableTableViewCell.xib */; };
+		28CEB6D11FC709A800E0C885 /* DynamicTypeableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CEB6D01FC709A800E0C885 /* DynamicTypeableTableViewCell.swift */; };
 		28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */; };
 		28F3598D1FB763E000F0F1FF /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3598C1FB763E000F0F1FF /* Const.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
@@ -105,6 +107,8 @@
 		28B0245B1F1C939900DF2996 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28B4737A1FB9DD0F00ED0B6E /* UIViewController+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Util.swift"; sourceTree = "<group>"; };
 		28B4737C1FB9E06400ED0B6E /* OperatingSystemVersion+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OperatingSystemVersion+Util.swift"; sourceTree = "<group>"; };
+		28CEB6CE1FC708F700E0C885 /* DynamicTypeableTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DynamicTypeableTableViewCell.xib; sourceTree = "<group>"; };
+		28CEB6D01FC709A800E0C885 /* DynamicTypeableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeableTableViewCell.swift; sourceTree = "<group>"; };
 		28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTableViewCell.swift; sourceTree = "<group>"; };
 		28F3598C1FB763E000F0F1FF /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
@@ -183,6 +187,8 @@
 			children = (
 				28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */,
 				28AB170B1F6E9FAD00C12ACD /* MainMenuTableViewController.swift */,
+				28CEB6CE1FC708F700E0C885 /* DynamicTypeableTableViewCell.xib */,
+				28CEB6D01FC709A800E0C885 /* DynamicTypeableTableViewCell.swift */,
 			);
 			path = MainMenu;
 			sourceTree = "<group>";
@@ -446,6 +452,7 @@
 				288D5FAF1FACED070080F44D /* Settings.bundle in Resources */,
 				2861FCD81FB745C80020B693 /* TextStylesPreviewTableViewCell.xib in Resources */,
 				281576121FBA083A00CB54B4 /* FontPickerPopoverViewController.storyboard in Resources */,
+				28CEB6CF1FC708F700E0C885 /* DynamicTypeableTableViewCell.xib in Resources */,
 				284C73931FBFF256008490A6 /* ImageTableViewCell.xib in Resources */,
 				28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */,
 				287DC9521FB34EE90021FDFB /* ImageViewController.storyboard in Resources */,
@@ -670,6 +677,7 @@
 				289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */,
 				283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift in Sources */,
+				28CEB6D11FC709A800E0C885 /* DynamicTypeableTableViewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
 				28934D371FBC790D0020A3B1 /* UIViewController+DynamicType.swift in Sources */,
 				28ABE2C71FB4801500F76B25 /* CustomFontViewController.swift in Sources */,
