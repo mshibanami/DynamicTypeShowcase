@@ -10,18 +10,22 @@ import UIKit
 
 extension UserDefaults {
     private struct Key {
-        static let isEnableGlobalSizeCategoryKey = "isEnableGlobalSizeCategoryKey"
+        static let isEnableGlobalSizeCategory = "isEnableGlobalSizeCategory"
     }
 
     var isEnableGlobalSizeCategory: Bool {
         get {
+            UserDefaults.standard.register(
+                defaults: [
+                    Key.isEnableGlobalSizeCategory: true
+                ])
             return UserDefaults.standard
-                .bool(forKey: Key.isEnableGlobalSizeCategoryKey)
+                .bool(forKey: Key.isEnableGlobalSizeCategory)
         }
 
         set {
             UserDefaults.standard
-                .set(newValue, forKey: Key.isEnableGlobalSizeCategoryKey)
+                .set(newValue, forKey: Key.isEnableGlobalSizeCategory)
         }
     }
 }
