@@ -12,7 +12,7 @@ import Reusable
 import RxSwift
 import RxCocoa
 
-class TextStylesViewController: UIViewController, DynamicTypeAdjustable {
+class TextStylesViewController: UIViewController, StoryboardBased, DynamicTypeAdjustable {
 
     @IBOutlet private weak var textField: UITextField!
     @IBOutlet private weak var bottomConstraint: NSLayoutConstraint!

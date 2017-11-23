@@ -12,7 +12,7 @@ import RxSwift
 import RxCocoa
 import KUIPopOver
 
-class CustomFontViewController: UIViewController, Versionable, DynamicTypeAdjustable {
+class CustomFontViewController: UIViewController, StoryboardBased, Versionable, DynamicTypeAdjustable {
 
     var availableOSVersion = OperatingSystemVersion(majorVersion: 11, minorVersion: 0, patchVersion: 0)
 

@@ -10,7 +10,7 @@ import UIKit
 import Reusable
 import KUIPopOver
 
-class ImageViewController: UIViewController, DynamicTypeAdjustable {
+class ImageViewController: UIViewController, StoryboardBased, DynamicTypeAdjustable {
     var contentSizeCategory: UIContentSizeCategory? {
         didSet {
             updateContentSizeCategory()
