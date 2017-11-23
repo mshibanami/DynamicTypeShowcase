@@ -23,6 +23,7 @@
 		287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287DC94F1FB34EB50021FDFB /* ImageViewController.swift */; };
 		287DC9521FB34EE90021FDFB /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */; };
 		288D5FAF1FACED070080F44D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 288D5FAE1FACED070080F44D /* Settings.bundle */; };
+		289184881FC5AFCD0057AE97 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289184871FC5AFCD0057AE97 /* Window.swift */; };
 		28934D371FBC790D0020A3B1 /* UIViewController+DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */; };
 		289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */; };
 		289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */; };
@@ -83,6 +84,7 @@
 		287DC94F1FB34EB50021FDFB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewController.storyboard; sourceTree = "<group>"; };
 		288D5FAE1FACED070080F44D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		289184871FC5AFCD0057AE97 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DynamicType.swift"; sourceTree = "<group>"; };
 		289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
 		289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesSettingPopoverViewController.swift; sourceTree = "<group>"; };
@@ -291,6 +293,7 @@
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
 				28B024391F1C939900DF2996 /* AppDelegate.swift */,
 				28F3598C1FB763E000F0F1FF /* Const.swift */,
+				289184871FC5AFCD0057AE97 /* Window.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -659,6 +662,7 @@
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
 				284ABB561FB497C8008CCF59 /* ImageTableViewCell.swift in Sources */,
 				28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */,
+				289184881FC5AFCD0057AE97 /* Window.swift in Sources */,
 				287145A01FADEA6900B275D2 /* Collection+Util.swift in Sources */,
 				281576101FBA080100CB54B4 /* FontPickerPopoverViewController.swift in Sources */,
 				287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */,
