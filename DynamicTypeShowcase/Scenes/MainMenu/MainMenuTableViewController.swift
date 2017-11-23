@@ -17,7 +17,7 @@ class MainMenuTableViewController: UITableViewController {
         return cell
     }()
 
-    typealias Cell = (cell: UITableViewCell, didSelect: () -> Void)
+    private typealias Cell = (cell: UITableViewCell, didSelect: () -> Void)
 
     private lazy var cells: [[Cell]] = [
         [
@@ -26,8 +26,8 @@ class MainMenuTableViewController: UITableViewController {
                     let cell = DynamicTypeableTableViewCell.loadFromNib()
                     cell.textLabel?.text = "Text Styles"
                     return cell}(),
-                didSelect: {
-                    self.navigationController?.pushViewController(
+                didSelect: { [weak self] in
+                    self?.navigationController?.pushViewController(
                         TextStylesViewController.instantiate(),
                         animated: true)
             }),
@@ -36,8 +36,8 @@ class MainMenuTableViewController: UITableViewController {
                     let cell = DynamicTypeableTableViewCell.loadFromNib()
                     cell.titleLabel?.text = "Images"
                     return cell }(),
-                didSelect: {
-                    self.navigationController?.pushViewController(
+                didSelect: { [weak self] in
+                    self?.navigationController?.pushViewController(
                         ImageViewController.instantiate(),
                         animated: true)
             }),
@@ -46,8 +46,8 @@ class MainMenuTableViewController: UITableViewController {
                     let cell = DynamicTypeableTableViewCell.loadFromNib()
                     cell.titleLabel?.text = "Custom Font"
                     return cell }(),
-                didSelect: {
-                    self.navigationController?.pushViewController(
+                didSelect: { [weak self] in
+                    self?.navigationController?.pushViewController(
                         CustomFontViewController.instantiate(),
                         animated: true)
             })
@@ -58,8 +58,8 @@ class MainMenuTableViewController: UITableViewController {
                     let cell = DynamicTypeableTableViewCell.loadFromNib()
                     cell.titleLabel?.text = "About this App"
                     return cell }(),
-                didSelect: {
-                    self.present(
+                didSelect: { [weak self] in
+                    self?.present(
                         SFSafariViewController(url: Const.aboutThisAppURL),
                         animated: true,
                         completion: nil)
