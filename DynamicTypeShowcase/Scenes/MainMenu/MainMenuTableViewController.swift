@@ -11,12 +11,6 @@ import SafariServices
 
 class MainMenuTableViewController: UITableViewController {
 
-    let aboutThisAppCell: UITableViewCell = {
-        let cell = UITableViewCell(style: .default, reuseIdentifier: nil)
-        cell.textLabel?.text = "Text Styles"
-        return cell
-    }()
-
     private typealias Cell = (cell: UITableViewCell, didSelect: () -> Void)
 
     private lazy var cells: [[Cell]] = [
