@@ -23,7 +23,6 @@
 		287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287DC94F1FB34EB50021FDFB /* ImageViewController.swift */; };
 		287DC9521FB34EE90021FDFB /* ImageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */; };
 		288D5FAF1FACED070080F44D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 288D5FAE1FACED070080F44D /* Settings.bundle */; };
-		289184881FC5AFCD0057AE97 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289184871FC5AFCD0057AE97 /* Window.swift */; };
 		28934D371FBC790D0020A3B1 /* UIViewController+DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */; };
 		289897DB1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */; };
 		289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */; };
@@ -42,7 +41,6 @@
 		28CEB6D11FC709A800E0C885 /* DynamicTypeableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CEB6D01FC709A800E0C885 /* DynamicTypeableTableViewCell.swift */; };
 		28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */; };
 		28F3598D1FB763E000F0F1FF /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F3598C1FB763E000F0F1FF /* Const.swift */; };
-		28F8247C1FC7025000DE114D /* UserDefaults+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8247B1FC7025000DE114D /* UserDefaults+Util.swift */; };
 		28F999821F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */; };
 		28F999841F6EDCBC0029B2F1 /* TextStylesViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */; };
 		29624386694545D2418DCEDE /* Pods_DynamicTypeShowcaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC6F29C309D74339A222333 /* Pods_DynamicTypeShowcaseTests.framework */; };
@@ -87,7 +85,6 @@
 		287DC94F1FB34EB50021FDFB /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		287DC9511FB34EE90021FDFB /* ImageViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ImageViewController.storyboard; sourceTree = "<group>"; };
 		288D5FAE1FACED070080F44D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		289184871FC5AFCD0057AE97 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
 		28934D361FBC790D0020A3B1 /* UIViewController+DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+DynamicType.swift"; sourceTree = "<group>"; };
 		289897DA1FABD2EF007FE067 /* SizesSettingPopoverViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SizesSettingPopoverViewController.storyboard; sourceTree = "<group>"; };
 		289897DC1FABE073007FE067 /* SizesSettingPopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizesSettingPopoverViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +109,6 @@
 		28CEB6D01FC709A800E0C885 /* DynamicTypeableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTypeableTableViewCell.swift; sourceTree = "<group>"; };
 		28EDB3A21FB612630017E9E0 /* CustomFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFontTableViewCell.swift; sourceTree = "<group>"; };
 		28F3598C1FB763E000F0F1FF /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
-		28F8247B1FC7025000DE114D /* UserDefaults+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Util.swift"; sourceTree = "<group>"; };
 		28F999811F6EDCA50029B2F1 /* MainMenuTableViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainMenuTableViewController.storyboard; sourceTree = "<group>"; };
 		28F999831F6EDCBC0029B2F1 /* TextStylesViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextStylesViewController.storyboard; sourceTree = "<group>"; };
 		32DC8CC01A842B83E95BD758 /* Pods_DynamicTypeShowcaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicTypeShowcaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,7 +150,6 @@
 		2804B6D81FADF86500DCA192 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				28F8247B1FC7025000DE114D /* UserDefaults+Util.swift */,
 				2871459F1FADEA6900B275D2 /* Collection+Util.swift */,
 				283B85241FAD7CE20068BCFE /* TGPControls+Rx.swift */,
 				28419D2A1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift */,
@@ -302,7 +297,6 @@
 				285C173E1F7606F9007C0600 /* LaunchScreen.storyboard */,
 				28B024391F1C939900DF2996 /* AppDelegate.swift */,
 				28F3598C1FB763E000F0F1FF /* Const.swift */,
-				289184871FC5AFCD0057AE97 /* Window.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -672,14 +666,12 @@
 				283C551F1F1CF94C0078D9E5 /* UIFontTextStyle+Enum.swift in Sources */,
 				284ABB561FB497C8008CCF59 /* ImageTableViewCell.swift in Sources */,
 				28EDB3A31FB612630017E9E0 /* CustomFontTableViewCell.swift in Sources */,
-				289184881FC5AFCD0057AE97 /* Window.swift in Sources */,
 				287145A01FADEA6900B275D2 /* Collection+Util.swift in Sources */,
 				281576101FBA080100CB54B4 /* FontPickerPopoverViewController.swift in Sources */,
 				287DC9501FB34EB50021FDFB /* ImageViewController.swift in Sources */,
 				28AB170C1F6E9FAD00C12ACD /* MainMenuTableViewController.swift in Sources */,
 				289897DD1FABE073007FE067 /* SizesSettingPopoverViewController.swift in Sources */,
 				283B85251FAD7CE20068BCFE /* TGPControls+Rx.swift in Sources */,
-				28F8247C1FC7025000DE114D /* UserDefaults+Util.swift in Sources */,
 				283C551D1F1CE3E30078D9E5 /* TextStylesPreviewTableViewCell.swift in Sources */,
 				28CEB6D11FC709A800E0C885 /* DynamicTypeableTableViewCell.swift in Sources */,
 				28419D2B1F2483C60054DF41 /* UIContentSizeCategory+Enum.swift in Sources */,
